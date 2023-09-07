@@ -67,11 +67,11 @@ const Secction3 = () => {
             </Col>
           </Row>
         </div>
-        <div class="position-absolute top-50 start-100 translate-middle ">
+        <div class="position-absolute top-50 translate-middle blur-c">
         <img
                 src="/assets/blur-c.png"
                 alt="a & co"
-                style={{ width: "30rem" }}
+                style={{ width: "22rem" }}
               />
         </div>
       </div>

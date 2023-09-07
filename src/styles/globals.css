@@ -113,6 +113,9 @@ a {
   width: 6.6rem;
 
 }
+.blur-c{
+  right: -11rem !important;
+}
 
 /* footer */
 .footer-bg{
