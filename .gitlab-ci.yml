@@ -50,7 +50,7 @@ deploy-prod:
     - pip3 install awscli
     # - source .prod.env
   script:
-    - aws s3 sync build s3://${site_bucket_name} 
+    - aws s3 sync ./out/ s3://${site_bucket_name} 
     - aws s3 sync s3://${site_bucket_name} s3://${S3_BUCKET}/ 
     - aws cloudfront create-invalidation --distribution-id $CDN_DISTRIBUTION_ID --paths "/*"
     - aws cloudfront create-invalidation --distribution-id $CDN_VARIABLE --paths "/*"
