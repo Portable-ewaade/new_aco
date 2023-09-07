@@ -5,7 +5,7 @@ import { BiMenu } from 'react-icons/bi';
 const Navbar = () => {
 
   return (
-    <nav className="navbar navbar-expand-lg pt-2 mx-auto bx-container">
+    <nav className="navbar navbar-expand-lg pt-2 bx-container">
       <div className="container-fluid mt-2">
         <Link href="/" className="navbar-brand" passHref>
           <img
