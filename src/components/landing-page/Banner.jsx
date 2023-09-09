@@ -11,17 +11,18 @@ const banner = () => {
         <Col md={6} className="mt-md-5 pt-md-5">
           <div className="mt-4">
             <h1 className="fw-bold lh-sm">
-              Think, Transform and Build <br className="d-none"/>{" "}
-              <span className="text-color">Innovate </span> and{" "}
+              Think, Transform and Build <br className="d-none" />
+              <span className="text-color">Innovate </span> and
               <span className="text-color">Grow</span>
             </h1>
             <p className="my-3">
-              Unlock your full potential with our innovative solutions. <br className="d-none"/>
+              Unlock your full potential with our innovative solutions.
+              <br className="d-none" />
               Think big, transform your business, and build a brighter future.
             </p>
             <button className="btn btnn1 fs-small text-center">
               Let's Talk
-               <IoChatboxEllipsesOutline className="fs-6 mx-1"/>{" "}
+              <IoChatboxEllipsesOutline className="fs-6 mx-1" />
             </button>
           </div>
         </Col>

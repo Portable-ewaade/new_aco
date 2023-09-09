@@ -17,7 +17,7 @@ const Footer = () => {
           <br />
           <a
             href="mailto:info@theacconsulting.com"
-            className="text-color2 fs-xsmall ps-5 mt-0 pt-0"
+            className="text-color2 fs-xxsmall ps-5 mt-0 pt-0"
           >
             info@theacconsulting.com
           </a>

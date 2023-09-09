@@ -46,14 +46,14 @@ const Section3 = () => {
           <Row>
             <Col md={6}>
               <h6 className="text-color fs-small">Innovation</h6>
-              <p className="fs-xsmall">
+              <p className="fs-xxsmall">
                 We embrace new ideas, emerging technologies, and creative
                 solutions to drive growth and stay ahead of the curve.
               </p>
             </Col>
             <Col md={6}>
               <h6 className="text-color fs-small">Integrity</h6>
-              <p className="fs-xsmall">
+              <p className="fs-xxsmall">
                 We operate with the highest standards of honesty, transparency,
                 and ethical behavior, and always act in the best interests of
                 our clients.
@@ -61,7 +61,7 @@ const Section3 = () => {
             </Col>
             <Col md={6}>
               <h6 className="text-color fs-small">Inclusion</h6>
-              <p className="fs-xsmall">
+              <p className="fs-xxsmall">
                 We value diversity and believe that a variety of perspectives,
                 backgrounds, and experiences are essential to driving innovation
                 and delivering exceptional results.
@@ -69,7 +69,7 @@ const Section3 = () => {
             </Col>
             <Col md={6}>
               <h6 className="text-color fs-small">Fun</h6>
-              <p className="fs-xsmall">
+              <p className="fs-xxsmall">
                 Emphasize a positive and enjoyable work environment, recognizing
                 the value of humor and levity in fostering creativity and
                 community.
@@ -78,12 +78,12 @@ const Section3 = () => {
           </Row>
         </Col>
         <div className="position-absolute top-100 start-100 translate-middle blur-c pt-5">
-        <img
-          src="/assets/Ellipse4.png"
-          alt="a & co"
-          style={{ width: "35rem", marginLeft: "10rem" }}
-        />
-      </div>
+          <img
+            src="/assets/Ellipse4.png"
+            alt="a & co"
+            style={{ width: "35rem", marginLeft: "10rem" }}
+          />
+        </div>
       </Row>
     </section>
   );
