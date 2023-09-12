@@ -3,9 +3,9 @@ import { Col, Row } from "react-bootstrap";
 
 const Section2 = () => {
   return (
-    <section className="background-bg" style={{ height: "30rem" }}>
-      <div className="bx-container">
-        <Row className="py-5">
+    <section className="background-bg section2" style={{ height: "30rem" }}>
+      <div className="bx-container px-3 p-md-0">
+        <Row className="py-md-5 py-3">
           <Col md={6} className="text-white mt-4">
             <h1 className="fw-bold ">What We Do</h1>
           </Col>
@@ -22,7 +22,8 @@ const Section2 = () => {
         </Row>
       </div>
 
-      <div className="bx-container mt-4">
+      {/* laptop view */}
+      <div className="bx-container mt-4 laptop-view">
         <Row className="justify-end">
           <Col md="3">
             <div className="card p-3  text-color2">
@@ -72,6 +73,181 @@ const Section2 = () => {
             style={{ width: "9rem", marginTop: "0rem" }}
           />
         </div> */}
+      </div>
+
+      {/* mobile view */}
+
+      <div className="px-4 mobile-view">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                Software Development
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Take your business to the next level with reliable, scalable
+                  and unique software solutions built with the latest tools and
+                  technologies.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                Cloud Migration
+              </button>
+            </h2>
+            <div
+              id="collapseTwo"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingTwo"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Take your business to the next level with reliable, scalable
+                  and unique software solutions built with the latest tools and
+                  technologies.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                Product Design and Branding
+              </button>
+            </h2>
+            <div
+              id="collapseThree"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingThree"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Take your business to the next level with reliable, scalable
+                  and unique software solutions built with the latest tools and
+                  technologies.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFour">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFour"
+                aria-expanded="false"
+                aria-controls="collapseFour"
+              >
+                Dedicated Team Building
+              </button>
+            </h2>
+            <div
+              id="collapseFour"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFour"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Take your business to the next level with reliable, scalable
+                  and unique software solutions built with the latest tools and
+                  technologies.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingFive">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseFive"
+                aria-expanded="false"
+                aria-controls="collapseFive"
+              >
+                Business Development & Strategy
+              </button>
+            </h2>
+            <div
+              id="collapseFive"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingFive"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Take your business to the next level with reliable, scalable
+                  and unique software solutions built with the latest tools and
+                  technologies.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingSix">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseSix"
+                aria-expanded="false"
+                aria-controls="collapseSix"
+              >
+                Data Analytics
+              </button>
+            </h2>
+            <div
+              id="collapseSix"
+              class="accordion-collapse collapse"
+              aria-labelledby="headingSix"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                <p>
+                  Take your business to the next level with reliable, scalable
+                  and unique software solutions built with the latest tools and
+                  technologies.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

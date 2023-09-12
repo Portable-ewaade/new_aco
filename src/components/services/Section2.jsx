@@ -6,7 +6,7 @@ const Section2 = () => {
     <section className="bx-service pt-5">
       <Row className="py-2 position-relative">
         <Col md={4}>
-          <div className="card card-bg p-4 mt-5 service-card">
+          <div className="card card-bg p-4 mt-md-5 service-card">
             <h6>Software Development</h6>
             <p className="fs-small">
               Take your business to the next level with reliable, scalable and
@@ -26,7 +26,7 @@ const Section2 = () => {
             </div>
           </div>
         </Col>
-        <Col md={4}>
+        <Col md={4} className="mt-3 mt-md-0">
           <div className="card card-bg p-4 service-card">
             <h6>Product Design and Branding</h6>
             <p className="fs-small">
@@ -47,8 +47,8 @@ const Section2 = () => {
             </div>
           </div>
         </Col>
-        <Col md={4}>
-          <div className="card card-bg p-4 mt-5 service-card">
+        <Col md={4} className="mt-3 mt-md-0">
+          <div className="card card-bg p-4 mt-md-5 service-card">
             <h6>Dedicated Team Building</h6>
             <p className="fs-small">
               Take your business to the next level with reliable, scalable and

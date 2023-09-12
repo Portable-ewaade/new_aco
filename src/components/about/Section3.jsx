@@ -3,27 +3,29 @@ import { Col, Row } from "react-bootstrap";
 
 const Section3 = () => {
   return (
-    <section className="bx-section mt-5 pt-3 position-relative">
-      <Row>
-        <Col md={6}>
-          <div>
-            <h6 className="fw-bold ">Our Mission</h6>
-            <p className="fs-small">
+    <section className="bx-section mt-5 pt-md-3 pt-5 position-relative ">
+      <Row className="about1 mt-5 mt-md-0 pt-5 pt-md-0">
+        <Col md={6} className="my-3">
+          <div className="d-flex">
+            <img src="/assets/target-icon.png" alt="a & co" className="icons"/>
+            <h6 className="fw-bold">Our Mission</h6>
+          </div>
+            <p className="fs-small ps-5">
               Our mission is to create value by leveraging cutting-edge
               technology solutions to help our clients achieve their business
               goals and stay ahead in a constantly evolving digital landscape.
             </p>
-          </div>
         </Col>
-        <Col md={6} className="vision">
-          <div>
+        <Col md={6} className="vision my-2">
+          <div className="d-flex">
+            <img src="/assets/eye-icon.png" alt="a & co" className="icons"/>
             <h6 className="fw-bold ">Our Vision </h6>
-            <p className="fs-small">
+          </div>
+            <p className="fs-small ps-5">
               At A & co consulting, our goal is to be the leading consulting
               firm, renowned for our innovative and forward-thinking approach to
               solving complex business challenges and driving growth.
             </p>
-          </div>
         </Col>
       </Row>
       <div className="position-absolute top-0 translate-middle blur-c pt-5">
@@ -34,16 +36,17 @@ const Section3 = () => {
         />
       </div>
 
-      <Row className="mt-4 position-relative">
-        <Col md={6}>
-          <div>
+      <Row className="mt-4 position-relative about2">
+        <Col md={6} >
+          <div className="mb-2 d-flex">
+            <img src="/assets/diamond-icon.png" alt="a & co" className="icons"/>
             <h6 className="fw-bold ">Our Values </h6>
-            <p className="fs-small">
+          </div>
+            <p className="fs-small ps-5">
               Our values are the driving force of each decision we make and the
               backbone of our culture.
             </p>
-          </div>
-          <Row>
+          <Row className="about3 ps-5">
             <Col md={6}>
               <h6 className="text-color fs-small">Innovation</h6>
               <p className="fs-xxsmall">

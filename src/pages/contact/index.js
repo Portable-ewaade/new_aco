@@ -6,7 +6,7 @@ const index = () => {
   return (
     <div>
         <Navbar />
-        <ContactForm />
+        <ContactForm title="Send Us A Message " />
         <Footer />
     </div>
   )

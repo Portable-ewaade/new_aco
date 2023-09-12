@@ -6,7 +6,7 @@ const Banner = () => {
     <section className="position-relative">
       <div className="bx-section text-center">
         <h1 className="fw-bold mb-3 mt-5">
-          We build bridges between <br />
+          We build bridges between <br className="d-none d-md-block"/>
           companies and customers
         </h1>
 

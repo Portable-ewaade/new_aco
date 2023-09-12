@@ -1,5 +1,3 @@
-// eslint-disable-next-line
-/* eslint-disable */
 import React, { useEffect } from "react";
 import Link from "next/link";
 

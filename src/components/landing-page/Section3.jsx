@@ -18,7 +18,7 @@ const Section3 = () => {
             View all projects
           </Link>
           <Row className="ms-md-5 ps-md-5 mt-4 project">
-            <Col md={5}>
+            <Col md={5} className="mb-4 mb-md-0">
               <img
                 src="/assets/pathway-img.png"
                 alt="a & co"
@@ -34,7 +34,7 @@ const Section3 = () => {
             </Col>
           </Row>
         </div>
-        <div className="position-absolute top-100 translate-middle blur-c pt-5">
+        <div className="position-absolute top-100 translate-middle blur-c c-img pt-5">
         <img
                 src="/assets/blur-c.png"
                 alt="a & co"

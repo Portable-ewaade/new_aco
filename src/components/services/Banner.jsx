@@ -17,7 +17,7 @@ const Banner = () => {
         <h2 className="fw-bold mb-3 mt-5">
           Smart Solutions for <br /> complex challenges
         </h2>
-        <p className="fs-small">
+        <p className="fs-small px-3 px-md-0">
           We understand that modern technology challenges are multi-dimensional
           and require a holistic approach.At A&Co, we bring a unique blend of
           industry expertise, technical skills, and business acumen to help you
@@ -31,6 +31,7 @@ const Banner = () => {
             src="/assets/blur-c1.png"
             alt="a & co"
             style={{ width: "12rem", marginTop: "1.5rem" }}
+            className="laptop-view"
           />
         </Col>
       </Row>

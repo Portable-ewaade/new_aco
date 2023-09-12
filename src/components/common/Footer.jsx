@@ -4,8 +4,8 @@ import { Col, Row } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <section className=" footer-bg" style={{ height: "9rem" }}>
-      <Row className="bx-container pt-md-5 pt-4 ps-md-5 ps-4">
+    <section className="footer-bg" style={{ height: "9rem" }}>
+      <Row className="bx-container footer pt-md-5 pt-4 ps-md-5">
         <Col md={4} className="ps-5 mb-4 mb-md-0">
           <a href="/">
             <img
