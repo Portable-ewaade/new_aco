@@ -4,9 +4,9 @@ import { Col, Row } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <section className="footer-bg" style={{ height: "9rem" }}>
-      <Row className="bx-container footer pt-md-5 pt-4 ps-md-5">
-        <Col md={4} className="ps-5 mb-4 mb-md-0">
+    <section className="footer-bg text-center py-3 py-md-5" style={{ height: "9rem" }}>
+      <Row className="bx-container ">
+        <Col md={3} className="my-2">
           <a href="/">
             <img
               src="/assets/logo-white.png"
@@ -23,8 +23,8 @@ const Footer = () => {
           </a>
         </Col>
 
-        <Col md={4} className="d-flex linkss">
-          <div className=" text-white fs-small">
+        <Col md={6} className="my-2">
+          <div className="text-white fs-small">
             <Link href="/about" className="mx-3">
               About Us
             </Link>
@@ -37,7 +37,7 @@ const Footer = () => {
           </div>
         </Col>
 
-        <Col md={4} className="ps-md-5 ps-4 pt-4 pt-md-0">
+        <Col md={3} className="my-2">
           <a href="/" className="mx-md-1 mx-3">
             <img
               src="/assets/facebook-icon.png"

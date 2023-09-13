@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 
 const Section2 = () => {
   return (
-    <section className="background-bg section2" style={{ height: "30rem" }}>
+    <section className="background-bg section2" style={{ height: "rem" }}>
       <div className="bx-container px-3 p-md-0">
         <Row className="py-md-5 py-3">
           <Col md={6} className="text-white mt-4">
@@ -26,7 +26,7 @@ const Section2 = () => {
       <div className="bx-container mt-4 laptop-view">
         <Row className="justify-end">
           <Col md="3">
-            <div className="card p-3  text-color2">
+            <div className="card p-3 text-color2">
               <h6 className="fs-small">Software Development</h6>
               <p className="fs-small">
                 Take your business to the next level with reliable, scalable and
@@ -78,11 +78,11 @@ const Section2 = () => {
       {/* mobile view */}
 
       <div className="px-4 mobile-view">
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingOne">
+        <div className="accordion" id="accordionExample">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingOne">
               <button
-                class="accordion-button"
+                className="accordion-button"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseOne"
@@ -94,11 +94,11 @@ const Section2 = () => {
             </h2>
             <div
               id="collapseOne"
-              class="accordion-collapse collapse show"
+              className="accordion-collapse collapse show"
               aria-labelledby="headingOne"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 <p>
                   Take your business to the next level with reliable, scalable
                   and unique software solutions built with the latest tools and
@@ -107,10 +107,10 @@ const Section2 = () => {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingTwo">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingTwo">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseTwo"
@@ -122,11 +122,11 @@ const Section2 = () => {
             </h2>
             <div
               id="collapseTwo"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingTwo"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 <p>
                   Take your business to the next level with reliable, scalable
                   and unique software solutions built with the latest tools and
@@ -135,10 +135,10 @@ const Section2 = () => {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingThree">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingThree">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseThree"
@@ -150,11 +150,11 @@ const Section2 = () => {
             </h2>
             <div
               id="collapseThree"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingThree"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 <p>
                   Take your business to the next level with reliable, scalable
                   and unique software solutions built with the latest tools and
@@ -163,10 +163,10 @@ const Section2 = () => {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFour">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingFour">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseFour"
@@ -178,11 +178,11 @@ const Section2 = () => {
             </h2>
             <div
               id="collapseFour"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingFour"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 <p>
                   Take your business to the next level with reliable, scalable
                   and unique software solutions built with the latest tools and
@@ -191,10 +191,10 @@ const Section2 = () => {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingFive">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingFive">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseFive"
@@ -206,11 +206,11 @@ const Section2 = () => {
             </h2>
             <div
               id="collapseFive"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingFive"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 <p>
                   Take your business to the next level with reliable, scalable
                   and unique software solutions built with the latest tools and
@@ -219,10 +219,10 @@ const Section2 = () => {
               </div>
             </div>
           </div>
-          <div class="accordion-item">
-            <h2 class="accordion-header" id="headingSix">
+          <div className="accordion-item">
+            <h2 className="accordion-header" id="headingSix">
               <button
-                class="accordion-button collapsed"
+                className="accordion-button collapsed"
                 type="button"
                 data-bs-toggle="collapse"
                 data-bs-target="#collapseSix"
@@ -234,11 +234,11 @@ const Section2 = () => {
             </h2>
             <div
               id="collapseSix"
-              class="accordion-collapse collapse"
+              className="accordion-collapse collapse"
               aria-labelledby="headingSix"
               data-bs-parent="#accordionExample"
             >
-              <div class="accordion-body">
+              <div className="accordion-body">
                 <p>
                   Take your business to the next level with reliable, scalable
                   and unique software solutions built with the latest tools and

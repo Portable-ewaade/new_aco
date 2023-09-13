@@ -7,7 +7,7 @@ const Section3 = () => {
   return (
     <section className="position-relative">
       <div className="bx-section text-center">
-        <h1 className="fw-bold mb-3 mt-4">Our Projects</h1>
+        <h1 className="fw-bold mb-3 mt-md-5 ">Our Projects</h1>
         <p className="fs-small">
           A & co consulting is an innovation driven consultancy that harnesses
           the power of <br /> technology to provide sustainable and profitable
@@ -17,7 +17,7 @@ const Section3 = () => {
           <Link href="/" className="text-color fs-small">
             View all projects
           </Link>
-          <Row className="ms-md-5 ps-md-5 mt-4 project">
+          <Row className="ms-lg-5 ps-lg-5 mt-4 project">
             <Col md={5} className="mb-4 mb-md-0">
               <img
                 src="/assets/pathway-img.png"

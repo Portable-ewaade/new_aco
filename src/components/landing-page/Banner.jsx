@@ -6,9 +6,9 @@ import React from "react";
 
 const banner = () => {
   return (
-    <section className="bx-container px-3 p-md-0">
+    <section className="bx-container p-md-0">
       <Row className="mt-3">
-        <Col md={6} className="mt-md-5 pt-md-5">
+        <Col md={6} className="mt-md-5 pt-md-5 px-4">
           <div className="mt-4">
             <h1 className="fw-bold lh-sm">
               Think, Transform and Build 
@@ -16,9 +16,8 @@ const banner = () => {
               <span className="text-color"> Grow</span>
             </h1>
             <p className="my-3">
-              Unlock your full potential with our innovative solutions.
-              <br className="d-none d-md-block" />
-              Think big, transform your business, and build a brighter future.
+              Unlock your full potential with our innovative solutions. 
+              <br className="d-none d-md-block" /> Think big, transform your business, and build a brighter future.
             </p>
             <button className="btn btnn1 fs-small text-center">
               Let's Talk
