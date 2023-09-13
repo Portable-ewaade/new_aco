@@ -56,7 +56,7 @@ export const MobileForm = () => {
                   placeholder="Name"
                 />
 
-                <div className="form-group fs-11 grey font-weight-medium">
+                <div className="form-group font-weight-medium">
                   <Row>
                     <Col md={6}>
                       <label htmlFor="inputEmailAddress"> Email</label>
@@ -68,16 +68,16 @@ export const MobileForm = () => {
                       />
                     </Col>
                     <Col md={6}>
-                      <label htmlFor="inputEmailAddress">Mobile Number</label>
+                      <label htmlFor="inputPhoneNumber">Mobile Number</label>
                       <input
                         type="tel"
                         className="form-control p-2 mb-3 "
                         name="phone_number"
-                        placeholder="Phone number"
+                        placeholder="Phone Number"
                       />
                     </Col>
                   </Row>
-                  <label htmlFor="inputFullName">Company Name</label>
+                  <label htmlFor="inputCompanyName">Company Name</label>
                   <input
                     type="text"
                     className="form-control p-2 mb-3"

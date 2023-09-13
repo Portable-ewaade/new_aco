@@ -51,7 +51,7 @@ export const ContactUs = () => {
                   type="text"
                   className="form-control p-2 mb-3"
                   name="user_name"
-                  placeholder="Name"
+                  placeholder="Full Name"
                 />
 
                 <div className="form-group fs-11 grey font-weight-medium">
@@ -62,7 +62,7 @@ export const ContactUs = () => {
                         type="email"
                         className="form-control p-2 mb-3 "
                         name="user_email"
-                        placeholder="Email"
+                        placeholder="Email Address"
                       />
                     </Col>
                     <Col md={6}>
