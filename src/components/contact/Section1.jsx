@@ -8,7 +8,7 @@ const Section1 = () => {
         <p className='fs-xlarge'>We've been expecting you</p>
        </div>
        <div>
-       {/* <img src="/assets/contact-img.png" alt="a & co" style={{height: "", width: "100%"}} /> */}
+       {/* <img src="/assets/red-bg-img.png" alt="a & co"  style={{height:"0%"}}/> */}
 
        </div>
        

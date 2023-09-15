@@ -1,8 +1,8 @@
 import { Row, Col } from "react-bootstrap";
-// import  IoChatboxEllipsesOutline  from 'react-icons/io'
 import { IoChatboxEllipsesOutline } from "react-icons/io5";
-
 import React from "react";
+import Link from "next/link";
+
 
 const banner = () => {
   return (
@@ -19,10 +19,10 @@ const banner = () => {
               Unlock your full potential with our innovative solutions. 
               <br className="d-none d-md-block" /> Think big, transform your business, and build a brighter future.
             </p>
-            <button className="btn btnn1 fs-small text-center">
+            <Link href="/contact" className="btn btnn1 fs-small text-center">
               Let's Talk
               <IoChatboxEllipsesOutline className="fs-6 mx-1" />
-            </button>
+            </Link>
           </div>
         </Col>
         <Col md={6}>

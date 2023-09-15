@@ -7,13 +7,13 @@ const Footer = () => {
     <section className="footer-bg text-center py-3 py-md-5" style={{ height: "9rem" }}>
       <Row className="bx-container ">
         <Col md={3} className="my-2">
-          <a href="/">
+          <Link href="/">
             <img
               src="/assets/logo-white.png"
               alt="a & co"
               style={{ width: "10rem" }}
             />
-          </a>
+          </Link>
           <br />
           <a
             href="mailto:info@theacconsulting.com"

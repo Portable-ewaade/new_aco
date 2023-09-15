@@ -41,11 +41,11 @@ const Banner = () => {
       {/* mobile-view */}
       <div className="mobile-view">
         <Row>
-          <Col sm={6}>
+          <Col sm={6} className="text-center">
             <img
-              src="/assets/blur-a.png"
+              src="/assets/aco-img.png"
               alt="a & co"
-              style={{ width: "16rem", marginTop: "2rem" }}
+              style={{ width: "18rem", marginTop: "1rem" }}
             />
           </Col>
           <Col sm={6}>
