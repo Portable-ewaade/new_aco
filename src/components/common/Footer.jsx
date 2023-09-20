@@ -4,14 +4,14 @@ import { Col, Row } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <section className="footer-bg text-center py-3 py-md-5" style={{ height: "9rem" }}>
+    <section className="footer-bg text-center  py-3 py-md-5" style={{ height: "9rem" }}>
       <Row className="bx-container ">
-        <Col md={3} className="my-2">
+        <Col md={3} className="my-2 ">
           <Link href="/">
             <img
-              src="/assets/logo-white.png"
+              src="/assets/logo-whitee.png"
               alt="a & co"
-              style={{ width: "10rem" }}
+              style={{ width: "14rem"}}
             />
           </Link>
           <br />
@@ -23,15 +23,15 @@ const Footer = () => {
           </a>
         </Col>
 
-        <Col md={6} className="my-2">
-          <div className="text-white fs-small">
-            <Link href="/about" className="mx-3">
+        <Col md={6} className="my-2 ">
+          <div className="text-white nav-fs">
+            <Link href="/about" className="text-white mx-3">
               About Us
             </Link>
-            <Link href="/services" className="mx-3">
+            <Link href="/services" className="text-white mx-3">
               Services
             </Link>
-            <Link href="/contact" className="mx-3">
+            <Link href="/contact" className="text-white mx-3">
               Contact Us
             </Link>
           </div>

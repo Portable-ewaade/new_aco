@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 
 const Banner = () => {
   return (
-    <section className="bx-container mt-4">
+    <section className="bx-container2 mt-5 pt-md-3">
       {/* laptop-view */}
       <div className="laptop-view">
         <Row>
@@ -11,17 +11,17 @@ const Banner = () => {
             <img
               src="/assets/blur-a.png"
               alt="a & co"
-              style={{ width: "16rem", marginTop: "2rem" }}
+              style={{ width: "21.5rem", marginTop: "2rem" }}
             />
           </Col>
           <Col md={6}>
             <div className="text-center">
-              <h2 className="fw-bold mb-3 mt-5">
+              <h1 className=" fs-large fw-bold mb-3 mt-5">
                 Smart Solutions for <br /> complex challenges
-              </h2>
-              <p className="fs-small px-3 px-md-0">
+              </h1>
+              <p className="fs-normal mt-md-4 fw-medium px-3 px-md-0">
                 We understand that modern technology challenges are
-                multi-dimensional and require a holistic approach.At A&Co, we
+                multi-dimensional and require a holistic approach. At A&Co, we
                 bring a unique blend of industry expertise, technical skills,
                 and business acumen to help you solve your most complex
                 challenges and identify new opportunities for growth.
@@ -32,7 +32,7 @@ const Banner = () => {
             <img
               src="/assets/blur-c1.png"
               alt="a & co"
-              style={{ width: "12rem", marginTop: "1.5rem" }}
+              style={{ width: "16rem", marginTop: "0.5rem" }}
             />
           </Col>
         </Row>

@@ -3,10 +3,10 @@ import { Col, Row } from "react-bootstrap";
 
 const Banner = () => {
   return (
-    <section className="position-relative">
+    <section className="position-relative" style={{ height: "63vh" }}>
       <div className="bx-section text-center">
-        <h1 className="fw-bold mb-3 mt-5">
-          We build bridges between <br className="d-none d-md-block"/>
+        <h1 className="fs-large lh-base fw-bold mb-3 mt-5">
+          We build bridges between <br className="d-none d-md-block" />
           companies and customers
         </h1>
 
@@ -16,7 +16,7 @@ const Banner = () => {
               <img
                 src="/assets/business-img.png"
                 alt="a & co"
-                style={{ width: "20rem" }}
+                style={{ width: "428px", height: "303px" }}
               />
             </Col>
           </Row>

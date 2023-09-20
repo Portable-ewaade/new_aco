@@ -3,11 +3,11 @@ import { Col, Row } from "react-bootstrap";
 
 const Section2 = () => {
   return (
-    <section className="bx-service pt-5">
+    <section className="bx-service pt-5 pb-5">
       <Row className="py-2 position-relative">
         <Col md={4}>
-          <div className="card card-bg p-4 mt-md-5 service-card">
-            <h6>Software Development</h6>
+          <div className="card p-4 mt-md-5 service-card">
+            <h5 className="fw-bold">Software Development</h5>
             <p className="fs-small">
               Take your business to the next level with reliable, scalable and
               unique software solutions built with the latest tools and
@@ -27,8 +27,8 @@ const Section2 = () => {
           </div>
         </Col>
         <Col md={4} className="mt-3 mt-md-0">
-          <div className="card card-bg p-4 service-card">
-            <h6>Product Design and Branding</h6>
+          <div className="card p-4 service-card">
+            <h5 className="fw-bold">Product Design and Branding</h5>
             <p className="fs-small">
               Take your business to the next level with reliable, scalable and
               unique software solutions built with the latest tools and
@@ -48,15 +48,15 @@ const Section2 = () => {
           </div>
         </Col>
         <Col md={4} className="mt-3 mt-md-0">
-          <div className="card card-bg p-4 mt-md-5 service-card">
-            <h6>Dedicated Team Building</h6>
+          <div className="card p-4 mt-md-5 service-card">
+            <h5 className="fw-bold">Dedicated Team Building</h5>
             <p className="fs-small">
               Take your business to the next level with reliable, scalable and
               unique software solutions built with the latest tools and
               technologies.
             </p>
 
-            <div className="mt-5 fs-small fw-medium">
+            <div className="mt-2 fs-small fw-medium">
               <p>Full Stack Developers</p>
               <hr />
               <p>Dev Ops and Infrastructure Engineers</p>
@@ -68,11 +68,13 @@ const Section2 = () => {
             </div>
           </div>
         </Col>
-        <div className="position-absolute top-100 start-100 translate-middle blur-c pt-5">
+        <div className="position-absolute top-100 start-100 translate-middle blur-c pt-5"
+                    style={{ height: "30rem"}}
+                    >
           <img
             src="/assets/Ellipse4.png"
             alt="a & co"
-            style={{ width: "35rem", marginLeft: "10rem", marginTop: "60rem" }}
+            style={{ marginLeft: "0rem", marginTop: "18rem" }}
           />
         </div>
       </Row>

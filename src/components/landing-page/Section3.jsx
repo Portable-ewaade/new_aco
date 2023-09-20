@@ -2,19 +2,20 @@ import Link from "next/link";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 
+
 const Section3 = () => {
 
   return (
     <section className="position-relative">
       <div className="bx-section text-center">
-        <h1 className="fw-bold mb-3 mt-md-5 ">Our Projects</h1>
-        <p className="fs-small">
+        <h1 className="fs-large fw-bold mb-3 mt-md-5 ">Our Projects</h1>
+        <p className="fs-normal">
           A & co consulting is an innovation driven consultancy that harnesses
           the power of <br /> technology to provide sustainable and profitable
           solutions to clients world wide
         </p>
         <div className="mt-4">
-          <Link href="/" className="text-color fs-small">
+          <Link href="/" className="text-color my-3">
             View all projects
           </Link>
           <Row className="ms-lg-5 ps-lg-5 mt-4 project">
@@ -22,14 +23,16 @@ const Section3 = () => {
               <img
                 src="/assets/pathway-img.png"
                 alt="a & co"
-                style={{ width: "15rem" }}
+                className="py-3 ms-md-5"
+                style={{ width: "19rem" }}
               />
             </Col>
             <Col md={5}>
               <img
                 src="/assets/ojanow-img.png"
                 alt="a & co"
-                style={{ width: "15rem" }}
+                className="py-3 me-md-5"
+                style={{ width: "19rem" }}
               />
             </Col>
           </Row>

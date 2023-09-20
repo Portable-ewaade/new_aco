@@ -5,14 +5,14 @@ import { BiMenu } from 'react-icons/bi';
 const Navbar = () => {
 
   return (
-    <nav className="navbar navbar-expand-lg pt-2 bx-container">
+    <nav className="navbar navbar-expand-lg pt-2 bx-container text-black">
       <div className="container-fluid mt-2">
         <Link href="/" className="navbar-brand" passHref>
           <img
-            src="/assets/logo-colored.png"
+            src="/assets/color-logo-img.png"
             alt="a & co"
             className="img-fluid mt-2"
-            style={{ width: '2.5rem', height: '2rem' }}
+            style={{ width: '2.875rem', height: '2.625rem' }}
           />
         </Link>
         <button
@@ -29,7 +29,7 @@ const Navbar = () => {
       </div>
 
       <div className="collapse navbar-collapse mt-4" id="navbarSupportedContent">
-        <ul className="navbar-nav fs-normal">
+        <ul className="navbar-nav nav-fs">
           {linkData.map((link, index) => (
             <li className="nav-item me-4" key={index}>
               <Link

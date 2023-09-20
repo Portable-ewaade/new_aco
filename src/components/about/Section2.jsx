@@ -3,39 +3,40 @@ import { Row, Col } from "react-bootstrap";
 
 const Section2 = () => {
   return (
-    <section className="bx-container pt-5">
+    <section className="bx-container pt-5" style={{ height: "82vh" }}>
       {/* laptop-view */}
 
       <div className="card border-0 rounded-5 color laptop-view">
-        <Row className="mt-3">
+        <Row className="mt-3 pt-md-4">
           <Col md={6}>
             <div>
               <img
                 src="/assets/avatar-img.png"
                 alt="a & co"
                 style={{
-                  height: "30rem",
-                  width: "35rem",
-                  padding: "2rem 3rem",
+                  height: "552px",
+                  width: "639px",
+                  padding: "2.5rem",
+                  marginLeft: "-2.5rem"
                 }}
                
               />
             </div>
           </Col>
-          <Col md={6} className="mt-md-5 pt-md-5">
+          <Col md={6} className="mt-md-">
             <div className="mt-4 consultant">
-              <h4 className="fw-bold lh-sm px-3 px-md-0">
+              <h4 className="fs-medium fw-bold lh-sm px-3 px-md-0">
                 We are <br />
                 Consultants
               </h4>
-              <p className="my-3 fs-small fw-bold w-75">
+              <p className="my-3 fs-normal lh-base fw-bold mt-4">
                 We are tech enthusiasts, data geeks, process mavens, delivery
                 strategists and industry experts focused on helping you grow and
                 achieve your goals. We are curious, driven and love to tackle
                 the big challenges that make a difference. We go over and beyond
                 for our clients and teammates.
               </p>
-              <p className="my-3 fs-small w-75">
+              <p className="my-3 fs-normal lh-base mt-5">
                 A & co consulting is an innovation driven consultancy that
                 harnesses the power of technology to provide sustainable and
                 profitable solutions to clients world wide across various
@@ -51,6 +52,9 @@ const Section2 = () => {
           </Col>
         </Row>
       </div>
+
+
+
       {/* mobile-view */}
       <div className="card border-0 rounded-5 color mobile-view">
         <Row className="mt-3 ">
@@ -101,7 +105,7 @@ const Section2 = () => {
         <img
           src="/assets/Ellipse3.png"
           alt="a & co"
-          style={{ width: "30rem", marginTop: "2rem" }}
+          style={{ marginLeft: "-38rem", marginTop: "36rem" }}
         />
       </div>
     </section>
