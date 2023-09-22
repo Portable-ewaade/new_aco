@@ -3,69 +3,78 @@ import emailjs from "@emailjs/browser";
 import Message from "./Message";
 import { Col, Row } from "react-bootstrap";
 import { Section1 } from ".";
-import Select from "react-select"; // Import the react-select library
+import Select from "react-select";
 
 export const ContactUs = () => {
   const [loading, setLoading] = useState(false);
   const [step, setStep] = useState(0);
-  const [formError, setFormError] = useState(""); // State for form error message
-  const [selectedOptions, setSelectedOptions] = useState([]); // State for selected options in the multi-select dropdown
+  const [formError, setFormError] = useState("");
+  const [selectedOptions, setSelectedOptions] = useState([]);
 
-  const form = useRef();
+  const form = useRef(null);
 
   const handleSubmit = (e) => {
     e.preventDefault();
 
+    // Set loading to true just before sending the email
+    setLoading(true);
+
     // Check if any required fields are empty
-    const requiredFields = ["user_name", "user_email", "phone_number", "Company_name"];
-    const isFormValid = requiredFields.every((field) => form.current[field].value.trim() !== "");
+    const requiredFields = [
+      "user_name",
+      "selectedOptions",
+      "user_email",
+      "phone_number",
+      "company_name",
+    ];
+
+    const isFormValid = requiredFields.every((field) => {
+      if (field === "selectedOptions") {
+        return selectedOptions.length > 0;
+      }
+
+      const fieldValue = form.current[field].value.trim();
+      return fieldValue !== "";
+    });
 
     if (!isFormValid) {
-      setFormError("Please fill out all required fields.");
+      setFormError("Please fill in all required fields.");
+      setLoading(false); // Reset loading state
       return;
     }
 
-    setLoading(true);
+    const formElement = form.current;
 
-    // Extract the selected values from the multi-select dropdown
-    const selectedValues = selectedOptions.map((option) => option.value);
+    emailjs
+      .sendForm(
+        "service_nz3wuzn",
+        "template_lsy4g5t",
+        formElement, // Pass the form element here
+        "q5csQGKeI6w3R0Til"
+      )
+      .then(
+        (result) => {
+          setStep(1);
 
-    // Create a data object that includes the selected values
-    const data = {
-      ...form.current,
-      selectedOptions: selectedValues.join(", "), // Convert the array to a comma-separated string
-    };
+          // Reset the error message and loading state
+          setFormError("");
+          setLoading(false);
+        },
+        (error) => {
+          console.log(error.text);
 
-  // Assuming your form has an ID attribute (e.g., "myForm")
-const formElement = document.getElementById("myForm");
-
-emailjs
-  .sendForm(
-    "service_nz3wuzn",
-    "template_lsy4g5t",
-    formElement, // Pass the form element here
-    "q5csQGKeI6w3R0Til"
-  )
-  .then(
-    (result) => {
-      setStep(1);
-      console.log(result.text);
-
-      // Reset the error message
-      setFormError("");
-    },
-    (error) => {
-      console.log(error.text);
-    }
-  );
-
+          // Reset the loading state
+          setLoading(false);
+        }
+      );
   };
 
   const options = [
-    { value: "option1", label: "Option 1" },
-    { value: "option2", label: "Option 2" },
-    { value: "option3", label: "Option 3" },
-    // Add more options as needed
+    { value: "Software Development", label: "Software Development" },
+    { value: "Branding", label: "Branding" },
+    { value: "Product Design", label: "Product Design" },
+    { value: "Data Analytics", label: "Data Analytics" },
+    { value: "Strategy", label: "Strategy" },
   ];
 
   const handleMultiSelectChange = (selectedOptions) => {
@@ -74,16 +83,15 @@ emailjs
 
   return (
     <>
-      {/* start a conversation */}
       {step === 0 ? <Section1 /> : ""}
 
-      <section className="bx-contact" style={{ height: "75vh" }}>
+      <section className="bx-contact" style={{ height: "96vh" }}>
         <div className="card px-5 border-0">
-          <form className="mt-5 aco-weare" onSubmit={handleSubmit} ref={form} id="myForm">
+          <form className="mt-5" onSubmit={handleSubmit} ref={form} id="myForm">
             {step === 0 && (
               <>
                 <div className="mb-4">
-                  <h4 className="fw-bold">Send Us A Message </h4>
+                  <h4 className="fw-bold">Send Us A Message</h4>
                 </div>
 
                 <label htmlFor="inputFullName">Enter Full Name</label>
@@ -94,17 +102,19 @@ emailjs
                   placeholder="Full Name"
                 />
 
-                {/* Add the multi-select dropdown */}
-                <label htmlFor="multiSelect" >Select Options</label>
+                <label htmlFor="multiSelect">
+                  What would you like us to craft for you? (Choose one or more)
+                </label>
                 <Select
                   id="multiSelect"
                   options={options}
                   isMulti
+                  name="selectedOptions"
                   value={selectedOptions}
                   onChange={handleMultiSelectChange}
                   className="mb-3"
                 />
-                {/* ... Other form inputs ... */}
+
                 <div className="form-group fs-11 grey font-weight-medium">
                   <Row>
                     <Col md={6}>
@@ -130,40 +140,30 @@ emailjs
                   <input
                     type="text"
                     className="form-control p-2 mb-3"
-                    name="Company_name"
+                    name="company_name"
                     placeholder="Company Name"
                   />
                   <p className="fs-small">
                     By clicking on the button below, you accept our
                     <a href="/" className="text-color fw-bold">
-                      {" "}
                       privacy policy
                     </a>
                   </p>
                 </div>
 
-                {loading && (
-                  <button
-                    value="Send"
-                    type="submit"
-                    className="text-center btnn2"
-                  >
-                    Sending...
-                  </button>
-                )}
-                {!loading && (
-                  <Row>
-                    <Col md={12}>
-                      <button
-                        className="text-center btnn2"
-                        value="Send"
-                        type="submit"
-                      >
-                        Send
-                      </button>
-                    </Col>
-                  </Row>
-                )}
+                <Row>
+                  <Col md={12}>
+                    <button
+                      className="text-center btnn2"
+                      value="Send"
+                      type="submit"
+                      onClick={handleSubmit}
+                      disabled={loading} // Disable the button while loading
+                    >
+                      {loading ? "Sending..." : "Send"}
+                    </button>
+                  </Col>
+                </Row>
               </>
             )}
           </form>
@@ -178,31 +178,6 @@ emailjs
             </>
           )}
         </div>
-          {/* <div
-            className="position-absolute top-0 start-100 translate-middle blur-c"
-            style={{ height: "" }}
-          >
-            <img
-              src="/assets/Ellipse4.png"
-              alt="a & co"
-              style={{ marginRight: "8rem", marginTop: "24rem" }}
-            />
-          </div> */}
-        {/* <div
-          className="position-absolute top-0 end-50 translate-middle blur-c"
-          style={{ height: "10rem" }}
-        >
-          <img
-            src="/assets/Ellipse3.png"
-            alt="a & co"
-            style={{
-              marginRight: "0rem",
-              marginTop: "-60rem",
-              height: "10rem",
-              width: "30rem",
-            }}
-          />
-        </div> */}
       </section>
     </>
   );

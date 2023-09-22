@@ -5,7 +5,7 @@ import { BiMenu } from 'react-icons/bi';
 const Navbar = () => {
 
   return (
-    <nav className="navbar navbar-expand-lg pt-2 bx-container text-black">
+    <nav className="navbar navbar-expand-lg pt-2 px-2 px-md-0 bx-container text-black">
       <div className="container-fluid mt-2">
         <Link href="/" className="navbar-brand" passHref>
           <img
@@ -16,7 +16,7 @@ const Navbar = () => {
           />
         </Link>
         <button
-          className="navbar-toggler fs-medium p-0"
+          className="navbar-toggler fs-medium p-0 border-0"
           type="button"
           data-bs-toggle="collapse"
           data-bs-target="#navbarSupportedContent"
@@ -24,11 +24,11 @@ const Navbar = () => {
           aria-expanded="false"
           aria-label="Toggle navigation"
         >
-          <BiMenu />
+          <BiMenu className='border-0' />
         </button>
       </div>
 
-      <div className="collapse navbar-collapse mt-4" id="navbarSupportedContent">
+      <div className="collapse navbar-collapse mt-4 px-3" id="navbarSupportedContent">
         <ul className="navbar-nav nav-fs">
           {linkData.map((link, index) => (
             <li className="nav-item me-4" key={index}>

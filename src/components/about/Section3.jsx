@@ -28,7 +28,7 @@ const Section3 = () => {
             </p>
         </Col>
       </Row>
-      <div className="position-absolute top-0 translate-middle blur-c pt-5">
+      <div className="position-absolute top-0 translate-middle blur-c about-blur pt-5">
         <img
           src="/assets/blur-a.png"
           alt="a & co"

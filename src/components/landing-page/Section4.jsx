@@ -5,8 +5,8 @@ import { Col, Row } from "react-bootstrap";
 const Section4 = () => {
   return (
     <div className="bx-section text-center mt-5 pt-md-5 pt-2">
-      <h1 className="fs-large fw-bold mb-3 mt-4">
-        Let's kick off your <br />
+      <h1 className="fs-large fw-bold mb-3 mt-4 px-2">
+        Let's kick off your <br className="d-none d-md-block"/>
         project in 4 easy steps
       </h1>
       <p className="my-5">
@@ -28,6 +28,11 @@ const Section4 = () => {
                 marginTop: "1.5rem",
               }}
             />
+             <h6 className="mt-4">Step 1</h6>
+            <p className="fs-small px-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed
+              ligula et nisl hendrerit sodales ut et dui.
+            </p>
           </Col>
           <Col md={3} className="mb-3 mb-md-0">
             <img
@@ -39,6 +44,11 @@ const Section4 = () => {
                 marginTop: "1.5rem",
               }}
             />
+             <h6 className="mt-4">Step 2</h6>
+            <p className="fs-small px-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed
+              ligula et nisl hendrerit sodales ut et dui.
+            </p>
           </Col>
           <Col md={3} className="mb-3 mb-md-0">
             <img
@@ -50,6 +60,11 @@ const Section4 = () => {
                 marginTop: "1.5rem",
               }}
             />
+             <h6 className="mt-4">Step 3</h6>
+            <p className="fs-small px-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed
+              ligula et nisl hendrerit sodales ut et dui.
+            </p>
           </Col>
           <Col md={3} className="mb-3 mb-md-0">
             <img
@@ -61,41 +76,16 @@ const Section4 = () => {
                 marginTop: "1.5rem",
               }}
             />
+             <h6 className="mt-4">Step 4</h6>
+            <p className="fs-small px-4">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed
+              ligula et nisl hendrerit sodales ut et dui.
+            </p>
           </Col>
         </Row>
       </div>
 
       <div>
-        <Row>
-          <Col md={3}>
-            <h6 className="mt-4">Step 1</h6>
-            <p className="fs-small px-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed
-              ligula et nisl hendrerit sodales ut et dui.
-            </p>
-          </Col>
-          <Col md={3}>
-            <h6 className="mt-4">Step 2</h6>
-            <p className="fs-small px-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed
-              ligula et nisl hendrerit sodales ut et dui.
-            </p>
-          </Col>
-          <Col md={3}>
-            <h6 className="mt-4">Step 3</h6>
-            <p className="fs-small px-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed
-              ligula et nisl hendrerit sodales ut et dui.
-            </p>
-          </Col>
-          <Col md={3}>
-            <h6 className="mt-4">Step 4</h6>
-            <p className="fs-small px-4">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed
-              ligula et nisl hendrerit sodales ut et dui.
-            </p>
-          </Col>
-        </Row>
       </div>
     </div>
   );

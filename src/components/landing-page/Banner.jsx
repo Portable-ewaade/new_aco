@@ -5,12 +5,12 @@ import Link from "next/link";
 
 const banner = () => {
   return (
-    <section className="bx-container pt-4 pb-5 mt- " style={{ height: "82vh" }}>
-      <Row className="mt-3 ms-1">
-        <Col md={6} className="mt-md-5 pt-md-5">
+    <section className="bx-container pt-4 pb-5 mt-5 mt-md-0 banner-height">
+      <Row className="mt-3">
+        <Col md={6} className="mt-md-5 pt-md-5 ms-3 ms-md-0">
           <div className="mt-4">
             <h1 className="fw-bold lh-sm fs-large">
-              Think, Transform <br /> and Build <br />
+              Think, <br className="d-block d-md-none" /> Transform <br /> and Build <br />
               <span className="text-color"> Innovate </span> and
               <span className="text-color"> Grow</span>
             </h1>

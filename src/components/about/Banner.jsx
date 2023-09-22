@@ -3,14 +3,14 @@ import { Col, Row } from "react-bootstrap";
 
 const Banner = () => {
   return (
-    <section className="position-relative" style={{ height: "63vh" }}>
-      <div className="bx-section text-center">
-        <h1 className="fs-large lh-base fw-bold mb-3 mt-5">
-          We build bridges between <br className="d-none d-md-block" />
+    <section className="position-relative banner-about-height" style={{ height: "63vh" }}>
+      <div className="">
+        <h1 className="fs-large lh-base fw-bold mb-3 mt-5 text-md-center">
+          We build <br className="d-block d-md-none" /> bridges between <br className="d-none d-md-block" />
           companies and customers
         </h1>
 
-        <div className="mt-4">
+        <div className="mt-4 text-center"  >
           <Row className=" mt-4 project">
             <Col md={12}>
               <img

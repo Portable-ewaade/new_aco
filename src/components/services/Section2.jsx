@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 
 const Section2 = () => {
   return (
-    <section className="bx-service pt-5 pb-5">
+    <section className="bx-service pt-5 pb-md-5">
       <Row className="py-2 position-relative">
         <Col md={4}>
           <div className="card p-4 mt-md-5 service-card">

@@ -1,5 +1,31 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap");
 
+/* <div
+            className="position-absolute top-0 start-100 translate-middle blur-c"
+            style={{ height: "" }}
+          >
+            <img
+              src="/assets/Ellipse4.png"
+              alt="a & co"
+              style={{ marginRight: "8rem", marginTop: "24rem" }}
+            />
+          </div> */
+/* <div
+          className="position-absolute top-0 end-50 translate-middle blur-c"
+          style={{ height: "10rem" }}
+        >
+          <img
+            src="/assets/Ellipse3.png"
+            alt="a & co"
+            style={{
+              marginRight: "0rem",
+              marginTop: "-60rem",
+              height: "10rem",
+              width: "30rem",
+            }}
+          />
+        </div> */
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -51,6 +77,9 @@ a {
   width: 80%;
   margin: auto !important;
 }
+.banner-height {
+  height: 82vh !important;
+}
 .bx-container2 {
   width: 90%;
   margin: auto !important;
@@ -59,6 +88,7 @@ a {
   width: 70%;
   margin: auto !important;
 }
+
 .bx-section4 {
   width: 30%;
   margin: auto !important;
@@ -137,7 +167,7 @@ input::placeholder {
   transition: 05s ease-in-out !important;
 
 } */
-.wht-card:hover{
+.wht-card:hover {
   color: #000 !important;
   transition: 0.4s ease-in-out !important;
 }
@@ -175,17 +205,15 @@ input::placeholder {
 .blur-c {
   right: -10rem !important;
 }
-.person-c{
+.person-c {
   right: 6.4rem !important;
 }
-.idea-text{
+.idea-text {
   right: 34rem !important;
-  
 }
-.idea-text h1{
+.idea-text h1 {
   font-size: 2.3rem !important;
   font-weight: 700 !important;
-  
 }
 .vision {
   /* position: absolute; */
@@ -209,9 +237,7 @@ input::placeholder {
   height: 2rem;
   margin-right: 0.5rem;
 }
-.project img:hover {
 
-}
 /* footer */
 .footer-bg {
   background-color: #58595b !important;
@@ -226,20 +252,40 @@ input::placeholder {
     width: 100% !important;
     padding: 1rem !important;
   }
+  .banner-height {
+    height: 120vh !important;
+  }
   .bx-section p {
     font-size: 1rem !important;
   }
   .banner-img {
-    width: 25rem !important;
-    height: 25rem !important;
+    width: 390px !important;
+    height: 395px !important;
     padding: 1rem !important;
     margin: 1.5rem 0rem !important;
   }
   .project img {
     width: 22rem !important;
   }
+  /* about */
+  .banner-about-height {
+    height: 75vh !important;
+  }
+  .banner-about-height h1 {
+    font-size: 2.5rem !important;
+    padding: 25px;
+  }
+  .consultant h1 {
+    font-size: 2.8rem !important;
+  }
+  .about-blur img{
+    width: 15rem !important;
+    height: 15rem !important;
+    margin-left: -19rem !important;
+    margin-bottom: 4rem !important;
+  }
   .footer-bg {
-    height: 13rem !important;
+    height: 30rem !important;
   }
   .section2 {
     height: 50rem !important;
@@ -270,16 +316,7 @@ input::placeholder {
     margin-top: 0rem !important;
     margin-left: 0rem !important;
   }
-  .about1 h6 {
-    /* font-size: 25px !important; */
-  }
-  .about2 h6 {
-    /* font-size: 25px !important; */
-  }
-  /* .about3 h6 {
-    font-size: 16px !important;
-    font-weight: 700 !important;
-  } */
+
   .icom {
     width: 100% !important;
   }
@@ -295,6 +332,10 @@ input::placeholder {
   .person-c img {
     /* margin-right: 0rem !important; */
     width: 14.5rem !important;
+  }
+  /* service */
+  .service-card p{
+    font-size: 0.9rem !important;
   }
   .footer {
     padding: 0 auto !important;

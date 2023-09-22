@@ -45,15 +45,15 @@ const Banner = () => {
             <img
               src="/assets/aco-img.png"
               alt="a & co"
-              style={{ width: "18rem", marginTop: "1rem" }}
+              style={{ width: "22rem", marginTop: "1rem" }}
             />
           </Col>
           <Col sm={6}>
             <div className="text-center">
-              <h2 className="fw-bold mb-3 mt-5">
-                Smart Solutions for <br /> complex challenges
+              <h2 className="fs-large fw-bold mb-3 mt-2">
+                Smart <br /> Solutions for complex challenges
               </h2>
-              <p className="fs-small px-3 px-md-0">
+              <p className=" px-3 px-md-0">
                 We understand that modern technology challenges are
                 multi-dimensional and require a holistic approach.At A&Co, we
                 bring a unique blend of industry expertise, technical skills,

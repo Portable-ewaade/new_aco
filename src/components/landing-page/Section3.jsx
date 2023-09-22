@@ -23,7 +23,7 @@ const Section3 = () => {
               <img
                 src="/assets/pathway-img.png"
                 alt="a & co"
-                className="py-3 ms-md-5"
+                className="py-md-3 py-2 ms-md-5 px-3 px-md-0"
                 style={{ width: "19rem" }}
               />
             </Col>
@@ -31,7 +31,7 @@ const Section3 = () => {
               <img
                 src="/assets/ojanow-img.png"
                 alt="a & co"
-                className="py-3 me-md-5"
+                className="py-md-3 py-2 me-md-5 px-3 px-md-0"
                 style={{ width: "19rem" }}
               />
             </Col>

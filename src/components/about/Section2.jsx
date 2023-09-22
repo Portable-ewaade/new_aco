@@ -3,10 +3,9 @@ import { Row, Col } from "react-bootstrap";
 
 const Section2 = () => {
   return (
-    <section className="bx-container pt-5" style={{ height: "82vh" }}>
+    <section className="bx-container pt-5" >
       {/* laptop-view */}
-
-      <div className="card border-0 rounded-5 color laptop-view">
+      <div className="card border-0 rounded-5 color laptop-view" style={{ height: "82vh" }}>
         <Row className="mt-3 pt-md-4">
           <Col md={6}>
             <div>
@@ -24,11 +23,11 @@ const Section2 = () => {
             </div>
           </Col>
           <Col md={6} className="mt-md-">
-            <div className="mt-4 consultant">
-              <h4 className="fs-medium fw-bold lh-sm px-3 px-md-0">
+            <div className="mt-4">
+              <h1 className="fs-medium fw-bold lh-sm px-3 px-md-0">
                 We are <br />
                 Consultants
-              </h4>
+              </h1>
               <p className="my-3 fs-normal lh-base fw-bold mt-4">
                 We are tech enthusiasts, data geeks, process mavens, delivery
                 strategists and industry experts focused on helping you grow and
@@ -56,7 +55,7 @@ const Section2 = () => {
 
 
       {/* mobile-view */}
-      <div className="card border-0 rounded-5 color mobile-view">
+      <div className="card border-0 rounded-5 mobile-view" style={{height: "127vh"}}>
         <Row className="mt-3 ">
           <Col md={6} className="mt-md-5 pt-md-5">
             <div className="mt-4 consultant px-3 px-md-0">
@@ -91,8 +90,8 @@ const Section2 = () => {
                 src="/assets/avatar-img.png"
                 alt="a & co"
                 style={{
-                  height: "20rem",
-                  width: "20rem",
+                  height: "22rem",
+                  width: "24rem",
                   padding: "0",
                 }}
                
@@ -101,11 +100,12 @@ const Section2 = () => {
           </Col>
         </Row>
       </div>
-      <div className="position-absolute top-50 end-50 translate-middle blur-c">
+
+      <div className="position-absolute top-50 end-50 translate-middle blur-c ellp3 laptop-view" style={{height: "7vh"}}>
         <img
           src="/assets/Ellipse3.png"
           alt="a & co"
-          style={{ marginLeft: "-38rem", marginTop: "36rem" }}
+          style={{ marginLeft: "-38rem", marginTop: "-15rem" }}
         />
       </div>
     </section>
