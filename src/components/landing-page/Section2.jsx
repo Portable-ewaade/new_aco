@@ -47,11 +47,18 @@ const Section2 = () => {
 
       {/* laptop view */}
 
-      <div className="bx-containe mt-4 laptop-view" style={{width: "88%", margin: "auto 0 auto auto", justifyContent:"flex-end"}}>
+      <div
+        className="bx-containe mt-4 laptop-view"
+        style={{
+          width: "88%",
+          margin: "auto 0 auto auto",
+          justifyContent: "flex-end",
+        }}
+      >
         <div className="partner-logos slider py-5">
           <Slider {...sliderSettings}>
             <Col md={3} className="slide logo">
-              <div className="card  rounded-4 wht-card p-4 text-color2">
+              <div className="card rounded-4 wht-card p-4 what-we-do">
                 <h6 className="fw-bold mt-md-2 mb-md-4">
                   Software Development
                 </h6>
@@ -63,7 +70,7 @@ const Section2 = () => {
               </div>
             </Col>
             <Col md={3} className="slide logo">
-              <div className="card rounded-4 wht-card p-4 text-color2">
+              <div className="card rounded-4 wht-card p-4 what-we-do">
                 <h6 className="fw-bold mt-md-2 mb-md-4">Cloud Migration</h6>
                 <p className="fs-normal">
                   Take your business to the next level with reliable, scalable
@@ -73,7 +80,7 @@ const Section2 = () => {
               </div>
             </Col>
             <Col md={3} className="slide logo">
-              <div className="card rounded-4 wht-card p-4 text-color2">
+              <div className="card rounded-4 wht-card p-4 what-we-do">
                 <h6 className="fw-bold mt-md-2 mb-md-4">
                   Product Design and Branding
                 </h6>
@@ -85,7 +92,7 @@ const Section2 = () => {
               </div>
             </Col>
             <Col md={3} className="slide logo">
-              <div className="card rounded-4 wht-card p-4 text-color2">
+              <div className="card rounded-4 wht-card p-4 what-we-do">
                 <h6 className="fw-bold mt-md-2 mb-md-4">
                   Dedicated Team Building
                 </h6>
@@ -97,7 +104,7 @@ const Section2 = () => {
               </div>
             </Col>
             <Col md={3} className="slide logo">
-              <div className="card rounded-4 wht-card p-4 text-color2">
+              <div className="card rounded-4 wht-card p-4 what-we-do">
                 <h6 className="fw-bold mt-md-2 mb-md-4">
                   Business Development & Strategy
                 </h6>
@@ -109,10 +116,8 @@ const Section2 = () => {
               </div>
             </Col>
             <Col md={3} className="slide logo">
-              <div className="card rounded-4 wht-card p-4 text-color2">
-                <h6 className="fw-bold mt-md-2 mb-md-4">
-                  Data Analytics
-                </h6>
+              <div className="card rounded-4 wht-card p-4 what-we-do">
+                <h6 className="fw-bold mt-md-2 mb-md-4">Data Analytics</h6>
                 <p className="fs-normal">
                   Take your business to the next level with reliable, scalable
                   and unique software solutions built with the latest tools and

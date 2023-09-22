@@ -6,7 +6,7 @@ import { Col, Row } from "react-bootstrap";
 const Section3 = () => {
 
   return (
-    <section className="position-relative">
+    <section className="position-relative our-project">
       <div className="bx-section text-center">
         <h1 className="fs-large fw-bold mb-3 mt-md-5 ">Our Projects</h1>
         <p className="fs-normal">
@@ -15,7 +15,7 @@ const Section3 = () => {
           solutions to clients world wide
         </p>
         <div className="mt-4">
-          <Link href="/" className="text-color my-3">
+          <Link href="/" className="text-color project-link my-3">
             View all projects
           </Link>
           <Row className="ms-lg-5 ps-lg-5 mt-4 project">

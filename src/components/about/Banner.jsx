@@ -10,8 +10,8 @@ const Banner = () => {
           companies and customers
         </h1>
 
-        <div className="mt-4 text-center"  >
-          <Row className=" mt-4 project">
+        <div className="mt-4 text-center business">
+          <Row className=" mt-4">
             <Col md={12}>
               <img
                 src="/assets/business-img.png"

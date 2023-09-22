@@ -145,9 +145,9 @@ export const ContactUs = () => {
                   />
                   <p className="fs-small">
                     By clicking on the button below, you accept our
-                    <a href="/" className="text-color fw-bold">
+                    <span className="ms-1"><a href="/" className="text-color fw-bold">
                       privacy policy
-                    </a>
+                    </a></span>
                   </p>
                 </div>
 

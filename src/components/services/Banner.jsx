@@ -7,7 +7,7 @@ const Banner = () => {
       {/* laptop-view */}
       <div className="laptop-view">
         <Row>
-          <Col md={3} className="">
+          <Col md={3} className="bur-a">
             <img
               src="/assets/blur-a.png"
               alt="a & co"
@@ -28,7 +28,7 @@ const Banner = () => {
               </p>
             </div>
           </Col>
-          <Col md={3}>
+          <Col md={3} className="bur-c">
             <img
               src="/assets/blur-c1.png"
               alt="a & co"

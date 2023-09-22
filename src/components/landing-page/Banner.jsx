@@ -10,7 +10,8 @@ const banner = () => {
         <Col md={6} className="mt-md-5 pt-md-5 ms-3 ms-md-0">
           <div className="mt-4">
             <h1 className="fw-bold lh-sm fs-large">
-              Think, <br className="d-block d-md-none" /> Transform <br /> and Build <br />
+              Think, <br className="d-block d-md-none" /> Transform <br /> and
+              Build <br />
               <span className="text-color"> Innovate </span> and
               <span className="text-color"> Grow</span>
             </h1>
@@ -41,7 +42,7 @@ const banner = () => {
             <img
               src="/assets/banner-img2.png"
               alt="a & co"
-              className="banner-img"
+              className="home-banner-img"
             />
           </div>
         </Col>

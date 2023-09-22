@@ -4,10 +4,7 @@ import { Col, Row } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <section
-      className="footer-bg text-center py-5"
-      style={{ height: "11rem" }}
-    >
+    <section className="footer-bg text-center py-5" style={{ height: "11rem" }}>
       <Row className="bx-container ">
         <Col md={4} className="my-2 ">
           <Link href="/">
@@ -20,7 +17,7 @@ const Footer = () => {
           <br />
           <a
             href="mailto:info@theacconsulting.com"
-            className="text-color2 fs-xxsmall ps-5 mt-0 pt-0"
+            className="what-we-do fs-xxsmall ps-5 mt-0 pt-0"
           >
             info@theacconsulting.com
           </a>

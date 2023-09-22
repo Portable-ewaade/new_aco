@@ -8,7 +8,7 @@ const Section2 = () => {
       <div className="card border-0 rounded-5 color laptop-view" style={{ height: "82vh" }}>
         <Row className="mt-3 pt-md-4">
           <Col md={6}>
-            <div>
+            <div className="avatar">
               <img
                 src="/assets/avatar-img.png"
                 alt="a & co"
@@ -101,7 +101,7 @@ const Section2 = () => {
         </Row>
       </div>
 
-      <div className="position-absolute top-50 end-50 translate-middle blur-c ellp3 laptop-view" style={{height: "7vh"}}>
+      <div className="position-absolute top-50 end-50 translate-middle blur-c about-elps laptop-view" style={{height: "7vh"}}>
         <img
           src="/assets/Ellipse3.png"
           alt="a & co"

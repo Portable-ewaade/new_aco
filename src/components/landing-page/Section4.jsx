@@ -4,7 +4,7 @@ import { Col, Row } from "react-bootstrap";
 
 const Section4 = () => {
   return (
-    <div className="bx-section text-center mt-5 pt-md-5 pt-2">
+    <div className="bx-section text-center mt-5 pt-md-5 pt-2 steps">
       <h1 className="fs-large fw-bold mb-3 mt-4 px-2">
         Let's kick off your <br className="d-none d-md-block"/>
         project in 4 easy steps
@@ -18,7 +18,7 @@ const Section4 = () => {
 
       <div className="mt-4">
         <Row className=" mt-5">
-          <Col md={3} className="my-4 my-md-0">
+          <Col md={3} className="">
             <img
               src="/assets/icon-3.png"
               alt="a & co"
@@ -29,7 +29,7 @@ const Section4 = () => {
               }}
             />
              <h6 className="mt-4">Step 1</h6>
-            <p className="fs-small px-4">
+            <p className="fs-small px-4 px-md-0">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed
               ligula et nisl hendrerit sodales ut et dui.
             </p>
@@ -45,7 +45,7 @@ const Section4 = () => {
               }}
             />
              <h6 className="mt-4">Step 2</h6>
-            <p className="fs-small px-4">
+            <p className="fs-small px-4 px-md-0">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed
               ligula et nisl hendrerit sodales ut et dui.
             </p>
@@ -61,7 +61,7 @@ const Section4 = () => {
               }}
             />
              <h6 className="mt-4">Step 3</h6>
-            <p className="fs-small px-4">
+            <p className="fs-small px-4 px-md-0">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed
               ligula et nisl hendrerit sodales ut et dui.
             </p>
@@ -77,7 +77,7 @@ const Section4 = () => {
               }}
             />
              <h6 className="mt-4">Step 4</h6>
-            <p className="fs-small px-4">
+            <p className="fs-small px-4 px-md-0">
               Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras sed
               ligula et nisl hendrerit sodales ut et dui.
             </p>

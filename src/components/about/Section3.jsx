@@ -4,7 +4,7 @@ import { Col, Row } from "react-bootstrap";
 const Section3 = () => {
   return (
     <section className="bx-section mt-5 pt-md-3 pt-5 position-relative ">
-      <Row className="about1 mt-5 mt-md-0 pt-5 pt-md-0">
+      <Row className=" mt-5 mt-md-0 pt-5 pt-md-0 about-mission">
         <Col md={6} className="my-3">
           <div className="d-flex">
             <img src="/assets/target-icon.png" alt="a & co" className="icons"/>
@@ -36,7 +36,7 @@ const Section3 = () => {
         />
       </div>
 
-      <Row className="mt-4 position-relative about2">
+      <Row className="mt-4 position-relative about-mission">
         <Col md={6} >
           <div className="mb-2 d-flex">
             <img src="/assets/diamond-icon.png" alt="a & co" className="icons"/>
@@ -46,7 +46,7 @@ const Section3 = () => {
               Our values are the driving force of each decision we make and the
               backbone of our culture.
             </p>
-          <Row className="about3 ps-5">
+          <Row className="about-mission2 ps-5">
             <Col md={6}> 
               <h6 className="text-color fw-bold">Innovation</h6>
               <p className="fs-small">
@@ -80,7 +80,7 @@ const Section3 = () => {
             </Col>
           </Row>
         </Col>
-        <div className="position-absolute top-100 start-100 translate-middle blur-c pt-5">
+        <div className="position-absolute top-100 start-100 translate-middle blur-c pt-5 about-elps2">
           <img
             src="/assets/Ellipse4.png"
             alt="a & co"

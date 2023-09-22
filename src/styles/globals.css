@@ -55,7 +55,7 @@ a {
 .text-color {
   color: #a80d10 !important;
 }
-.text-color2 {
+.what-we-do {
   color: #ababab !important;
   height: 14rem !important;
   margin: 0 1rem !important;
@@ -66,7 +66,7 @@ a {
 .background-bg {
   background-color: #a80d10 !important;
 }
-.banner-img {
+.home-banner-img {
   /* margin-left: 4rem !important; */
   height: 540px;
   width: 455px;
@@ -258,7 +258,7 @@ input::placeholder {
   .bx-section p {
     font-size: 1rem !important;
   }
-  .banner-img {
+  .home-banner-img {
     width: 390px !important;
     height: 395px !important;
     padding: 1rem !important;
@@ -275,10 +275,14 @@ input::placeholder {
     font-size: 2.5rem !important;
     padding: 25px;
   }
+  .business img {
+    width: 368px !important; 
+    height: 283px !important; 
+  }
   .consultant h1 {
     font-size: 2.8rem !important;
   }
-  .about-blur img{
+  .about-blur img {
     width: 15rem !important;
     height: 15rem !important;
     margin-left: -19rem !important;
@@ -293,6 +297,7 @@ input::placeholder {
   }
   .c-img {
     display: none !important;
+    /* nonnnnnnnn */
   }
   .form-section {
     height: 30vh !important;
@@ -334,7 +339,7 @@ input::placeholder {
     width: 14.5rem !important;
   }
   /* service */
-  .service-card p{
+  .service-card p {
     font-size: 0.9rem !important;
   }
   .footer {
@@ -476,7 +481,7 @@ input::placeholder {
   }
 }
 /* default */
-@media (min-width: 1500px) AND (max-width: 2400px) {
+@media (min-width: 1500px) {
   .laptop-view {
     display: block !important;
   }
@@ -484,14 +489,45 @@ input::placeholder {
     display: none !important;
   }
   .idea-text {
-    left: 35rem !important;
+    left: 52rem !important;
   }
   .person-c {
-    right: 10rem !important;
+    right: 14.5rem !important;
   }
   .section2 {
-    height: 30rem !important;
+    height: 59rem !important;
     margin-bottom: 3rem !important;
+  }
+  .what-we-do {
+    height: 20rem !important;
+  }
+  .what-we-do h6 {
+    font-size: 1.4rem !important;
+  }
+  .text-color3 p {
+    font-size: 1.6rem !important;
+  }
+  .c-img img {
+    width: 26.5rem !important;
+  }
+  .project-link {
+    font-size: 1.6rem !important;
+  }
+  .project img {
+    width: 28rem !important;
+  }
+  .logo img {
+    width: 10rem !important;
+  }
+  .steps p {
+    font-size: 1.4rem !important;
+  }
+  .steps h6 {
+    font-size: 1.4rem !important;
+  }
+  .our-project {
+    height: 50rem !important;
+    margin-top: 5.5rem !important;
   }
   .nav-fs {
     font-size: 1.4rem !important;
@@ -500,7 +536,82 @@ input::placeholder {
     font-size: 4.5rem !important;
   }
   .fs-normal {
+    font-size: 1.6rem !important;
+  }
+  .fs-medium {
+    font-size: 3rem !important;
+  }
+  .business img {
+    width: 628px !important;
+    height: 463px !important;
+  }
+  .banner-about-height {
+    height: 68vh !important;
+  }
+  .avatar img {
+    height: 692px !important;
+    width: 779px !important;
+    margin-top: 3rem !important;
+  }
+  .about-elps img {
+    margin-left: -27rem !important;
+  }
+  .about-elps2 img {
+    margin-left: 17.5rem !important;
+    width: 46rem !important;
+  }
+  .about-mission p {
     font-size: 1.5rem !important;
+  }
+  .about-mission2 p {
+    font-size: 1.25rem !important;
+  }
+  .about-mission2 h6 {
+    font-size: 1.55rem !important;
+  }
+  .about-blur img {
+    width: 35rem !important;
+    height: 35em !important;
+  }
+  /* contact */
+  #myForm input {
+    padding: 0.95rem !important;
+  }
+  #myForm input::placeholder {
+    font-size: 1.1rem !important;
+  }
+  #myForm label {
+    font-size: 1.2rem !important;
+  }
+  #myForm p {
+    font-size: 1.2rem !important;
+  }
+  /* service */
+  .bur-a img {
+    width: 29rem !important;
+  }
+  .bur-c img {
+    width: 24rem !important;
+    margin-top: -1rem !important;
+  }
+  .services p {
+    font-size: 1.23rem !important;
+  }
+  .services h5 {
+    font-size: 1.55rem !important;
+  }
+  .service-card {
+    height: 38rem !important;
+  }
+  .services-elps img {
+    margin-right: 11rem !important;
+  }
+  .services-elps2 img {
+    margin-left: 11rem !important;
+  }
+  .navbar-brand img {
+    width: 3.5rem !important;
+    height: 3.5rem !important;
   }
   .btnn {
     height: 4.5rem !important;
@@ -511,7 +622,10 @@ input::placeholder {
     border-radius: 0.625rem !important;
     background: #a80d10 !important;
   }
-  .banner-img {
+  .btnn2 {
+    padding: 1.4rem 0 !important;
+  }
+  .home-banner-img {
     margin-left: 3rem !important;
     height: 818px;
     width: 669px;
