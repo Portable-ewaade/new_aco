@@ -37,11 +37,11 @@ const Section3 = () => {
             </Col>
           </Row>
         </div>
-        <div className="position-absolute top-100 translate-middle blur-c c-img pt-5">
+        <div className="position-absolute top-100 start-100 translate-middle c-img pt-5">
         <img
                 src="/assets/blur-c.png"
                 alt="a & co"
-                style={{ width: "20rem", marginTop: "10rem" }}
+                style={{ width: "20rem", marginTop: "10rem", marginLeft: "-20rem" }}
               />
         </div>
       </div>

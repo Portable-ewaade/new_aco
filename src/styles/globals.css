@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,200&display=swap");
 
 /* <div
-            className="position-absolute top-0 start-100 translate-middle blur-c"
+            className="position-absolute top-0 start-100 translate-middle"
             style={{ height: "" }}
           >
             <img
@@ -11,7 +11,7 @@
             />
           </div> */
 /* <div
-          className="position-absolute top-0 end-50 translate-middle blur-c"
+          className="position-absolute top-0 end-50 translate-middle"
           style={{ height: "10rem" }}
         >
           <img
@@ -26,6 +26,7 @@
           />
         </div> */
 
+/* default */
 * {
   box-sizing: border-box;
   padding: 0;
@@ -37,51 +38,15 @@ body {
   max-width: 100vw;
   overflow-x: hidden;
   font-family: "Raleway", sans-serif !important;
-}
-
-body {
   background-color: #ffff;
 }
-
 a {
   color: initial !important;
   text-decoration: none !important;
 }
-
-.nav-item {
-  text-decoration: none !important;
-  width: max-content !important;
-}
-.text-color {
-  color: #a80d10 !important;
-}
-.what-we-do {
-  color: #ababab !important;
-  height: 14rem !important;
-  margin: 0 1rem !important;
-}
-.text-color3 {
-  color: #ffffffc2 !important;
-}
-.background-bg {
-  background-color: #a80d10 !important;
-}
-.home-banner-img {
-  /* margin-left: 4rem !important; */
-  height: 540px;
-  width: 455px;
-  padding: 2rem 0rem;
-}
-/* body size */
+/* all container size */
 .bx-container {
   width: 80%;
-  margin: auto !important;
-}
-.banner-height {
-  height: 82vh !important;
-}
-.bx-container2 {
-  width: 90%;
   margin: auto !important;
 }
 .bx-section {
@@ -89,31 +54,28 @@ a {
   margin: auto !important;
 }
 
-.bx-section4 {
-  width: 30%;
-  margin: auto !important;
+/* colors */
+.text-color {
+  color: #a80d10 !important;
 }
-.bx-service {
-  width: 60%;
-  margin: auto !important;
+.text-color3 {
+  color: #ffffffc2 !important;
 }
-.bx-contact {
-  width: 40%;
-  margin: auto !important;
+.color {
+  background: linear-gradient(to right, #f6f5f5bb 5%, #ffff) !important;
+}
+.background-bg {
+  background-color: #a80d10 !important;
+}
+.footer-bg {
+  background-color: #58595b !important;
 }
 
-.nav-fs {
-  font-size: 15px !important;
-}
-
-/* .fs-small {
-  font-size: 12px !important;
-} */
+/* fonts and letter space */
 .fs-small {
   font-size: 0.78rem !important;
 }
 .fs-normal {
-  /* font-size: 0.89rem !important; */
   font-size: 0.96rem !important;
 }
 .fs-medium {
@@ -140,85 +102,44 @@ a {
   font-weight: light;
 }
 
-label {
-  font-size: 13px !important;
-  font-weight: 500 !important;
+/* navigation */
+.nav-item {
+  text-decoration: none !important;
+  width: max-content !important;
 }
-input::placeholder {
-  font-size: 10px !important;
-  color: #9c9a9a !important;
+.nav-fs {
+  font-size: 15px !important;
 }
-.dark-shadow-sm {
-  box-shadow: 2px 2px 8px 2px #100718 !important;
-}
-.dark-shadow-md {
-  box-shadow: 3px 5px 6px 3px #100718 !important;
-}
-.dark-shadow-lg {
-  box-shadow: 3px 6px 8px 5px #100718 !important;
-}
-/* .card-bg {
-  background: #eaeaea !important;
-  border: none !important;
-}
-.card-bg:hover {
-  background: #c20b0b !important;
-  box-shadow: #58595b !important;
-  transition: 05s ease-in-out !important;
 
-} */
+/* landing page */
+.home-banner-img {
+  height: 540px;
+  width: 455px;
+  padding: 2rem 0rem;
+}
+.what-we-do {
+  color: #ababab !important;
+  height: 14rem !important;
+  margin: 0 1rem !important;
+}
 .wht-card:hover {
   color: #000 !important;
   transition: 0.4s ease-in-out !important;
 }
-.color {
-  background: linear-gradient(to right, #f6f5f5bb 5%, #ffff) !important;
-}
-/* button */
-.btnn {
-  height: 3.2rem !important;
-  width: 9.25rem !important;
-  padding: 0.8rem 1.75rem !important;
-  gap: 1rem !important;
-  flex-shrink: 0;
-  border: none !important;
-  border-radius: 0.625rem !important;
-  background: #a80d10 !important;
-}
 
-.btnn1 {
-  /* border: solid 2px #e08cf9; */
-  background-color: #a80d10 !important;
-  color: #ffff !important;
-  padding: 0.5rem 0rem;
-  border-radius: 7px !important;
-  width: 6.6rem;
-}
-.btnn2 {
-  border: none !important;
-  background-color: #a80d10 !important;
-  color: #ffff !important;
-  padding: 0.6rem 0rem;
-  border-radius: 7px !important;
-  width: 100% !important;
-}
-.blur-c {
-  right: -10rem !important;
-}
-.person-c {
-  right: 6.4rem !important;
-}
-.idea-text {
-  right: 34rem !important;
-}
-.idea-text h1 {
-  font-size: 2.3rem !important;
-  font-weight: 700 !important;
-}
+/* about us page */
 .vision {
-  /* position: absolute; */
   margin-top: 4rem !important;
   margin-left: 25rem !important;
+}
+/* service page */
+.service-banner {
+  width: 90%;
+  margin: auto !important;
+}
+.service-section-2 {
+  width: 60%;
+  margin: auto !important;
 }
 .service-card {
   background: linear-gradient(#f5f5f5, #e4e4e4) !important;
@@ -232,52 +153,109 @@ input::placeholder {
   transition: 0.5s ease-in-out !important;
   border: none !important;
 }
+
+/* contact us page */
+.form-container {
+  width: 40%;
+  margin: auto !important;
+}
+label {
+  font-size: 13px !important;
+  font-weight: 500 !important;
+}
+input::placeholder {
+  font-size: 10px !important;
+  color: #9c9a9a !important;
+}
+
+/* button */
+.btnn {
+  height: 3.2rem !important;
+  width: 9.25rem !important;
+  padding: 0.8rem 1.75rem !important;
+  gap: 1rem !important;
+  flex-shrink: 0;
+  border: none !important;
+  border-radius: 0.625rem !important;
+  background: #a80d10 !important;
+}
+.form-btn {
+  border: none !important;
+  background-color: #a80d10 !important;
+  color: #ffff !important;
+  padding: 0.6rem 0rem;
+  border-radius: 7px !important;
+  width: 100% !important;
+}
+
 .icons {
   width: 2rem;
   height: 2rem;
   margin-right: 0.5rem;
 }
 
-/* footer */
-.footer-bg {
-  background-color: #58595b !important;
+/* responsiveness */
+@media (max-width: 700px) {
+  .laptop-view {
+    display: none !important;
+  }
+  .mobile-view {
+    display: block !important;
+  }
+}
+@media (min-width: 701px) {
+  .laptop-view {
+    display: block !important;
+  }
+  .mobile-view {
+    display: none !important;
+  }
 }
 
-/* responsiveness */
-
 /* Mobile: */
-/* default */
 @media (max-width: 529px) {
+  /* body size */
+  .bx-container {
+    width: 100%;
+    margin: auto !important;
+  }
   .bx-section {
     width: 100% !important;
     padding: 1rem !important;
   }
-  .banner-height {
-    height: 120vh !important;
-  }
   .bx-section p {
     font-size: 1rem !important;
   }
+
+  /* landing page */
+  .home-banner-height {
+    height: 120% !important;
+  }
   .home-banner-img {
     width: 390px !important;
-    height: 395px !important;
+    height: 400px !important;
     padding: 1rem !important;
     margin: 1.5rem 0rem !important;
+  }
+  .what-we-do-height {
+    height: 50rem !important;
+    margin-bottom: 3rem !important;
   }
   .project img {
     width: 22rem !important;
   }
-  /* about */
+
+  /* about us page*/
   .banner-about-height {
-    height: 75vh !important;
+    height: 150% !important;
   }
   .banner-about-height h1 {
     font-size: 2.5rem !important;
     padding: 25px;
   }
   .business img {
-    width: 368px !important; 
-    height: 283px !important; 
+    width: 368px !important;
+    height: 283px !important;
   }
   .consultant h1 {
     font-size: 2.8rem !important;
@@ -285,216 +263,114 @@ input::placeholder {
   .about-blur img {
     width: 15rem !important;
     height: 15rem !important;
-    margin-left: -19rem !important;
+    /* margin-left: -19rem !important; */
     margin-bottom: 4rem !important;
-  }
-  .footer-bg {
-    height: 30rem !important;
-  }
-  .section2 {
-    height: 50rem !important;
-    margin-bottom: 3rem !important;
-  }
-  .c-img {
-    display: none !important;
-    /* nonnnnnnnn */
-  }
-  .form-section {
-    height: 30vh !important;
-  }
-  .laptop-view {
-    display: none !important;
-  }
-  .mobile-view {
-    display: block !important;
-  }
-  /* contact */
-  .bx-container {
-    width: 100%;
-    margin: auto !important;
-  }
-  .bx-contact {
-    width: 100% !important;
-    margin: auto !important;
   }
   .vision {
     margin-top: 0rem !important;
     margin-left: 0rem !important;
   }
 
-  .icom {
-    width: 100% !important;
+  .c-img {
+    display: none !important;
+    /* nonnnnnnnn */
   }
-  .bx-service {
-    width: 90% !important;
-  }
-  .idea-text {
-    left: 10rem !important;
-  }
-  .person-c {
-    right: -6rem !important;
-  }
-  .person-c img {
-    /* margin-right: 0rem !important; */
-    width: 14.5rem !important;
-  }
+
   /* service */
   .service-card p {
     font-size: 0.9rem !important;
   }
+  .service-section-2 {
+    width: 90% !important;
+  }
+
+  /* contact us page */
+  .form-section {
+    height: 30vh !important;
+  }
+  .form-container {
+    width: 100% !important;
+    margin: auto !important;
+  }
+
+  /* footer page */
   .footer {
     padding: 0 auto !important;
+  }
+  .footer-bg {
+    height: 30rem !important;
+  }
+}
+
+@media (min-width: 530px) AND (max-width: 1300px) {
+  /* landing page */
+  .what-we-do-height {
+    height: 50rem !important;
+    margin-bottom: 3rem !important;
+  }
+  /* footer */
+  .footer-bg {
+    height: 30rem !important;
   }
 }
 
 /* Tablet */
-@media (min-width: 530px) AND (max-width: 654px) {
-  .idea-text {
-    left: 12rem !important;
-  }
-  .person-c {
-    right: -6.7rem !important;
-  }
-  .person-c img {
-    /* margin-right: 0rem !important; */
-    width: 14.5rem !important;
-  }
-}
-@media (min-width: 655px) AND (max-width: 782px) {
-  .idea-text {
-    left: 16rem !important;
-  }
-  .person-c {
-    right: -3rem !important;
-  }
-  .person-c img {
-    /* margin-right: 0rem !important; */
-    width: 14.5rem !important;
-  }
-  .laptop-view {
-    display: none !important;
-  }
-  .mobile-view {
-    display: block !important;
-  }
-}
-@media (min-width: 783px) AND (max-width: 884px) {
-  .idea-text {
-    left: 20rem !important;
-  }
-  .person-c {
-    right: 0.5rem !important;
-  }
-  .person-c img {
-    /* margin-right: 0rem !important; */
-    width: 14.5rem !important;
-  }
-  .bx-service {
-    width: 75% !important;
-  }
-}
-@media (min-width: 885px) AND (max-width: 999px) {
-  .idea-text {
-    left: 23rem !important;
-  }
-  .person-c {
-    right: 4rem !important;
-  }
-  .person-c img {
-    /* margin-right: 0rem !important; */
-    width: 14.5rem !important;
-  }
-}
-/* default */
-@media (min-width: 501px) AND (max-width: 991px) {
-  .laptop-view {
-    display: block !important;
-  }
-  .mobile-view {
-    display: none !important;
-  }
-  .bx-service {
-    width: 80% !important;
-  }
-  .bx-container {
+@media (min-width: 768px) AND (max-width: 1300px) {
+  .service-section-2 {
     width: 95% !important;
   }
-  .section2 {
-    height: 35rem !important;
-    margin-bottom: 3rem !important;
+  .bx-section {
+    width: 95% !important;
   }
-  .bx-contact {
-    width: 80% !important;
+  .footer-bg {
+    height: 10rem !important;
   }
-}
-
-/* Laptops */
-@media (min-width: 1000px) AND (max-width: 1099px) {
-  .idea-text {
-    left: 27rem !important;
+  .bx-container {
+    width: 100%;
+    margin: auto !important;
   }
-  .person-c {
-    right: 7rem !important;
+  .service-banner {
+    width: 98%;
+    margin: auto !important;
   }
-  .person-c img {
-    width: 14.5rem !important;
-  }
-}
-/* default */
-@media (min-width: 992px) AND (max-width: 1199px) {
-  .laptop-view {
-    display: block !important;
-  }
-  .mobile-view {
-    display: none !important;
-  }
-  .bx-service {
-    width: 85% !important;
+  .service-card{
+    height: 31rem !important;
   }
 }
 
 /* Larger screens */
-@media (min-width: 1100px) AND (max-width: 1270px) {
-  .laptop-view {
-    display: block !important;
-  }
-  .mobile-view {
-    display: none !important;
-  }
-  .idea-text {
-    left: 29rem !important;
-  }
-  .person-c {
-    right: 8.5rem !important;
-  }
-  .person-c img {
-    /* margin-right: 0rem !important; */
-    width: 15.5rem !important;
-  }
-}
-@media (min-width: 530px) {
-  .laptop-view {
-    display: block !important;
-  }
-  .mobile-view {
-    display: none !important;
-  }
-}
-/* default */
 @media (min-width: 1500px) {
-  .laptop-view {
-    display: block !important;
+  /* navbar */
+  .navbar-brand img {
+    width: 3.5rem !important;
+    height: 3.5rem !important;
   }
-  .mobile-view {
-    display: none !important;
+
+  /* fonts */
+  .nav-fs {
+    font-size: 1.4rem !important;
   }
-  .idea-text {
-    left: 52rem !important;
+  .fs-large {
+    font-size: 4.5rem !important;
   }
-  .person-c {
-    right: 14.5rem !important;
+  .fs-normal {
+    font-size: 1.6rem !important;
   }
-  .section2 {
+  .fs-medium {
+    font-size: 3rem !important;
+  }
+  .text-color3 p {
+    font-size: 1.6rem !important;
+  }
+
+  /* landing page */
+  .home-banner-img {
+    margin-left: 3rem !important;
+    height: 818px;
+    width: 669px;
+    padding: 2rem 0rem;
+  }
+  .what-we-do-height {
     height: 59rem !important;
     margin-bottom: 3rem !important;
   }
@@ -503,9 +379,6 @@ input::placeholder {
   }
   .what-we-do h6 {
     font-size: 1.4rem !important;
-  }
-  .text-color3 p {
-    font-size: 1.6rem !important;
   }
   .c-img img {
     width: 26.5rem !important;
@@ -529,18 +402,8 @@ input::placeholder {
     height: 50rem !important;
     margin-top: 5.5rem !important;
   }
-  .nav-fs {
-    font-size: 1.4rem !important;
-  }
-  .fs-large {
-    font-size: 4.5rem !important;
-  }
-  .fs-normal {
-    font-size: 1.6rem !important;
-  }
-  .fs-medium {
-    font-size: 3rem !important;
-  }
+
+  /* abot us page */
   .business img {
     width: 628px !important;
     height: 463px !important;
@@ -573,6 +436,7 @@ input::placeholder {
     width: 35rem !important;
     height: 35em !important;
   }
+
   /* contact */
   #myForm input {
     padding: 0.95rem !important;
@@ -586,6 +450,7 @@ input::placeholder {
   #myForm p {
     font-size: 1.2rem !important;
   }
+
   /* service */
   .bur-a img {
     width: 29rem !important;
@@ -609,10 +474,8 @@ input::placeholder {
   .services-elps2 img {
     margin-left: 11rem !important;
   }
-  .navbar-brand img {
-    width: 3.5rem !important;
-    height: 3.5rem !important;
-  }
+
+  /* btn */
   .btnn {
     height: 4.5rem !important;
     width: 12rem !important;
@@ -622,13 +485,7 @@ input::placeholder {
     border-radius: 0.625rem !important;
     background: #a80d10 !important;
   }
-  .btnn2 {
+  .form-btn {
     padding: 1.4rem 0 !important;
-  }
-  .home-banner-img {
-    margin-left: 3rem !important;
-    height: 818px;
-    width: 669px;
-    padding: 2rem 0rem;
   }
 }

@@ -11,7 +11,7 @@ const Section4 = () => {
       </h1>
       <p className="my-5">
         A & co consulting is an innovation driven consultancy that harnesses the
-        power of technology to provide <br className="d-none d-md-block" />
+        power of technology to provide <br className="d-none d-md-none d-lg-block" />
         sustainable and profitable solutions to clients world wide across
         various industries.
       </p>

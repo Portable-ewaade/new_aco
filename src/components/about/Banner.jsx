@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 
 const Banner = () => {
   return (
-    <section className="position-relative banner-about-height" style={{ height: "63vh" }}>
+    <section className="position-relative banner-about-height" style={{ height: "63%" }}>
       <div className="">
         <h1 className="fs-large lh-base fw-bold mb-3 mt-5 text-md-center">
           We build <br className="d-block d-md-none" /> bridges between <br className="d-none d-md-block" />

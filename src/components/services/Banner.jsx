@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 
 const Banner = () => {
   return (
-    <section className="bx-container2 mt-5 pt-md-3">
+    <section className="service-banner mt-5 pt-md-3">
       {/* laptop-view */}
       <div className="laptop-view">
         <Row>
@@ -41,14 +41,14 @@ const Banner = () => {
       {/* mobile-view */}
       <div className="mobile-view">
         <Row>
-          <Col sm={6} className="text-center">
+          <Col sm={12} className="text-center">
             <img
               src="/assets/aco-img.png"
               alt="a & co"
               style={{ width: "22rem", marginTop: "1rem" }}
             />
           </Col>
-          <Col sm={6}>
+          <Col sm={12}>
             <div className="text-center">
               <h2 className="fs-large fw-bold mb-3 mt-2">
                 Smart <br /> Solutions for complex challenges

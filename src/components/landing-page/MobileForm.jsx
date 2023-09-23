@@ -90,7 +90,7 @@ export const MobileForm = () => {
           <form className="mt-5" onSubmit={handleSubmit} ref={form} id="myForm">
             {step === 0 && (
               <>
-               <div className="mb-4">
+                <div className="mb-4">
                   <h2 className="fw-bold text-color mt-4">
                     Don’t Let Your <br />
                     Idea Stay A Dream.
@@ -157,7 +157,7 @@ export const MobileForm = () => {
                 <Row>
                   <Col md={12}>
                     <button
-                      className="text-center btnn2"
+                      className="text-center form-btn"
                       value="Send"
                       type="submit"
                       onClick={handleSubmit}
@@ -182,10 +182,12 @@ export const MobileForm = () => {
           )}
         </div>
         <div className="position-absolute top-0 start-50 translate-middle">
-          <img src="/assets/colored-circle2.png" alt="a & co" 
-          style={{ marginTop: "4.5rem" }}/>
+          <img
+            src="/assets/colored-circle2.png"
+            alt="a & co"
+            style={{ marginTop: "4.5rem" }}
+          />
         </div>
-
       </section>
     </>
   );

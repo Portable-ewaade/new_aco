@@ -5,7 +5,7 @@ import { Col, Row } from "react-bootstrap";
 const Footer = () => {
   return (
     <section className="footer-bg text-center py-5" style={{ height: "11rem" }}>
-      <Row className="bx-container ">
+      <Row className="bx-container">
         <Col md={4} className="my-2 ">
           <Link href="/">
             <img

@@ -3,7 +3,7 @@ import { Row, Col } from "react-bootstrap";
 
 const Section2 = () => {
   return (
-    <section className="bx-container pt-5" >
+    <section className="bx-container pt-md-5" >
       {/* laptop-view */}
       <div className="card border-0 rounded-5 color laptop-view" style={{ height: "82vh" }}>
         <Row className="mt-3 pt-md-4">
@@ -55,7 +55,7 @@ const Section2 = () => {
 
 
       {/* mobile-view */}
-      <div className="card border-0 rounded-5 mobile-view" style={{height: "127vh"}}>
+      <div className="card border-0 rounded-5 mobile-view" style={{height: "127%"}}>
         <Row className="mt-3 ">
           <Col md={6} className="mt-md-5 pt-md-5">
             <div className="mt-4 consultant px-3 px-md-0">
@@ -101,7 +101,7 @@ const Section2 = () => {
         </Row>
       </div>
 
-      <div className="position-absolute top-50 end-50 translate-middle blur-c about-elps laptop-view" style={{height: "7vh"}}>
+      <div className="position-absolute top-50 end-50 translate-middle about-elps laptop-view" style={{height: "7vh"}}>
         <img
           src="/assets/Ellipse3.png"
           alt="a & co"

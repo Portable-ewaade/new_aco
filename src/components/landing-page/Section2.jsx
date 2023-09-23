@@ -26,7 +26,10 @@ const Section2 = () => {
     ],
   };
   return (
-    <section className="background-bg section2" style={{ height: "82vh" }}>
+    <section
+      className="background-bg what-we-do-height"
+      style={{ height: "82vh" }}
+    >
       <div className="bx-container px-3 pt-md-3 p-md-0">
         <Row className="py-md-5 py-3">
           <Col md={6} className="text-white mt-4">
@@ -128,7 +131,7 @@ const Section2 = () => {
           </Slider>
         </div>
       </div>
-      {/* <div className="position-absolute top-100 end-0 translate-middle blur-c">
+      {/* <div className="position-absolute top-100 end-0 translate-middle ">
           <img
             src="/assets/color-c.png"
             alt="a & co"

@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 
 const Section2 = () => {
   return (
-    <section className="bx-service pt-5 pb-md-5 services">
+    <section className="service-section-2 pt-5 pb-md-5 services">
       <Row className="py-2 position-relative">
         <Col md={4}>
           <div className="card p-4 mt-md-5 service-card">
@@ -69,7 +69,7 @@ const Section2 = () => {
           </div>
         </Col>
         <div
-          className="position-absolute top-100 start-100 translate-middle blur-c pt-5 services-elps2"
+          className="position-absolute top-100 start-100 translate-middle pt-5 services-elps2"
           style={{ height: "30rem" }}
         >
           <img
@@ -79,7 +79,7 @@ const Section2 = () => {
           />
         </div>
       </Row>
-      <div className="position-absolute top-100 end-50 translate-middle blur-c services-elps" >
+      <div className="position-absolute top-100 end-50 translate-middle services-elps">
         <img
           src="/assets/Ellipse3.png"
           alt="a & co"

@@ -28,11 +28,11 @@ const Section3 = () => {
             </p>
         </Col>
       </Row>
-      <div className="position-absolute top-0 translate-middle blur-c about-blur pt-5">
+      <div className="position-absolute top-0 start-100 translate-middle about-blur pt-5">
         <img
           src="/assets/blur-a.png"
           alt="a & co"
-          style={{ width: "26rem", marginTop: "7rem", marginLeft: "-25rem" }}
+          style={{ width: "26rem", marginTop: "7rem", marginLeft: "-15rem" }}
         />
       </div>
 
@@ -80,7 +80,7 @@ const Section3 = () => {
             </Col>
           </Row>
         </Col>
-        <div className="position-absolute top-100 start-100 translate-middle blur-c pt-5 about-elps2">
+        <div className="position-absolute top-100 start-100 translate-middle pt-5 about-elps2">
           <img
             src="/assets/Ellipse4.png"
             alt="a & co"

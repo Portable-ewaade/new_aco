@@ -85,7 +85,7 @@ export const ContactUs = () => {
     <>
       {step === 0 ? <Section1 /> : ""}
 
-      <section className="bx-contact" style={{ height: "96vh" }}>
+      <section className="form-container" style={{ height: "96vh" }}>
         <div className="card px-5 border-0">
           <form className="mt-5" onSubmit={handleSubmit} ref={form} id="myForm">
             {step === 0 && (
@@ -145,16 +145,18 @@ export const ContactUs = () => {
                   />
                   <p className="fs-small">
                     By clicking on the button below, you accept our
-                    <span className="ms-1"><a href="/" className="text-color fw-bold">
-                      privacy policy
-                    </a></span>
+                    <span className="ms-1">
+                      <a href="/" className="text-color fw-bold">
+                        privacy policy
+                      </a>
+                    </span>
                   </p>
                 </div>
 
                 <Row>
                   <Col md={12}>
                     <button
-                      className="text-center btnn2"
+                      className="text-center form-btn"
                       value="Send"
                       type="submit"
                       onClick={handleSubmit}
