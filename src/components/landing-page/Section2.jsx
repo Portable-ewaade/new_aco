@@ -27,8 +27,8 @@ const Section2 = () => {
   };
   return (
     <section
-      className="background-bg what-we-do-height"
-      style={{ height: "82vh" }}
+      className="background-bg"
+      style={{ height: "100%" }}
     >
       <div className="bx-container px-3 pt-md-3 p-md-0">
         <Row className="py-md-5 py-3">
@@ -51,9 +51,10 @@ const Section2 = () => {
       {/* laptop view */}
 
       <div
-        className="bx-containe mt-4 laptop-view"
+        className=" mt-4 laptop-view"
         style={{
           width: "88%",
+          height: "140%",
           margin: "auto 0 auto auto",
           justifyContent: "flex-end",
         }}
@@ -141,7 +142,7 @@ const Section2 = () => {
 
       {/* mobile view */}
 
-      <div className="px-4 mobile-view">
+      <div className="px-4 pb-5 mobile-view">
         <div className="accordion" id="accordionExample">
           <div className="accordion-item">
             <h2 className="accordion-header" id="headingOne">

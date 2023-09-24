@@ -15,7 +15,7 @@ const Banner = () => {
             />
           </Col>
           <Col md={6}>
-            <div className="text-center">
+            <div className="text-center ms-md-4 ms-lg-0 ps-md-5 ps-lg-0">
               <h1 className=" fs-large fw-bold mb-3 mt-5">
                 Smart Solutions for <br /> complex challenges
               </h1>

@@ -70,7 +70,7 @@ const Section2 = () => {
         </Col>
         <div
           className="position-absolute top-100 start-100 translate-middle pt-5 services-elps2"
-          style={{ height: "30rem" }}
+          style={{ height: "30%" }}
         >
           <img
             src="/assets/Ellipse4.png"

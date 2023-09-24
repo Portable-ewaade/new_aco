@@ -5,7 +5,7 @@ const Section2 = () => {
   return (
     <section className="bx-container pt-md-5" >
       {/* laptop-view */}
-      <div className="card border-0 rounded-5 color laptop-view" style={{ height: "82vh" }}>
+      <div className="card border-0 rounded-5 color laptop-view" style={{ height: "82%" }}>
         <Row className="mt-3 pt-md-4">
           <Col md={6}>
             <div className="avatar">
@@ -55,7 +55,7 @@ const Section2 = () => {
 
 
       {/* mobile-view */}
-      <div className="card border-0 rounded-5 mobile-view" style={{height: "127%"}}>
+      <div className="card border-0 rounded-5 mt-5 mobile-view" style={{height: "127%"}}>
         <Row className="mt-3 ">
           <Col md={6} className="mt-md-5 pt-md-5">
             <div className="mt-4 consultant px-3 px-md-0">
@@ -85,7 +85,7 @@ const Section2 = () => {
             </div>
           </Col>
           <Col md={6}>
-            <div>
+            <div className="avatar-man">
               <img
                 src="/assets/avatar-img.png"
                 alt="a & co"

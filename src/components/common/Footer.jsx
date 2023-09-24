@@ -4,20 +4,21 @@ import { Col, Row } from "react-bootstrap";
 
 const Footer = () => {
   return (
-    <section className="footer-bg text-center py-5" style={{ height: "11rem" }}>
-      <Row className="bx-container">
+    <section className="footer text-center py-5 " style={{ height: "11%" }}>
+      <Row className="bx-container footer-container">
         <Col md={4} className="my-2 ">
           <Link href="/">
             <img
               src="/assets/logo-whitee.png"
               alt="a & co"
+              className="footer-logo"
               style={{ width: "14rem" }}
             />
           </Link>
           <br />
           <a
             href="mailto:info@theacconsulting.com"
-            className="what-we-do fs-xxsmall ps-5 mt-0 pt-0"
+            className="what-we-do fs-xxsmall ps-5 mt-0 pt-0 text-white"
           >
             info@theacconsulting.com
           </a>

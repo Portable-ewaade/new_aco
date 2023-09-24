@@ -2,7 +2,7 @@
 
 /* <div
             className="position-absolute top-0 start-100 translate-middle"
-            style={{ height: "" }}
+            style={{ borderr: "" }}
           >
             <img
               src="/assets/Ellipse4.png"
@@ -12,7 +12,7 @@
           </div> */
 /* <div
           className="position-absolute top-0 end-50 translate-middle"
-          style={{ height: "10rem" }}
+          style={{ borderr: "10rem" }}
         >
           <img
             src="/assets/Ellipse3.png"
@@ -20,7 +20,7 @@
             style={{
               marginRight: "0rem",
               marginTop: "-60rem",
-              height: "10rem",
+              borderr: "10rem",
               width: "30rem",
             }}
           />
@@ -67,7 +67,7 @@ a {
 .background-bg {
   background-color: #a80d10 !important;
 }
-.footer-bg {
+.footer {
   background-color: #58595b !important;
 }
 
@@ -113,11 +113,11 @@ a {
 
 /* landing page */
 .home-banner-img {
-  height: 540px;
+  height: 570px;
   width: 455px;
   padding: 2rem 0rem;
 }
-.what-we-do {
+.wht-card {
   color: #ababab !important;
   height: 14rem !important;
   margin: 0 1rem !important;
@@ -216,11 +216,11 @@ input::placeholder {
 @media (max-width: 529px) {
   /* body size */
   .bx-container {
-    width: 100%;
+    width: 99%;
     margin: auto !important;
   }
   .bx-section {
-    width: 100% !important;
+    width: 99% !important;
     padding: 1rem !important;
   }
   .bx-section p {
@@ -228,27 +228,27 @@ input::placeholder {
   }
 
   /* landing page */
-  .home-banner-height {
+  /* .home-banner-height {
     height: 120% !important;
-  }
+  } */
   .home-banner-img {
     width: 390px !important;
-    height: 400px !important;
+    height: 415px !important;
     padding: 1rem !important;
     margin: 1.5rem 0rem !important;
   }
-  .what-we-do-height {
-    height: 50rem !important;
-    margin-bottom: 3rem !important;
-  }
+  /* .what-we-do-borderr {
+    borderr: 50% !important;
+    margin-bottom: 0rem !important;
+  } */
   .project img {
     width: 22rem !important;
   }
 
   /* about us page*/
-  .banner-about-height {
-    height: 150% !important;
-  }
+  /* .banner-about-borderr {
+    borderr: 150% !important;
+  } */
   .banner-about-height h1 {
     font-size: 2.5rem !important;
     padding: 25px;
@@ -256,6 +256,7 @@ input::placeholder {
   .business img {
     width: 368px !important;
     height: 283px !important;
+    padding: 0.009rem;
   }
   .consultant h1 {
     font-size: 2.8rem !important;
@@ -263,7 +264,6 @@ input::placeholder {
   .about-blur img {
     width: 15rem !important;
     height: 15rem !important;
-    /* margin-left: -19rem !important; */
     margin-bottom: 4rem !important;
   }
   .vision {
@@ -285,9 +285,9 @@ input::placeholder {
   }
 
   /* contact us page */
-  .form-section {
-    height: 30vh !important;
-  }
+  /* .form-section {
+    borderr: 30vh !important;
+  } */
   .form-container {
     width: 100% !important;
     margin: auto !important;
@@ -296,34 +296,80 @@ input::placeholder {
   /* footer page */
   .footer {
     padding: 0 auto !important;
+    background-color: #58595b !important;
+
+
   }
-  .footer-bg {
-    height: 30rem !important;
-  }
+  /* .footer-bg {
+
+  } */
 }
 
 @media (min-width: 530px) AND (max-width: 1300px) {
   /* landing page */
-  .what-we-do-height {
-    height: 50rem !important;
-    margin-bottom: 3rem !important;
+  .what-we-do-borderr {
+    /* borderr: 40% !important; */
+    /* margin-bottom: 3rem !important; */
   }
   /* footer */
-  .footer-bg {
-    height: 30rem !important;
-  }
+  /* .footer-bg {
+    borderr: 30rem !important;
+  } */
 }
 
 /* Tablet */
 @media (min-width: 768px) AND (max-width: 1300px) {
+  .home-banner-img {
+    height: 570px;
+    width: 480px;
+    padding: 0rem 0rem;
+    margin-top: 3rem !important;
+  }
+  .avatar img{
+    margin-left: -10.5rem !important;
+  }
+  /* .what-we-do {
+    borderr: 23rem !important;
+  } */
+ 
+  .fs-small {
+    font-size: 0.94rem !important;
+  }
+  .fs-large {
+    font-size: 3.5rem !important;
+  }
+  .fs-normal {
+    font-size: 1.25rem !important;
+  }
+  .fs-medium {
+    font-size: 2.7rem !important;
+  }
+  .text-color3 p {
+    font-size: 1.4rem !important;
+  }
+  .wht-card {
+    color: #ababab !important;
+    height: 20rem !important;
+    width: 16rem !important;
+    margin: 0 0rem !important;
+  }
+  .project img {
+    width: 22rem !important;
+  }
   .service-section-2 {
     width: 95% !important;
+  }
+  .service-card {
+    height: 34rem !important;
   }
   .bx-section {
     width: 95% !important;
   }
-  .footer-bg {
-    height: 10rem !important;
+  /* .footer-bg {
+    borderr: 10rem !important;
+  } */
+  .bx-container{
+    width: 92% !important;
   }
   .bx-container {
     width: 100%;
@@ -334,7 +380,26 @@ input::placeholder {
     margin: auto !important;
   }
   .service-card{
-    height: 31rem !important;
+    borderr: 31rem !important;
+  }
+  .btnn {
+    height: 4rem !important;
+    width: 11rem !important;
+    padding: 1rem 1.75rem !important;
+    gap: 1rem !important;
+    flex-shrink: 0;
+    border-radius: 0.625rem !important;
+    background: #a80d10 !important;
+  }
+  .form-container {
+    width: 70% !important;
+    margin: auto !important;
+  }
+  .footer-container{
+    width: 100% !important;
+  }
+  .footer-logo{
+    width: 12rem !important;
   }
 }
 
@@ -365,17 +430,22 @@ input::placeholder {
 
   /* landing page */
   .home-banner-img {
-    margin-left: 3rem !important;
-    height: 818px;
+    height: 805px;
     width: 669px;
+    margin-top: 1rem !important;
     padding: 2rem 0rem;
   }
+   .home-banner-height {
+    height: 80vh !important;
+  }
   .what-we-do-height {
-    height: 59rem !important;
+    height: 59% !important;
     margin-bottom: 3rem !important;
   }
-  .what-we-do {
-    height: 20rem !important;
+  .wht-card  {
+    height: 23rem !important;
+    margin-bottom: 4rem !important;
+
   }
   .what-we-do h6 {
     font-size: 1.4rem !important;
@@ -399,20 +469,32 @@ input::placeholder {
     font-size: 1.4rem !important;
   }
   .our-project {
-    height: 50rem !important;
+    height: 40% !important;
     margin-top: 5.5rem !important;
   }
+  .idea-text{
+    margin-left: -10rem !important;
+  }
+  .idea-text h1{
+    font-size: 3.5rem !important;
+  }
+  .person-c{
+    margin-left: 7rem !important;
+  }
+.footer a{
+  color: #9c9a9a !important;
+}
 
   /* abot us page */
   .business img {
     width: 628px !important;
-    height: 463px !important;
+    borderr: 463px !important;
   }
-  .banner-about-height {
-    height: 68vh !important;
+  .banner-about-borderr {
+    borderr: 68vh !important;
   }
   .avatar img {
-    height: 692px !important;
+    borderr: 692px !important;
     width: 779px !important;
     margin-top: 3rem !important;
   }
@@ -434,7 +516,7 @@ input::placeholder {
   }
   .about-blur img {
     width: 35rem !important;
-    height: 35em !important;
+    borderr: 35em !important;
   }
 
   /* contact */
@@ -466,7 +548,7 @@ input::placeholder {
     font-size: 1.55rem !important;
   }
   .service-card {
-    height: 38rem !important;
+    borderr: 38rem !important;
   }
   .services-elps img {
     margin-right: 11rem !important;
