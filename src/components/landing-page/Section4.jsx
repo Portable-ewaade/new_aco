@@ -20,7 +20,7 @@ const Section4 = () => {
         <Row className=" mt-5">
           <Col md={3} className="">
             <img
-              src="/assets/icon-3.png"
+              src="/assets/Icon-3.png"
               alt="a & co"
               style={{
                 width: "3.5rem",
@@ -36,7 +36,7 @@ const Section4 = () => {
           </Col>
           <Col md={3} className="mb-3 mb-md-0">
             <img
-              src="/assets/icon-2.png"
+              src="/assets/Icon-2.png"
               alt="a & co"
               style={{
                 width: "3.5rem",
@@ -52,7 +52,7 @@ const Section4 = () => {
           </Col>
           <Col md={3} className="mb-3 mb-md-0">
             <img
-              src="/assets/icon-1.png"
+              src="/assets/Icon-1.png"
               alt="a & co"
               style={{
                 width: "3.5rem",
@@ -68,7 +68,7 @@ const Section4 = () => {
           </Col>
           <Col md={3} className="mb-3 mb-md-0">
             <img
-              src="/assets/icon-3.png"
+              src="/assets/Icon-3.png"
               alt="a & co"
               style={{
                 width: "3.5rem",
