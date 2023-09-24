@@ -12,7 +12,7 @@ export default function Document() {
       ></script>
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-<script src="owl.carousel.min.js"></script>
+{/* <script src="owl.carousel.min.js"></script> */}
     </Html>
   )
 }

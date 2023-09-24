@@ -1,60 +1,54 @@
 import React from "react";
-// import { Col, Row } from "react-bootstrap";
+import MobileForm from "./MobileForm";
 
 const Section6 = () => {
   return (
-
-    <section  
-    style={{
-      backgroundImage: "url('/assets/card-img.png')",
-      backgroundRepeat: 'no-repeat',
-      backgroundSize: 'cover',
-      backgroundPosition: 'center',
-      height: "26rem",
-      position: "relative",
-      
-    }}>
-      <div className="position-absolute top-50 translate-middle blur-c"> 
-        <img src="/assets/person-c.png" alt="a & co"
-        style={{width: "18rem", marginRight: "13.4rem", marginBottom: "2rem"}} />
-      </div>
-
-        <div className="position-absolute top-50 translate-middle"
-        style={{ marginLeft: "35rem" }} >
-          <h3 className="fw-bold text-color ">
+    <>
+      {/* laptop view */}
+      <section
+        style={{
+          backgroundImage: "url('/assets/card-img.png')",
+          backgroundRepeat: "no-repeat",
+          backgroundSize: "cover",
+          backgroundPosition: "center",
+          height: "33rem",
+          position: "relative",
+        }}
+        className="laptop-view"
+      >
+        <div
+          className="position-absolute top-50 start-50 translate-middle idea-text"
+          style={{ marginLeft: "-8rem" }}
+        >
+          <h1
+            className="text-color"
+            style={{ fontSize: "2.3rem", fontWeight: "600" }}
+          >
             Don’t Let Your <br />
             Idea Stay A Dream.
-          </h3>
-          <button className="btn btnn1 fs-small text-center mt-2">
-          Contact
-        </button>
+          </h1>
+          <button className="btnn fs-normal text-center mt-2">
+            <a href="/contact" className="text-white ">
+              Contact Us
+            </a>
+          </button>
         </div>
+        <div className="position-absolute top-50 start-50 translate-middle person-c">
+          <img
+            src="/assets/person-c.png"
+            alt="a & co"
+            style={{
+              width: "23rem",
+              marginLeft: "30rem",
+              marginBottom: "6.5rem",
+            }}
+          />
+        </div>
+      </section>
 
-    </section>
-
-
-       
-      
-
-
-
-    // <section className="background-bg" style={{ height: "22rem" }}>
-    //   <div className="bx-section4">
-    //     <Row className="py-5 ">
-    //       <Col  className="text-white mt-4">
-    //         <div className="" >
-    //           <h4 className="fw-bold text-color ">
-    //             Don’t Let Your <br />
-    //             Idea Stay A Dream.
-    //           </h4>
-    //           <button className="btn btnn1 fs-small text-center mt-2">
-    //           Contact
-    //         </button>
-    //         </div>
-    //       </Col>
-    //     </Row>
-    //   </div>
-    // </section>
+      {/* mobile view */}
+      <MobileForm />
+    </>
   );
 };
 
