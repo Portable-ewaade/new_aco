@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <section className="footer text-center py-5 " style={{ height: "11%" }}>
       <Row className="bx-container footer-container">
-        <Col md={4} className="my-2 ">
+        <Col md={3} lg={4} className="my-2 ">
           <Link href="/">
             <img
               src="/assets/logo-whitee.png"
@@ -18,13 +18,13 @@ const Footer = () => {
           <br />
           <a
             href="mailto:info@theacconsulting.com"
-            className="what-we-do fs-xxsmall ps-5 mt-0 pt-0 text-white"
+            className="fs-xsmall ps-5 mt-0 pt-0 text-white"
           >
             info@theacconsulting.com
           </a>
         </Col>
 
-        <Col md={5} className="my-2 ">
+        <Col md={6} lg={5} className="my-2 ">
           <div className="text-white nav-fs">
             <Row>
               <Col md={4} className="my-4 my-md-1">
@@ -46,7 +46,7 @@ const Footer = () => {
           </div>
         </Col>
 
-        <Col md={3} className="my-2">
+        <Col md={3} lg={3} className="my-2">
           <a href="/" className="mx-md-1 mx-3">
             <img
               src="/assets/facebook-icon.png"

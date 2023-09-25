@@ -7,8 +7,8 @@ const banner = () => {
   return (
     <section className="bx-container pt-4 pb-5 mt-5 mt-md-0 home-banner-height">
       <Row className="mt-3">
-        <Col md={6} className="mt-md-5 pt-lg-5 ms-3 ms-md-0">
-          <div className="mt-4">
+        <Col md={6} className="mt-md-5 pt-lg-5 ms- ms-md-0">
+          <div className="mt-5 mt-md-4 pt-4 pt-md-0">
             <h1 className="fw-bold lh-sm fs-large">
               Think, <br className="d-block d-md-none" /> Transform <br /> and
               Build <br />
@@ -37,12 +37,12 @@ const banner = () => {
             </div>
           </div>
         </Col>
-        <Col md={6}>
+        <Col md={6} className="p-0">
           <div>
             <img
               src="/assets/banner-img2.png"
               alt="a & co"
-              className="home-banner-img pe-md-5 pe-lg-0" 
+              className="home-banner-img pe-md-5 pe-lg-0 " 
             />
           </div>
         </Col>

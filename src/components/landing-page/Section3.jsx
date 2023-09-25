@@ -18,12 +18,12 @@ const Section3 = () => {
           </Link>
 
           <Row>
-            <Col sm={12} md={9} lg={8}  style={{marginRight: "auto", marginLeft: "auto"}}>
+            <Col sm={12} md={9} lg={8} className="p-0" style={{marginRight: "auto", marginLeft: "auto"}}>
               <Row className="project mt-3
               ">
                 <Col
                   md={5}
-                  className="mb-4 mb-md-0 py-md-3 py-2 px-3 px-md-0 me-md-5"
+                  className="mb-3 mb-md-0 py-md-3 py-2 px-3 px-md-0 me-md-5"
                 >
                   <img
                     src="/assets/pathway-img.png"

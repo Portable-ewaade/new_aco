@@ -1,35 +1,21 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css";
-import "slick-carousel/slick/slick-theme.css";
 
 const Section2 = () => {
   const sliderSettings = {
+    infinite: true,
     slidesToShow: 4,
+    pauseOnHover: false,
     slidesToScroll: 1,
     autoplay: true,
-    autoplaySpeed: 1200,
-    responsive: [
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 520,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-    ],
+    speed: 2000,
+    autoplaySpeed: 2000,
+    cssEase: "linear",
   };
+
   return (
-    <section
-      className="background-bg"
-      style={{ height: "100%" }}
-    >
+    <section className="background-bg" style={{ height: "100%" }}>
       <div className="bx-container px-3 pt-md-3 p-md-0">
         <Row className="py-md-5 py-3">
           <Col md={6} className="text-white mt-4">
@@ -51,7 +37,7 @@ const Section2 = () => {
       {/* laptop view */}
 
       <div
-        className=" mt-4 laptop-view"
+        className=" mt-4 laptop-view myslide"
         style={{
           width: "88%",
           height: "140%",
@@ -61,8 +47,8 @@ const Section2 = () => {
       >
         <div className="partner-logos slider py-5">
           <Slider {...sliderSettings}>
-            <Col md={3} className="slide logo">
-              <div className="card rounded-4 wht-card p-4 what-we-do">
+            <Col md={3} className="slide">
+              <div className="card rounded-4 wht-card p-4  ">
                 <h6 className="fw-bold mt-md-2 mb-md-4">
                   Software Development
                 </h6>
@@ -73,8 +59,8 @@ const Section2 = () => {
                 </p>
               </div>
             </Col>
-            <Col md={3} className="slide logo">
-              <div className="card rounded-4 wht-card p-4 what-we-do">
+            <Col md={3} className="slide">
+              <div className="card rounded-4 wht-card p-4  ">
                 <h6 className="fw-bold mt-md-2 mb-md-4">Cloud Migration</h6>
                 <p className="fs-normal">
                   Take your business to the next level with reliable, scalable
@@ -83,8 +69,8 @@ const Section2 = () => {
                 </p>
               </div>
             </Col>
-            <Col md={3} className="slide logo">
-              <div className="card rounded-4 wht-card p-4 what-we-do">
+            <Col md={3} className="slide">
+              <div className="card rounded-4 wht-card p-4  ">
                 <h6 className="fw-bold mt-md-2 mb-md-4">
                   Product Design and Branding
                 </h6>
@@ -95,8 +81,8 @@ const Section2 = () => {
                 </p>
               </div>
             </Col>
-            <Col md={3} className="slide logo">
-              <div className="card rounded-4 wht-card p-4 what-we-do">
+            <Col md={3} className="slide">
+              <div className="card rounded-4 wht-card p-4  ">
                 <h6 className="fw-bold mt-md-2 mb-md-4">
                   Dedicated Team Building
                 </h6>
@@ -107,8 +93,8 @@ const Section2 = () => {
                 </p>
               </div>
             </Col>
-            <Col md={3} className="slide logo">
-              <div className="card rounded-4 wht-card p-4 what-we-do">
+            <Col md={3} className="slide">
+              <div className="card rounded-4 wht-card p-4  ">
                 <h6 className="fw-bold mt-md-2 mb-md-4">
                   Business Development & Strategy
                 </h6>
@@ -119,8 +105,8 @@ const Section2 = () => {
                 </p>
               </div>
             </Col>
-            <Col md={3} className="slide logo">
-              <div className="card rounded-4 wht-card p-4 what-we-do">
+            <Col md={3} className="slide">
+              <div className="card rounded-4 wht-card p-4  ">
                 <h6 className="fw-bold mt-md-2 mb-md-4">Data Analytics</h6>
                 <p className="fs-normal">
                   Take your business to the next level with reliable, scalable

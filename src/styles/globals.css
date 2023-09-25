@@ -49,6 +49,10 @@ a {
   width: 80%;
   margin: auto !important;
 }
+.nav-container {
+  width: 80%;
+  margin: auto !important;
+}
 .bx-section {
   width: 70%;
   margin: auto !important;
@@ -72,6 +76,9 @@ a {
 }
 
 /* fonts and letter space */
+.fs-xsmall {
+  font-size: 0.75em !important;
+}
 .fs-small {
   font-size: 0.78rem !important;
 }
@@ -120,7 +127,7 @@ a {
 .wht-card {
   color: #ababab !important;
   height: 14rem !important;
-  margin: 0 1rem !important;
+  margin: 0 0.5rem !important;
 }
 .wht-card:hover {
   color: #000 !important;
@@ -216,11 +223,17 @@ input::placeholder {
 @media (max-width: 529px) {
   /* body size */
   .bx-container {
-    width: 99%;
+    width: 94%;
     margin: auto !important;
   }
+  .nav-container {
+    width: 100%;
+    margin: auto !important;
+    position: fixed;
+    top: 0% !important;
+  }
   .bx-section {
-    width: 99% !important;
+    width: 100% !important;
     padding: 1rem !important;
   }
   .bx-section p {
@@ -237,7 +250,7 @@ input::placeholder {
     padding: 1rem !important;
     margin: 1.5rem 0rem !important;
   }
-  /* .what-we-do-borderr {
+  /* . -borderr {
     borderr: 50% !important;
     margin-bottom: 0rem !important;
   } */
@@ -297,41 +310,31 @@ input::placeholder {
   .footer {
     padding: 0 auto !important;
     background-color: #58595b !important;
-
-
   }
   /* .footer-bg {
 
-  } */
-}
-
-@media (min-width: 530px) AND (max-width: 1300px) {
-  /* landing page */
-  .what-we-do-borderr {
-    /* borderr: 40% !important; */
-    /* margin-bottom: 3rem !important; */
-  }
-  /* footer */
-  /* .footer-bg {
-    borderr: 30rem !important;
   } */
 }
 
 /* Tablet */
-@media (min-width: 768px) AND (max-width: 1300px) {
+@media (min-width: 700px) AND (max-width: 1300px) {
   .home-banner-img {
     height: 570px;
     width: 480px;
     padding: 0rem 0rem;
     margin-top: 3rem !important;
   }
-  .avatar img{
+  .avatar img {
     margin-left: -10.5rem !important;
   }
-  /* .what-we-do {
-    borderr: 23rem !important;
-  } */
- 
+  .nav-container {
+    width: 90%;
+    margin: auto !important;
+  }
+  .myslide {
+    width: 100% !important;
+  }
+
   .fs-small {
     font-size: 0.94rem !important;
   }
@@ -350,8 +353,12 @@ input::placeholder {
   .wht-card {
     color: #ababab !important;
     height: 20rem !important;
-    width: 16rem !important;
+    width: 12rem !important;
+    padding: 0rem !important;
     margin: 0 0rem !important;
+  }
+  .wht-card p {
+    font-size: 1rem !important;
   }
   .project img {
     width: 22rem !important;
@@ -368,7 +375,7 @@ input::placeholder {
   /* .footer-bg {
     borderr: 10rem !important;
   } */
-  .bx-container{
+  .bx-container {
     width: 92% !important;
   }
   .bx-container {
@@ -379,9 +386,7 @@ input::placeholder {
     width: 98%;
     margin: auto !important;
   }
-  .service-card{
-    borderr: 31rem !important;
-  }
+
   .btnn {
     height: 4rem !important;
     width: 11rem !important;
@@ -395,10 +400,10 @@ input::placeholder {
     width: 70% !important;
     margin: auto !important;
   }
-  .footer-container{
+  .footer-container {
     width: 100% !important;
   }
-  .footer-logo{
+  .footer-logo {
     width: 12rem !important;
   }
 }
@@ -435,19 +440,15 @@ input::placeholder {
     margin-top: 1rem !important;
     padding: 2rem 0rem;
   }
-   .home-banner-height {
+  .home-banner-height {
     height: 80vh !important;
   }
-  .what-we-do-height {
-    height: 59% !important;
-    margin-bottom: 3rem !important;
-  }
-  .wht-card  {
+
+  .wht-card {
     height: 23rem !important;
     margin-bottom: 4rem !important;
-
   }
-  .what-we-do h6 {
+  .wht-card h6 {
     font-size: 1.4rem !important;
   }
   .c-img img {
@@ -472,18 +473,18 @@ input::placeholder {
     height: 40% !important;
     margin-top: 5.5rem !important;
   }
-  .idea-text{
+  .idea-text {
     margin-left: -10rem !important;
   }
-  .idea-text h1{
+  .idea-text h1 {
     font-size: 3.5rem !important;
   }
-  .person-c{
+  .person-c {
     margin-left: 7rem !important;
   }
-.footer a{
-  color: #9c9a9a !important;
-}
+  .footer a {
+    color: #9c9a9a !important;
+  }
 
   /* abot us page */
   .business img {
