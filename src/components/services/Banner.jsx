@@ -39,7 +39,7 @@ const Banner = () => {
       </div>
 
       {/* mobile-view */}
-      <div className="mobile-view">
+      <div className="mobile-view" style={{marginTop: "7rem"}}>
         <Row>
           <Col sm={12} className="text-center">
             <img

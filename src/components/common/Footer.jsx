@@ -1,6 +1,7 @@
 import Link from "next/link";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import { BsArrowUpCircle } from "react-icons/bs";
 
 const Footer = () => {
   return (
@@ -70,6 +71,12 @@ const Footer = () => {
           </a>
         </Col>
       </Row>
+      <Link
+        href="#"
+        class="position-absolute position-fixed bottom-0 end-0 top-25 mx-4 my-3 arrow-up"
+      >
+        <h1>< BsArrowUpCircle /></h1>
+      </Link >
     </section>
   );
 };

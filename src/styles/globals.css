@@ -74,6 +74,9 @@ a {
 .footer {
   background-color: #58595b !important;
 }
+.arrow-up{
+  color: #a80d10 !important;
+}
 
 /* fonts and letter space */
 .fs-xsmall {
@@ -239,29 +242,18 @@ input::placeholder {
   .bx-section p {
     font-size: 1rem !important;
   }
-
-  /* landing page */
-  /* .home-banner-height {
-    height: 120% !important;
-  } */
   .home-banner-img {
     width: 390px !important;
     height: 415px !important;
     padding: 1rem !important;
     margin: 1.5rem 0rem !important;
   }
-  /* . -borderr {
-    borderr: 50% !important;
-    margin-bottom: 0rem !important;
-  } */
   .project img {
     width: 22rem !important;
   }
-
-  /* about us page*/
-  /* .banner-about-borderr {
-    borderr: 150% !important;
-  } */
+  .banner-about-height{
+    margin-top: 7rem !important;
+  }
   .banner-about-height h1 {
     font-size: 2.5rem !important;
     padding: 25px;
@@ -283,10 +275,8 @@ input::placeholder {
     margin-top: 0rem !important;
     margin-left: 0rem !important;
   }
-
   .c-img {
     display: none !important;
-    /* nonnnnnnnn */
   }
 
   /* service */
@@ -296,14 +286,8 @@ input::placeholder {
   .service-section-2 {
     width: 90% !important;
   }
-
-  /* contact us page */
-  /* .form-section {
-    borderr: 30vh !important;
-  } */
   .form-container {
     width: 100% !important;
-    margin: auto !important;
   }
 
   /* footer page */
@@ -311,9 +295,6 @@ input::placeholder {
     padding: 0 auto !important;
     background-color: #58595b !important;
   }
-  /* .footer-bg {
-
-  } */
 }
 
 /* Tablet */
@@ -372,9 +353,6 @@ input::placeholder {
   .bx-section {
     width: 95% !important;
   }
-  /* .footer-bg {
-    borderr: 10rem !important;
-  } */
   .bx-container {
     width: 92% !important;
   }
@@ -386,7 +364,6 @@ input::placeholder {
     width: 98%;
     margin: auto !important;
   }
-
   .btnn {
     height: 4rem !important;
     width: 11rem !important;
@@ -443,7 +420,6 @@ input::placeholder {
   .home-banner-height {
     height: 80vh !important;
   }
-
   .wht-card {
     height: 23rem !important;
     margin-bottom: 4rem !important;
