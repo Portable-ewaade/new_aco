@@ -1,6 +1,7 @@
 import { Footer, Navbar } from '@/components/common'
 import { Banner, Section2, Section3, Section4, Section5, Section6 } from '@/components/landing-page'
 import Head from 'next/head'
+import Cookies from '../components/landing-page/Cookies'
 
 export default function Home() {
   return (
@@ -19,6 +20,7 @@ export default function Home() {
       <Section4 />
       <Section5 />
       <Section6 />
+      <Cookies />
       <Footer/>
     </>
   )

@@ -73,7 +73,7 @@ const Footer = () => {
       </Row>
       <Link
         href="#"
-        class="position-absolute position-fixed bottom-0 end-0 top-25 mx-4 my-3 arrow-up"
+        className="position-absolute position-fixed bottom-0 end-0 top-25 mx-4 my-3 arrow-up"
       >
         <h1>< BsArrowUpCircle /></h1>
       </Link >

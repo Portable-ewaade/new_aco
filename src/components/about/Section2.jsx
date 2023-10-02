@@ -3,7 +3,7 @@ import { Row, Col } from "react-bootstrap";
 
 const Section2 = () => {
   return (
-    <section className="bx-container pt-md-5" >
+    <section className="bx-container pt-md-5 consultants" >
       {/* laptop-view */}
       <div className="card border-0 rounded-5 color laptop-view" style={{ height: "82%" }}>
         <Row className="mt-3 pt-md-4">

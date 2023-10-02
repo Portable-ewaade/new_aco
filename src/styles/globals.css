@@ -57,6 +57,52 @@ a {
   width: 70%;
   margin: auto !important;
 }
+/* cookies */
+
+.cookies-container{
+    background-color: #ffff !important;
+    width: 80% !important;
+    margin: 20px 7% !important;
+    border-radius: 15px !important;
+}
+
+.cookies-btn{
+  border: 1px solid #a80d10;
+  padding: 0.8rem 1rem !important;
+  border-radius: 0.625rem !important;
+  color: #a80d10 !important;
+  font-size: 13px !important;
+  font-weight: 500;
+  margin-left: 20px;
+}
+.cookies-btn2{
+  background-color: #a80d10 !important;
+  padding: 0.8rem 1rem !important;
+  border-radius: 0.625rem !important;
+  color: #fff !important;
+  font-size: 13px !important;
+  font-weight: 500;
+  margin: auto !important;
+}
+.cookies-btn2-wrappper{
+  margin: auto !important;
+}
+.bounce-in {
+  animation: bounce-in 3s ease-in-out;
+}
+@keyframes bounce-in {
+  0% {
+    opacity: 0;
+    transform: scale(.3);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.05);
+  }
+  70% { transform: scale(.9); }
+  100% { transform: scale(1); }
+}
+
 
 /* colors */
 .text-color {
@@ -181,7 +227,7 @@ input::placeholder {
 /* button */
 .btnn {
   height: 3.2rem !important;
-  width: 9.25rem !important;
+  width: 9.28rem !important;
   padding: 0.8rem 1.75rem !important;
   gap: 1rem !important;
   flex-shrink: 0;
@@ -224,6 +270,23 @@ input::placeholder {
 
 /* Mobile: */
 @media (max-width: 529px) {
+  .cookies-container{
+    background-color: #ffff !important;
+    width: 90% !important;
+    margin: 20px 5% !important;
+    border-radius: 15px !important;
+ 
+}
+
+.cookies img{
+  margin-bottom: 20px !important;
+ }
+.cookies-btn{
+ margin-left: 0px !important;
+}
+.cookies-btn2{
+  padding: 0.8rem 3.2rem !important;
+}
   /* body size */
   .bx-container {
     width: 94%;
@@ -299,6 +362,29 @@ input::placeholder {
 
 /* Tablet */
 @media (min-width: 700px) AND (max-width: 1300px) {
+  .cookies-container{
+    background-color: #ffff !important;
+    width: 95% !important;
+    margin: 20px 2.5% !important;
+    border-radius: 15px !important;
+ 
+}
+.cookies p {
+  font-size: 10px !important;
+}
+.cookies img{
+  margin-bottom: 20px !important;
+  width: 100px !important;
+  height: 100px !important;
+ }
+.cookies-btn{
+ margin-left: -10px !important;
+ font-size: 9px !important;
+}
+.cookies-btn2{
+  padding: 0.8rem 1rem !important;
+
+}
   .home-banner-img {
     height: 570px;
     width: 480px;
@@ -389,7 +475,7 @@ input::placeholder {
 @media (min-width: 1500px) {
   /* navbar */
   .navbar-brand img {
-    width: 3.5rem !important;
+    width: 3.6rem !important;
     height: 3.5rem !important;
   }
 
@@ -435,6 +521,7 @@ input::placeholder {
   }
   .project img {
     width: 28rem !important;
+    margin: 20px !important;
   }
   .logo img {
     width: 10rem !important;
@@ -465,13 +552,16 @@ input::placeholder {
   /* abot us page */
   .business img {
     width: 628px !important;
-    borderr: 463px !important;
+    height: 463px !important;
   }
   .banner-about-borderr {
-    borderr: 68vh !important;
+    height: 70% !important;
+  }
+  .consultants{
+    height: 90vh !important;
   }
   .avatar img {
-    borderr: 692px !important;
+    height: 692px !important;
     width: 779px !important;
     margin-top: 3rem !important;
   }
@@ -493,7 +583,7 @@ input::placeholder {
   }
   .about-blur img {
     width: 35rem !important;
-    borderr: 35em !important;
+    height: 35em !important;
   }
 
   /* contact */
@@ -525,7 +615,7 @@ input::placeholder {
     font-size: 1.55rem !important;
   }
   .service-card {
-    borderr: 38rem !important;
+    height: 39rem !important;
   }
   .services-elps img {
     margin-right: 11rem !important;
@@ -537,14 +627,36 @@ input::placeholder {
   /* btn */
   .btnn {
     height: 4.5rem !important;
-    width: 12rem !important;
+    width: 12.3rem !important;
     padding: 1rem 1.75rem !important;
     gap: 1rem !important;
     flex-shrink: 0;
     border-radius: 0.625rem !important;
     background: #a80d10 !important;
   }
+  .arrow-up h1{
+    color: #a80d10 !important;
+  }
   .form-btn {
     padding: 1.4rem 0 !important;
   }
+  .cookies p {
+    font-size: 20px !important;
+  }
+  .cookies h5 {
+    font-size: 30px !important;
+  }
+  .cookies-btn{
+  padding: 1rem !important;
+  font-size: 17px !important;
+  margin-left: 50px;
+}
+.cookies-btn2{
+  padding: 1rem !important;
+  font-size: 17px !important;
+}
+.cookies img{
+ width: 160px !important;
+ height: 160px !important;
+}
 }

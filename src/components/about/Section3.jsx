@@ -3,7 +3,7 @@ import { Col, Row } from "react-bootstrap";
 
 const Section3 = () => {
   return (
-    <section className="bx-section mt-5 pt-md-3 pt-5 position-relative ">
+    <section className="bx-section mt-5 pt-md-3 pt-5 position-relative">
       <Row className=" mt-5 mt-md-0 pt-5 pt-md-0 about-mission">
         <Col md={6} className="my-3">
           <div className="d-flex">

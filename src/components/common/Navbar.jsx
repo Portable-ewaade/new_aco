@@ -11,7 +11,7 @@ const Navbar = () => {
             <img
               src="/assets/color-logo-img.png"
               alt="a & co"
-              className="img-fluid mt-2"
+              className=" mt-2"
               style={{ width: "2.875rem", height: "2.625rem" }}
             />
           </Link>
