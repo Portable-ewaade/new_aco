@@ -273,6 +273,7 @@ input::placeholder {
   .cookies-container{
     background-color: #ffff !important;
     width: 90% !important;
+    padding: 20px 0 !important;
     margin: 20px 5% !important;
     border-radius: 15px !important;
  
@@ -286,6 +287,10 @@ input::placeholder {
 }
 .cookies-btn2{
   padding: 0.8rem 3.2rem !important;
+}
+.cookies p {
+  font-size: 18px !important;
+  margin-bottom: 30px !important;
 }
 
   /* body size */
