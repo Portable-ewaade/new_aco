@@ -9,7 +9,7 @@ const CookieAccept = () => {
       <CookieConsent
         location="bottom"
         hideOnAccept
-        // visible="byCookieValue"
+        visible="byCookieValue"
         overlay
         cookieName="acoCookies"
         cookieValue= "This user accepted"
