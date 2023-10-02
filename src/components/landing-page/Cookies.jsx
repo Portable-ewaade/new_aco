@@ -9,11 +9,11 @@ const CookieAccept = () => {
       <CookieConsent
         location="bottom"
         hideOnAccept
-        visible="byCookieValue"
+        visible="show"
         overlay
         cookieName="acoCookies"
         cookieValue= "This user accepted"
-        containerClasses="cookies-container bounce-in p-3"
+        containerClasses="cookies-container bounce-in p-md-3 "
         buttonClasses='cookies-btn2'
         buttonWrapperClasses='cookies-btn2-wrappper'
         expires={450}
