@@ -7,13 +7,10 @@ const CookieAccept = () => {
   return (
     <div className="cookies">
       <CookieConsent
-        // flipButtons='true'
         location="bottom"
         hideOnAccept
-        // visible="byCookieValue"
+        visible="byCookieValue"
         overlay
-        // hideOnAccept
-        // buttonText="I understand"
         cookieName="acoCookies"
         cookieValue= "This user accepted"
         containerClasses="cookies-container bounce-in p-3"
@@ -30,7 +27,7 @@ const CookieAccept = () => {
               height="115px"
               className="ms-"
             />
-          </Col>
+          </Col> 
           <Col md={8}>
             <h5 className="fw-semibold text-black">Cookie</h5>
             <p className="fs-normal text-black">
