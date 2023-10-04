@@ -1,11 +1,42 @@
-import React from "react";
+import React, { useEffect } from "react";
 import { Row, Col } from "react-bootstrap";
 
 const Section2 = () => {
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const header = document.querySelector(".page-header");
+  //     const toggleClass = "is-sticky";
+
+  //     if (header) {
+  //       const currentScroll = window.pageYOffset;
+
+  //       // Conditionally apply the class based on screen size (e.g., when the screen width is greater than 768px)
+  //       if (currentScroll > 750 && window.innerWidth > 768) {
+  //         header.classList.add(toggleClass);
+  //       }
+  //       if (currentScroll > 950 && window.innerWidth < 768) {
+  //         header.classList.add(toggleClass);
+  //       } else {
+  //         header.classList.remove(toggleClass);
+  //       }
+  //     }
+  //   };
+
+    // window.addEventListener("scroll", handleScroll);
+
+    // Clean up the event listener when the component unmounts
+  //   return () => {
+  //     window.removeEventListener("scroll", handleScroll);
+  //   };
+  // }, []);
+  
   return (
-    <section className="bx-container pt-md-5 consultants" >
+    <section className="bx-container pt-md-5 consultants">
       {/* laptop-view */}
-      <div className="card border-0 rounded-5 color laptop-view" style={{ height: "82%" }}>
+      <div
+        className="card border-0 rounded-5 color laptop-view"
+        style={{ height: "82%" }}
+      >
         <Row className="mt-3 pt-md-4">
           <Col md={6}>
             <div className="avatar">
@@ -16,9 +47,8 @@ const Section2 = () => {
                   height: "552px",
                   width: "639px",
                   padding: "2.5rem",
-                  marginLeft: "-2.5rem"
+                  marginLeft: "-2.5rem",
                 }}
-               
               />
             </div>
           </Col>
@@ -52,10 +82,11 @@ const Section2 = () => {
         </Row>
       </div>
 
-
-
       {/* mobile-view */}
-      <div className="card border-0 rounded-5 mt-5 mobile-view" style={{height: "127%"}}>
+      <div
+        className="card border-0 rounded-5 mt-5 mobile-view"
+        style={{ height: "127%" }}
+      >
         <Row className="mt-3 ">
           <Col md={6} className="mt-md-5 pt-md-5">
             <div className="mt-4 consultant px-3 px-md-0">
@@ -94,14 +125,16 @@ const Section2 = () => {
                   width: "24rem",
                   padding: "0",
                 }}
-               
               />
             </div>
           </Col>
         </Row>
       </div>
 
-      <div className="position-absolute top-50 end-50 translate-middle about-elps laptop-view" style={{height: "7vh"}}>
+      <div
+        className="position-absolute top-50 end-50 translate-middle about-elps laptop-view"
+        style={{ height: "7vh" }}
+      >
         <img
           src="/assets/Ellipse3.png"
           alt="a & co"

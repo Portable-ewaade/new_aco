@@ -1,10 +1,35 @@
 import Link from "next/link";
-import React from "react";
+import React, { useEffect } from "react";
 import { Col, Row } from "react-bootstrap";
 
 const Section3 = () => {
+  useEffect(() => {
+    const handleScroll = () => {
+      const header = document.querySelector('.page2-header');
+      const toggleClass = 'is-stickyy';
+
+      if (header) {
+        const currentScroll = window.pageYOffset;
+        if (currentScroll > 1200) {
+          header.classList.add(toggleClass);
+        } else {
+          header.classList.remove(toggleClass);
+        }
+      }
+    };
+
+    window.addEventListener('scroll', handleScroll);
+
+    // Clean up the event listener when the component unmounts
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
+  
   return (
-    <section className="position-relative our-project">
+  
+    <section className="page2-header our-project">
       <div className="bx-section text-center">
         <h1 className="fs-large fw-bold mb-3 mt-md-5 ">Our Projects</h1>
         <p className="fs-normal">
