@@ -3,6 +3,8 @@ import { Col, Row } from "react-bootstrap";
 
 const Section4 = () => {
   return (
+    <section className="home-kickoff">
+
     <div className="bx-section text-center mt-5 pt-md-5 pt-2 steps">
       <h1 className="fs-large fw-bold mb-3 mt-4 px-2">
         Let's kick off your <br className="d-none d-md-block"/>
@@ -87,6 +89,7 @@ const Section4 = () => {
       <div>
       </div>
     </div>
+    </section>
   );
 };
 

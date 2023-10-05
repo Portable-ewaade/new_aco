@@ -26,6 +26,8 @@ const Section5 = () => {
   };
 
   return (
+    <section className="home-greatbrand">
+
     <div className="bx-section text-center mt-3 mt-md-0 pt-5 pb-5">
       <h1 className="fs-large fw-bold mt-md-5 pt-md-5">
         Great brands <br />
@@ -92,6 +94,7 @@ const Section5 = () => {
         </Slider>
       </div>
     </div>
+    </section>
   );
 };
 

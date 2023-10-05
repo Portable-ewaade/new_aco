@@ -1,45 +1,57 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import TrackVisibility from "react-on-screen";
 
 const Banner = () => {
   return (
     <section className="service-banner mt-5 pt-md-3">
       {/* laptop-view */}
-      <div className="laptop-view">
-        <Row>
-          <Col md={3} className="bur-a">
-            <img
-              src="/assets/blur-a.png"
-              alt="a & co"
-              style={{ width: "21.5rem", marginTop: "2rem" }}
-            />
-          </Col>
-          <Col md={6}>
-            <div className="text-center ms-md-4 ms-lg-0 ps-md-5 ps-lg-0">
-              <h1 className=" fs-large fw-bold mb-3 mt-5">
-                Smart Solutions for <br /> complex challenges
-              </h1>
-              <p className="fs-normal mt-md-4 fw-medium px-3 px-md-0">
-                We understand that modern technology challenges are
-                multi-dimensional and require a holistic approach. At A&Co, we
-                bring a unique blend of industry expertise, technical skills,
-                and business acumen to help you solve your most complex
-                challenges and identify new opportunities for growth.
-              </p>
+      <TrackVisibility>
+        {({ isVisible }) => (
+          <div
+            className={
+              isVisible ? " animate__animated animate__fadeIn inner" : ""
+            }
+          >
+            <div className="laptop-view">
+              <Row>
+                <Col md={3} className="bur-a">
+                  <img
+                    src="/assets/blur-a.png"
+                    alt="a & co"
+                    style={{ width: "21.5rem", marginTop: "2rem" }}
+                  />
+                </Col>
+                <Col md={6}>
+                  <div className="text-center ms-md-4 ms-lg-0 ps-md-5 ps-lg-0">
+                    <h1 className=" fs-large fw-bold mb-3 mt-5">
+                      Smart Solutions for <br /> complex challenges
+                    </h1>
+                    <p className="fs-normal mt-md-4 fw-medium px-3 px-md-0">
+                      We understand that modern technology challenges are
+                      multi-dimensional and require a holistic approach. At
+                      A&Co, we bring a unique blend of industry expertise,
+                      technical skills, and business acumen to help you solve
+                      your most complex challenges and identify new
+                      opportunities for growth.
+                    </p>
+                  </div>
+                </Col>
+                <Col md={3} className="bur-c">
+                  <img
+                    src="/assets/blur-c1.png"
+                    alt="a & co"
+                    style={{ width: "16rem", marginTop: "0.5rem" }}
+                  />
+                </Col>
+              </Row>
             </div>
-          </Col>
-          <Col md={3} className="bur-c">
-            <img
-              src="/assets/blur-c1.png"
-              alt="a & co"
-              style={{ width: "16rem", marginTop: "0.5rem" }}
-            />
-          </Col>
-        </Row>
-      </div>
+          </div>
+        )}
+      </TrackVisibility>
 
       {/* mobile-view */}
-      <div className="mobile-view" style={{marginTop: "7rem"}}>
+      <div className="mobile-view" style={{ marginTop: "2rem" }}>
         <Row>
           <Col sm={12} className="text-center">
             <img

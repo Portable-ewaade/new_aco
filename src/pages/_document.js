@@ -11,6 +11,8 @@ export default function Document() {
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
       ></script>
       <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+      {/* <script src="./scroll.js"></script> */}
+      
 
 {/* <script src="owl.carousel.min.js"></script> */}
     </Html>

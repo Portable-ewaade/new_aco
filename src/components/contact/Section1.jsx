@@ -1,16 +1,29 @@
 import React from 'react'
+import TrackVisibility from 'react-on-screen'
 
 const Section1 = () => {
   return (
-    <section className='mt-5 pt-5 pt-md-0'>
-       <div className="bx-container text-center">
-       <h2 className='fs-large fw-bold'>Hello.</h2>
-        <p className='fs-large'>We've been expecting you</p>
-       </div>
-       <div>
-       {/* <img src="/assets/red-bg-img.png" alt="a & co"  style={{height:"0%"}}/> */}
+    <section className='sec-hello mt-5 pt-5 pt-md-0'>
+       {/* <div>
+       <img src="/assets/red-bg-img.png" alt="a & co"  style={{height:"0%"}}/>
+       </div> */}
 
+       <TrackVisibility>
+            {({ isVisible }) => (
+              <div
+                className={
+                  isVisible
+                    ? " animate__animated animate__fadeIn inner"
+                    : ""
+                }
+              >
+               <div className="bx-container text-center">
+       <h2 className='fs-large fw-bold'>Hello.</h2>
+        <p className='fs-medium'>We've been expecting you</p>
        </div>
+              </div>
+            )}
+      </TrackVisibility>
        
     </section>
 

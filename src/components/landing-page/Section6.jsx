@@ -5,7 +5,7 @@ const Section6 = () => {
   return (
     <>
       {/* laptop view */}
-      <section
+      <section className=" home-dream laptop-view"
         style={{
           backgroundImage: "url('/assets/card-img.png')",
           backgroundRepeat: "no-repeat",
@@ -14,7 +14,7 @@ const Section6 = () => {
           height: "33rem",
           position: "relative",
         }}
-        className="laptop-view"
+        
       >
         <div
           className="position-absolute top-50 start-50 translate-middle idea-text"

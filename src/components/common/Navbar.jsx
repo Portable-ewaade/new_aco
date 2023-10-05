@@ -2,19 +2,27 @@ import { linkData } from "@/data/mockData";
 import Link from "next/link";
 import { useState } from "react";
 import { BiMenu } from "react-icons/bi";
-import { GrClose } from "react-icons/gr";
 import { RiArrowRightUpLine } from "react-icons/ri";
+import { useRouter } from "next/router"; // Import the useRouter hook from Next.js
+import { Col, Row } from "react-bootstrap";
+
 
 const Navbar = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
+  const router = useRouter(); // Use the useRouter hook
 
   const toggleMenu = () => {
     setIsMenuOpen(!isMenuOpen);
   };
 
+
   return (
     <>
-      <div className="laptop-view bg-white nav-container bg-white z-1">
+    {/* laptop view */}
+
+
+      <Row className="laptop-view bg-white  bg-white z-1 position-sticky top-0">
+        <Col md={10} className="mx-auto">
         <nav className="navbar navbar-expand-lg pt-2 text-black ">
           <div className="container-fluid mt-2">
             <Link href="/" className="navbar-brand" passHref>
@@ -39,24 +47,37 @@ const Navbar = () => {
           </div>
 
           <div
-            className="collapse navbar-collapse mt-4 px-3"
+            className="collapse navbar-collapse mt-4 px-3 me-5"
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav nav-fs">
-              {linkData.map((link, index) => (
-                <li className="nav-item me-4" key={index}>
-                  <Link href={link.url} className=" nav-link active" passHref>
-                    {link.title}
-                  </Link>
-                </li>
-              ))}
+            {linkData.map((link, index) => (
+              <li className="nav-item" key={index}>
+                <Link
+                  href={link.url}
+                  className={`nav-laptop-link nav-link mx-3 ${
+                    router.pathname === link.url ? "active" : ""
+                  }`}
+                  passHref
+                >
+                  {link.title}
+                </Link>
+              </li>
+            ))}
             </ul>
           </div>
         </nav>
-      </div>
+        </Col>
+      </Row>
 
+
+
+
+
+      
+        {/* mobile view */}
       <div
-        className={`mobile-view nav-container bg-white z-1 ${
+        className={`mobile-view nav-container bg-white z-1 nav-mobile ${
           isMenuOpen ? "menu-open" : ""
         }`} >
         <nav className="navbar navbar-expand-lg pt-2">

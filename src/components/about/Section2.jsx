@@ -1,40 +1,22 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Row, Col } from "react-bootstrap";
 
 const Section2 = () => {
-  // useEffect(() => {
-  //   const handleScroll = () => {
-  //     const header = document.querySelector(".page-header");
-  //     const toggleClass = "is-sticky";
-
-  //     if (header) {
-  //       const currentScroll = window.pageYOffset;
-
-  //       // Conditionally apply the class based on screen size (e.g., when the screen width is greater than 768px)
-  //       if (currentScroll > 750 && window.innerWidth > 768) {
-  //         header.classList.add(toggleClass);
-  //       }
-  //       if (currentScroll > 950 && window.innerWidth < 768) {
-  //         header.classList.add(toggleClass);
-  //       } else {
-  //         header.classList.remove(toggleClass);
-  //       }
-  //     }
-  //   };
-
-    // window.addEventListener("scroll", handleScroll);
-
-    // Clean up the event listener when the component unmounts
-  //   return () => {
-  //     window.removeEventListener("scroll", handleScroll);
-  //   };
-  // }, []);
-  
   return (
     <section className="bx-container pt-md-5 consultants">
+         {/* <div
+        className="position-absolute top-50 end-50 translate-middle about-elps laptop-view"
+        style={{ height: "5vh" }}
+      >
+        <img
+          src="/assets/Ellipse3.png"
+          alt="a & co"
+          style={{ marginLeft: "-38rem", marginTop: "-15rem" }}
+        />
+      </div> */}
       {/* laptop-view */}
       <div
-        className="card border-0 rounded-5 color laptop-view"
+        className="card border-0 rounded-5 color laptop-view position-relative"
         style={{ height: "82%" }}
       >
         <Row className="mt-3 pt-md-4">
@@ -80,6 +62,14 @@ const Section2 = () => {
             </div>
           </Col>
         </Row>
+
+        <div className="position-absolute top-0 end-50 translate-middle pt-3 about-elps">
+          <img
+            src="/assets/Ellipse3.png"
+            alt="a & co"
+            style={{ width: "35rem", marginLeft: "-8rem" }}
+          />
+        </div>
       </div>
 
       {/* mobile-view */}
@@ -131,16 +121,9 @@ const Section2 = () => {
         </Row>
       </div>
 
-      <div
-        className="position-absolute top-50 end-50 translate-middle about-elps laptop-view"
-        style={{ height: "7vh" }}
-      >
-        <img
-          src="/assets/Ellipse3.png"
-          alt="a & co"
-          style={{ marginLeft: "-38rem", marginTop: "-15rem" }}
-        />
-      </div>
+     
+
+   
     </section>
   );
 };

@@ -83,8 +83,8 @@ export const MobileForm = () => {
   return (
     <>
       <section
-        className="background-bg px-3 mt-5 pt-5 pb-5 position-relative mobile-view"
-        style={{ height: "50%" }}
+        className="mobile-form background-bg px-3 mt-5 pt-5 pb-5 position-relative mobile-view"
+       
       >
         <div className="card px-5 pb-5 rounded-4 ">
           <form className="mt-5" onSubmit={handleSubmit} ref={form} id="myForm">

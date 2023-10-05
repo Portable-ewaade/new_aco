@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { Col, Row } from "react-bootstrap";
 import Slider from "react-slick";
 import "animate.css";
@@ -15,35 +15,9 @@ const Section2 = () => {
     cssEase: "linear",
   };
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const header = document.querySelector(".page-header");
-      const toggleClass = "is-sticky";
-
-      if (header) {
-        const currentScroll = window.pageYOffset;
-
-        // Conditionally apply the class based on screen size (e.g., when the screen width is greater than 768px)
-        if (currentScroll > 7550 && window.innerWidth > 768) {
-          header.classList.add(toggleClass);
-        }if (currentScroll > 950 && window.innerWidth < 768) {
-          header.classList.add(toggleClass);
-        } else {
-          header.classList.remove(toggleClass);
-        }
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    // Clean up the event listener when the component unmounts
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
 
   return (
-    <section className="page-header background-bg ">
+    <section className="home-what-we-do background-bg ">
       <div className="bx-container px-3 pt-md-3 p-md-0">
         <Row className="py-md-5 py-3">
           <Col md={6} className="text-white mt-4">
