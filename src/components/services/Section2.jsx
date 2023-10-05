@@ -78,14 +78,14 @@ const Section2 = () => {
             style={{ marginLeft: "0rem", marginTop: "18rem" }}
           />
         </div>
-      </Row>
-      <div className="position-absolute top-100 end-50 translate-middle services-elps">
+      <div className="position-absolute top-0 end-0 translate-middle services-elps">
         <img
           src="/assets/Ellipse3.png"
           alt="a & co"
-          style={{ width: "30rem", marginTop: "35rem" }}
+          style={{ width: "30rem", marginTop: "33rem" }}
         />
       </div>
+      </Row>
     </section>
   );
 };
