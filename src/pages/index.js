@@ -9,33 +9,9 @@ import {
 } from "@/components/landing-page";
 import Head from "next/head";
 import Cookies from "../components/landing-page/Cookies";
-import React,  { useEffect, useState } from "react";
+import React from "react";
 
 export default function Home() {
-  const [showButton, setShowButton] = useState(false);
-
-  useEffect(() => {
-    // Add a scroll event listener to show/hide the button
-    const handleScroll = () => {
-      if (window.scrollY > 20) {
-        setShowButton(true);
-      } else {
-        setShowButton(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-
-    // Remove the event listener when the component unmounts
-    return () => {
-      window.removeEventListener("scroll", handleScroll);
-    };
-  }, []);
-
-  const scrollToTop = () => {
-    window.scrollTo({ top: 0, behavior: "smooth" });
-  };
-  
   
   return (
     <>
@@ -55,16 +31,7 @@ export default function Home() {
         <Section6 />
         <Cookies />
         <Footer />
-        
-        {showButton && (
-        <a
-          href="#"
-          onClick={scrollToTop}
-          className="position-absolute position-fixed bottom-0 end-0 top-25 mx-4 my-3 arrow-up"
-        >
-          <h1><BsArrowUpCircle /></h1>
-        </a>
-      )}
+
       </div>
     </>
   );
