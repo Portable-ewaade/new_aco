@@ -1,9 +1,32 @@
 import Link from "next/link";
-import React from "react";
+import React,  { useEffect, useState } from "react";
 import { Col, Row } from "react-bootstrap";
 import { BsArrowUpCircle } from "react-icons/bs";
 
 const Footer = () => {
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    // Add a scroll event listener to show/hide the button
+    const handleScroll = () => {
+      if (window.pageYOffset > 20) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    // Remove the event listener when the component unmounts
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
+  const scrollToTop = () => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  };
   return (
     <section className="footer text-center py-5 " style={{ height: "11%" }}>
       <Row className="bx-container footer-container">
@@ -73,6 +96,7 @@ const Footer = () => {
       </Row>
       <Link
         href="#"
+        onClick={scrollToTop}
         className="position-absolute position-fixed bottom-0 end-0 top-25 mx-4 my-3 arrow-up"
       >
         <h1>< BsArrowUpCircle /></h1>
