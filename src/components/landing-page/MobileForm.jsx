@@ -3,6 +3,7 @@ import emailjs from "@emailjs/browser";
 import Message from "../contact/Message";
 import { Col, Row } from "react-bootstrap";
 import Select from "react-select";
+import styles from "@/styles/home.module.css"
 
 export const MobileForm = () => {
   const [loading, setLoading] = useState(false);
@@ -83,7 +84,7 @@ export const MobileForm = () => {
   return (
     <>
       <section
-        className="mobile-form background-bg px-3 mt-5 pt-5 pb-5 position-relative mobile-view"
+        className={`${styles.mobile_form} px-3 mt-5 pt-5 pb-5 position-relative mobile-view`}
        
       >
         <div className="card px-5 pb-5 rounded-4 ">
@@ -148,7 +149,7 @@ export const MobileForm = () => {
                   />
                   <p className="fs-small">
                     By clicking on the button below, you accept our
-                    <a href="/" className="text-color fw-bold">
+                    <a href="/" className=" ms-1 text-color fw-bold">
                       privacy policy
                     </a>
                   </p>

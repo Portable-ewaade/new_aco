@@ -1,0 +1,42 @@
+.service_banner {
+    width: 90%;
+    margin: auto !important;
+    height: 55vh !important;
+  }
+  .service_banner_inner {
+    padding-top: 5rem !important;
+  }
+  .service_section_2 {
+    width: 60%;
+    margin: auto !important;
+    height: 70vh !important;
+  }
+  .service_card {
+    background: linear-gradient(#f5f5f5, #e4e4e4) !important;
+    border-radius: 15px !important;
+    border: none !important;
+    height: 28rem !important;
+  }
+  .service_card:hover {
+    background: linear-gradient(#faf6f6, #f7c5c5) !important;
+    box-shadow: 1px 1px 2px 1px #b1b1b1 !important;
+    transition: 0.5s ease-in-out !important;
+    border: none !important;
+  }
+  
+
+  @media (max-width: 529px) {
+    .service_banner {
+      height: 100vh !important;
+    }
+    .service_banner_mobile {
+        margin-top: 5rem !important;
+      }
+    .service_section_2 {
+      height: 185vh !important;
+      width: 90% !important;
+    }
+    .service_card p {
+      font-size: 0.9rem !important;
+    }
+  }

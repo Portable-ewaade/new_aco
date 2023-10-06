@@ -1,11 +1,12 @@
 import React from "react";
 import MobileForm from "./MobileForm";
+import styles from "@/styles/home.module.css"
 
 const Section6 = () => {
   return (
     <>
       {/* laptop view */}
-      <section className=" home-dream laptop-view"
+      <section className={ `${styles.home_dream } laptop-view`}
         style={{
           backgroundImage: "url('/assets/card-img.png')",
           backgroundRepeat: "no-repeat",

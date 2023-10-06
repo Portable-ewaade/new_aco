@@ -2,6 +2,7 @@ import React from "react";
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import styles from "@/styles/home.module.css"
 
 const Section5 = () => {
   const sliderSettings = {
@@ -26,7 +27,7 @@ const Section5 = () => {
   };
 
   return (
-    <section className="home-greatbrand">
+    <section className={`${styles.home_greatbrand}`}>
 
     <div className="bx-section text-center mt-3 mt-md-0 pt-5 pb-5">
       <h1 className="fs-large fw-bold mt-md-5 pt-md-5">

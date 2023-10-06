@@ -1,9 +1,10 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import styles from "@/styles/home.module.css"
 
 const Section4 = () => {
   return (
-    <section className="home-kickoff">
+    <section className={` ${styles.home_kickoff} `}>
 
     <div className="bx-section text-center mt-5 pt-md-5 pt-2 steps">
       <h1 className="fs-large fw-bold mb-3 mt-4 px-2">

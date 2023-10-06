@@ -1,9 +1,10 @@
 import React from 'react'
 import TrackVisibility from 'react-on-screen'
+import styles from "@/styles/contact.module.css";
 
 const Section1 = () => {
   return (
-    <section className='sec-hello mt-5 pt-5 pt-md-0'>
+    <section className={` ${styles.footer_banner} mt-5 pt-5 pt-md-0`}>
        {/* <div>
        <img src="/assets/red-bg-img.png" alt="a & co"  style={{height:"0%"}}/>
        </div> */}

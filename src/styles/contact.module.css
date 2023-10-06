@@ -1,0 +1,27 @@
+.footer_banner{
+    height: 20vh !important;
+  }
+  .form_container {
+    width: 40%;
+    margin: auto !important;
+    height: 80vh !important;
+  }
+  .form_container label {
+    font-size: 13px !important;
+    font-weight: 500 !important;
+  }
+  .form_container input::placeholder {
+    font-size: 10px !important;
+    color: #9c9a9a !important;
+  }
+
+  @media (max-width: 529px) {
+    
+      .footer_banner {
+        height: 32vh !important;
+      }
+    .form_container{
+      width: 100% !important;
+      height: 85vh !important;
+    }
+  }

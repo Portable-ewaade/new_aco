@@ -4,6 +4,7 @@ import Message from "./Message";
 import { Col, Row } from "react-bootstrap";
 import { Section1 } from ".";
 import Select from "react-select";
+import styles from "@/styles/contact.module.css";
 
 export const ContactUs = () => {
   const [loading, setLoading] = useState(false);
@@ -85,7 +86,7 @@ export const ContactUs = () => {
     <>
       {step === 0 ? <Section1 /> : ""}
 
-      <section className="form-container pb-5" style={{ height: "96%" }}>
+      <section className={` ${styles.form_container} pb-5`} style={{ height: "96%" }}>
         <div className="card px-5 border-0">
           <form className="mt-5" onSubmit={handleSubmit} ref={form} id="myForm">
             {step === 0 && (

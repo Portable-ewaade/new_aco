@@ -1,10 +1,11 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import TrackVisibility from "react-on-screen";
+import styles from "@/styles/services.module.css"
 
 const Banner = () => {
   return (
-    <section className="service-banner mt-5 pt-md-3">
+    <section className={` ${styles.service_banner} mt-5 pt-md-3`}>
       {/* laptop-view */}
       <TrackVisibility>
         {({ isVisible }) => (
@@ -13,7 +14,7 @@ const Banner = () => {
               isVisible ? " animate__animated animate__fadeIn inner" : ""
             }
           >
-            <div className="laptop-view">
+            <div className={`${styles.service_banner_inner} laptop-view`}>
               <Row>
                 <Col md={3} className="bur-a">
                   <img
@@ -51,7 +52,7 @@ const Banner = () => {
       </TrackVisibility>
 
       {/* mobile-view */}
-      <div className="mobile-view" style={{ marginTop: "2rem" }}>
+      <div  className={`mobile-view ${styles.service_banner_mobile} `}>
         <Row>
           <Col sm={12} className="text-center">
             <img

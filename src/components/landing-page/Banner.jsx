@@ -3,10 +3,13 @@ import { IoChatboxEllipsesOutline } from "react-icons/io5";
 import React from "react";
 import Link from "next/link";
 import TrackVisibility from "react-on-screen";
+import styles from "@/styles/home.module.css"
 
 const banner = () => {
   return (
-    <section className="bx-container pt-4 pb-5 mt-5 mt-md-0 home-banner-height">
+    <section className={ ` ${styles.home} bx-container  pt-4 pb-5 mt-5 mt-md-0`}
+    // className=" home-banner-height"
+    >
       <TrackVisibility>
             {({ isVisible }) => (
               <div
@@ -16,7 +19,7 @@ const banner = () => {
                     : ""
                 }
               >
-                <Row className="mt-3">
+                <Row className={` ${styles.home_inner} mt-3`}>
                   <Col md={6} className="mt-md-5 pt-lg-5 ms- ms-md-0">
                     <div className="mt-5 mt-md-4 pt-4 pt-md-0">
                       <h1 className="fw-bold lh-sm fs-large">

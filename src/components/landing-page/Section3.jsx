@@ -2,10 +2,11 @@ import Link from "next/link";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import TrackVisibility from "react-on-screen";
+import styles from "@/styles/home.module.css"
 
 const Section3 = () => {
   return (
-    <section className="home-our-project ">
+    <section className={` ${styles.home_our_project} `}>
       <TrackVisibility>
         {({ isVisible }) => (
           <div

@@ -1,0 +1,96 @@
+.home {
+  height: 100vh !important;
+}
+.home_inner {
+  margin-top: 6rem !important;
+}
+.home img {
+  height: 590px;
+  width: 475px;
+  padding: 2rem 0rem;
+}
+
+/* section 2 page */
+.what_we_do {
+  height: 85vh !important;
+  background-color: #a80d10 !important;
+}
+.card {
+  color: #ababab !important;
+  height: 15rem !important;
+  margin: 0 0.5rem !important;
+  background-color: #fff !important;
+}
+.card:hover {
+  color: #000 !important;
+  transition: 0.4s ease-in-out !important;
+}
+
+/* section 3 page  */
+.home_our_project {
+  height: 65vh !important;
+}
+/* section 4 page  */
+.home_kickoff {
+  height: 70vh !important;
+}
+/* section 5 page */
+.home_greatbrand {
+  height: 50vh !important;
+}
+/* section 6 page  */
+.home_dream {
+  height: 60vh !important;
+}
+
+/* Mobile: */
+
+@media (max-width: 529px) {
+  /* landing-page */
+  .home{
+    height: 162vh !important;
+  }
+  .home_inner {
+    margin-top: 3.5rem !important;
+  }
+  .home img {
+    width: 390px !important;
+    height: 415px !important;
+    padding: 1rem !important;
+    margin: 1.5rem 0rem !important;
+  }
+  
+  /* section 2 page */
+  .what_we_do {
+    height: 125vh !important;
+  }
+
+/* section 3 page */
+  .home_our_project {
+    height: 147vh !important;
+  }
+  .home_our_project img{
+    width: 22rem !important;
+  }
+  /* section 4 page */
+  .home_kickoff {
+    height: 197vh !important;
+  }
+  /* section 5 page */
+  .home_greatbrand {
+    height: 40vh !important;
+  }
+  /* section 6 page */
+  .mobile_form {
+    height: 110vh !important;
+    background-color: #a80d10 !important;
+  }
+  .mobile_form label {
+    font-size: 12px !important;
+    font-weight: 500 !important;
+  }
+  .mobile_form input::placeholder {
+    font-size: 10px !important;
+    color: #9c9a9a !important;
+  }
+}

@@ -1,9 +1,10 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
+import styles from "@/styles/about.module.css";
 
 const Section3 = () => {
   return (
-    <section className="bx-section mt-5 pt-md-3 pt-5 position-relative">
+    <section className={`bx-section mt-5 pt-md-3 pt-5 position-relative ${styles.about_mission}`}>
       <Row className=" mt-5 mt-md-0 pt-5 pt-md-0 about-mission">
         <Col md={6} className="my-3">
           <div className="d-flex">
@@ -16,7 +17,7 @@ const Section3 = () => {
               goals and stay ahead in a constantly evolving digital landscape.
             </p>
         </Col>
-        <Col md={6} className="vision my-2">
+        <Col md={6} className={` ${styles.about_vision} my-2`}>
           <div className="d-flex">
             <img src="/assets/eye-icon.png" alt="a & co" className="icons"/>
             <h6 className="fw-bold fs-medium ">Our Vision </h6>
@@ -28,7 +29,7 @@ const Section3 = () => {
             </p>
         </Col>
       </Row>
-      <div className="position-absolute top-0 start-100 translate-middle about-blur pt-5">
+      <div className={`position-absolute top-0 start-100 translate-middle ${styles.about_blur} pt-5`}>
         <img
           src="/assets/blur-a.png"
           alt="a & co"

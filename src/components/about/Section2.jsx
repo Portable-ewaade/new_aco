@@ -1,23 +1,14 @@
 import React from "react";
 import { Row, Col } from "react-bootstrap";
+import styles from "@/styles/about.module.css"
 
 const Section2 = () => {
   return (
-    <section className="bx-container pt-md-5 consultants">
-         {/* <div
-        className="position-absolute top-50 end-50 translate-middle about-elps laptop-view"
-        style={{ height: "5vh" }}
-      >
-        <img
-          src="/assets/Ellipse3.png"
-          alt="a & co"
-          style={{ marginLeft: "-38rem", marginTop: "-15rem" }}
-        />
-      </div> */}
+    <section className={ `${styles.about_consultants} bx-container pt-md-5 `}>
       {/* laptop-view */}
       <div
         className="card border-0 rounded-5 color laptop-view position-relative"
-        style={{ height: "82%" }}
+        
       >
         <Row className="mt-3 pt-md-4">
           <Col md={6}>
@@ -74,8 +65,7 @@ const Section2 = () => {
 
       {/* mobile-view */}
       <div
-        className="card border-0 rounded-5 mt-5 mobile-view"
-        style={{ height: "127%" }}
+        className={`${styles.about_consultants} card border-0 rounded-5 mt-5 mobile-view`}
       >
         <Row className="mt-3 ">
           <Col md={6} className="mt-md-5 pt-md-5">

@@ -3,6 +3,7 @@ import { Banner, Section2, Section3, Section4, Section5, Section6 } from '@/comp
 import Head from 'next/head'
 import Cookies from '../components/landing-page/Cookies'
 
+
 export default function Home() {
   return (
     <>

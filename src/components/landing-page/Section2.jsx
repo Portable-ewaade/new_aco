@@ -2,6 +2,7 @@ import React from "react";
 import { Col, Row } from "react-bootstrap";
 import Slider from "react-slick";
 import "animate.css";
+import styles from "@/styles/home.module.css"
 
 const Section2 = () => {
   const sliderSettings = {
@@ -17,8 +18,8 @@ const Section2 = () => {
 
 
   return (
-    <section className="home-what-we-do background-bg ">
-      <div className="bx-container px-3 pt-md-3 p-md-0">
+    <section className={` ${styles.what_we_do} `}>
+      <div className=" bx-container px-3 pt-md-3 p-md-0">
         <Row className="py-md-5 py-3">
           <Col md={6} className="text-white mt-4">
             <h1 className="fw-bold fs-large ps-md-4 pt-md-4">What We Do</h1>
@@ -50,7 +51,7 @@ const Section2 = () => {
         <div className="partner-logos slider py-5">
           <Slider {...sliderSettings}>
             <Col md={3} className="slide">
-              <div className="card rounded-4 wht-card p-4  ">
+              <div className={`${styles.card} rounded-4 p-4  `}>
                 <h6 className="fw-bold mt-md-2 mb-md-4">
                   Software Development
                 </h6>
@@ -62,7 +63,7 @@ const Section2 = () => {
               </div>
             </Col>
             <Col md={3} className="slide">
-              <div className="card rounded-4 wht-card p-4  ">
+              <div className={`${styles.card} rounded-4 p-4  `}>
                 <h6 className="fw-bold mt-md-2 mb-md-4">Cloud Migration</h6>
                 <p className="fs-normal">
                   Take your business to the next level with reliable, scalable
@@ -72,7 +73,7 @@ const Section2 = () => {
               </div>
             </Col>
             <Col md={3} className="slide">
-              <div className="card rounded-4 wht-card p-4  ">
+              <div className={`${styles.card} rounded-4 p-4  `}>
                 <h6 className="fw-bold mt-md-2 mb-md-4">
                   Product Design and Branding
                 </h6>
@@ -84,7 +85,7 @@ const Section2 = () => {
               </div>
             </Col>
             <Col md={3} className="slide">
-              <div className="card rounded-4 wht-card p-4  ">
+              <div className={`${styles.card} rounded-4 p-4  `}>
                 <h6 className="fw-bold mt-md-2 mb-md-4">
                   Dedicated Team Building
                 </h6>
@@ -96,7 +97,7 @@ const Section2 = () => {
               </div>
             </Col>
             <Col md={3} className="slide">
-              <div className="card rounded-4 wht-card p-4  ">
+              <div className={`${styles.card} rounded-4 p-4  `}>
                 <h6 className="fw-bold mt-md-2 mb-md-4">
                   Business Development & Strategy
                 </h6>
@@ -108,7 +109,7 @@ const Section2 = () => {
               </div>
             </Col>
             <Col md={3} className="slide">
-              <div className="card rounded-4 wht-card p-4  ">
+              <div className={`${styles.card} rounded-4 p-4  `}>
                 <h6 className="fw-bold mt-md-2 mb-md-4">Data Analytics</h6>
                 <p className="fs-normal">
                   Take your business to the next level with reliable, scalable
