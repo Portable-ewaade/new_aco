@@ -403,6 +403,9 @@ section {
   .logo img {
     width: 10rem !important;
   }
+  .footer-fs {
+    font-size: 20px !important;
+  }
 
   /* cookies */
   .cookies p {
@@ -423,9 +426,6 @@ section {
   .cookies img {
     width: 160px !important;
     height: 160px !important;
-  }
-  .footer a {
-    color: #c8c3c3 !important;
   }
 
   /* btn */
@@ -464,6 +464,9 @@ section {
   }
   .text-color3 p {
     font-size: 1.6rem !important;
+  }
+  .footer-fs {
+    font-size: 25px !important;
   }
 
   .about-elps img {
