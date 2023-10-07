@@ -1,5 +1,8 @@
 .contact_banner{
-    height: 20vh !important;
+    height: 30vh !important;
+  }
+  .contact_banner h2{
+    padding-top: 7rem !important;
   }
   .form_container {
     width: 45%;
@@ -15,28 +18,36 @@
     color: #9c9a9a !important;
   }
   .form_container button {
-    padding: 1rem 0 !important;
     font-size: 1.3rem !important;
   }
 
   @media (max-width: 529px) {
-    
-      .contact_banner {
-        height: 32vh !important;
-      }
+    .contact_banner{
+      height: 40.5vh !important;
+    }
+    .contact_banner h2{
+      padding-top: 3rem !important;
+    }
     .form_container{
       width: 100% !important;
-      height: 85vh !important;
+      height: 105vh !important;
+    }
+    .form_container button {
+      padding: 0.5rem 0 !important;
+      font-size: 1.3rem !important;
     }
   }
   @media (min-width: 700px) AND (max-width: 1300px) {
+    .contact_banner{
+      height: 26vh !important;
+    }
     .form_container {
       width: 70% !important;
       margin: auto !important;
-      height: 70vh !important;
+      height: 62vh !important;
     }
     .form_container label {
-      font-size: 16px !important;
+      font-size: 18px !important;
       font-weight: 500 !important;
     }
     .form_container input::placeholder {

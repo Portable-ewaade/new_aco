@@ -49,9 +49,15 @@ section {
 .nav-fs {
   font-size: 15px !important;
 }
+.nav-bar.navbar-toggler:hover {
+  border: none !important;
+}
 .footer {
   height: 17vh !important;
   background-color: #58595b !important;
+}
+.footer-fs {
+  font-size: 15px !important;
 }
 .footer-container {
   padding-top: 1.8rem !important;
@@ -237,7 +243,7 @@ section {
   .bx-section p {
     font-size: 1rem !important;
   }
-  
+
   .fs-large {
     font-size: 3rem !important;
   }
@@ -300,7 +306,6 @@ section {
 
 /* Tablet */
 @media (min-width: 700px) AND (max-width: 1300px) {
-  /* body sizes */
   .bx-section {
     width: 95% !important;
   }
@@ -308,13 +313,8 @@ section {
     width: 100%;
     margin: auto !important;
   }
-
-  .nav-container {
-    margin: auto !important;
-    position: fixed !important;
-  }
-  .nav-fs{
-font-size: 1.5rem !important;
+  .nav-fs {
+    font-size: 1.1rem !important;
   }
   .fs-small {
     font-size: 1rem !important;
@@ -357,16 +357,15 @@ font-size: 1.5rem !important;
     border-radius: 15px !important;
   }
   .cookies p {
-    font-size: 10px !important;
+    font-size: 17px !important;
   }
   .cookies img {
-    margin-bottom: 20px !important;
     width: 100px !important;
     height: 100px !important;
   }
   .cookies-btn {
-    margin-left: -10px !important;
-    font-size: 9px !important;
+    font-size: 15px !important;
+    margin-left: -1rem !important;
   }
   .cookies-btn2 {
     padding: 0.8rem 1rem !important;

@@ -26,7 +26,7 @@ const Footer = () => {
         </Col>
 
         <Col md={6} lg={5} className="my-2 ">
-          <div className="text-white nav-fs">
+          <div className="text-white footer-fs">
             <Row>
               <Col md={4} className="my-4 my-md-1">
                 <Link href="/about" className="text-white mx-3">

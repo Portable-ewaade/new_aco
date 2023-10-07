@@ -25,10 +25,10 @@ const CookieAccept = () => {
               alt="a & co"
               width="115px"
               height="115px"
-              className="ms-"
+              className="mt-md-3 mt-lg-0"
             />
           </Col> 
-          <Col md={8}>
+          <Col md={7} lg={8}>
             <h5 className="fw-semibold text-black">Cookie</h5>
             <p className="fs-normal text-black">
               We use cookies to ensure that we give you the best experience on
@@ -37,7 +37,7 @@ const CookieAccept = () => {
               any time.
             </p>
           </Col>
-          <Col md={2} style={{margin: 'auto'}} className="text-center text-md-blcok">
+          <Col md={3} lg={2} style={{margin: 'auto'}} className="text-center text-md-blcok">
             <Link href="/contact" className="cookies-btn ">Privacy Policy</Link>
             
           </Col>

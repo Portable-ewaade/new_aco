@@ -4,7 +4,7 @@ import React from 'react'
 
 const index = () => {
   return (
-    <div>
+    <div className='wraper'>
         <Navbar />
         <ContactForm title="Send Us A Message " />
         <Footer />

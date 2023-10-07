@@ -38,7 +38,7 @@ const Navbar = () => {
                 aria-expanded="false"
                 aria-label="Toggle navigation"
               >
-                <BiMenu className="border-0" />
+                <BiMenu className="border-none" />
               </button>
             </div>
 
