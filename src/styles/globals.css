@@ -310,9 +310,11 @@ section {
   }
 
   .nav-container {
-    width: 100% !important;
     margin: auto !important;
     position: fixed !important;
+  }
+  .nav-fs{
+font-size: 1.5rem !important;
   }
   .fs-small {
     font-size: 1rem !important;
