@@ -18,7 +18,7 @@ const Section6 = () => {
         
       >
         <div
-          className="position-absolute top-50 start-50 translate-middle idea-text"
+          className={`position-absolute top-50 start-50 translate-middle ${styles.idea_text}`}
           style={{ marginLeft: "-8rem" }}
         >
           <h1
@@ -34,7 +34,7 @@ const Section6 = () => {
             </a>
           </button>
         </div>
-        <div className="position-absolute top-50 start-50 translate-middle person-c">
+        <div className={`position-absolute top-50 start-50 translate-middle ${styles.person_c}`}>
           <img
             src="/assets/person-c.png"
             alt="a & co"

@@ -12,7 +12,7 @@ const Section2 = () => {
       >
         <Row className="mt-3 pt-md-4">
           <Col md={6}>
-            <div className="avatar">
+            <div className={styles.avatar}>
               <img
                 src="/assets/avatar-img.png"
                 alt="a & co"

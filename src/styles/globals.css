@@ -53,6 +53,9 @@ section {
   height: 17vh !important;
   background-color: #58595b !important;
 }
+.footer-container{
+  padding-top: 1.8rem !important;
+}
 .arrow-up {
   color: #a80d10 !important;
 }
@@ -185,7 +188,7 @@ section {
 }
 
 
-/* responsiveness */
+/* responsiveness hide and show */
 @media (max-width: 700px) {
   .laptop-view {
     display: none !important;
@@ -266,7 +269,7 @@ section {
   .footer {
     padding: 0 auto !important;
     background-color: #58595b !important;
-    height: 62vh !important;
+    height: 60vh !important;
   }
 
   /* cookies styles */
@@ -419,7 +422,8 @@ section {
     width: 12rem !important;
   }
 }
-/* min Larger screens */
+
+/*  Large screens */
 @media (min-width: 1500px) AND (max-width: 1899px) {
   /* navbar */
   .navbar-brand img {
@@ -432,10 +436,10 @@ section {
     font-size: 1.3rem !important;
   }
   .fs-large {
-    font-size: 3.5rem !important;
+    font-size: 4.2rem !important;
   }
   .fs-normal {
-    font-size: 1.2rem !important;
+    font-size: 1.4rem !important;
   }
   .fs-medium {
     font-size: 2rem !important;
@@ -443,173 +447,11 @@ section {
   .text-color3 p {
     font-size: 1.3rem !important;
   }
-
-  /* landing page */
-  .home-banner-img {
-    height: 680px;
-    width: 569px;
-    margin-top: 1rem !important;
-    padding: 2rem 0rem;
-  }
-  .home-banner-height .banner {
-    margin-top: 8rem !important;
-  }
-  /* .home-banner-height {
-    height: 80vh !important;
-  } */
-  .wht-card {
-    height: 18rem !important;
-    margin-bottom: 4rem !important;
-  }
-  .wht-card h6 {
-    font-size: 1.4rem !important;
-  }
-  .c-img img {
-    width: 26.5rem !important;
-  }
-  .project-link {
-    font-size: 1.6rem !important;
-  }
-  .project img {
-    width: 23rem !important;
-    margin: 20px !important;
-  }
   .logo img {
     width: 10rem !important;
   }
-  .steps p {
-    font-size: 1.1rem !important;
-  }
-  .steps h6 {
-    font-size: 1.4rem !important;
-  }
-  /* .home-our-project {
-    height: 40% !important;
-    margin-top: 5.5rem !important;
-  } */
-  .idea-text {
-    margin-left: -8rem !important;
-  }
-  .idea-text h1 {
-    font-size: 2.7rem !important;
-  }
-  .person-c {
-    margin-left: 1rem !important;
-    margin-top: 0.5rem;
-  }
-  .footer a {
-    color: #c8c3c3 !important;
-  }
 
-  /* abot us page */
-  .business img {
-    width: 528px !important;
-    height: 363px !important;
-  }
-  .about-banner-height {
-    height: 80vh !important;
-  }
-  .about-banner-height .inner {
-    padding-top: 8rem !important;
-  }
-  .banner-about-borderr {
-    height: 70% !important;
-  }
-  /* .consultants {
-    height: 90vh !important;
-  } */
-  .avatar img {
-    height: 592px !important;
-    width: 679px !important;
-    margin-top: 3rem !important;
-  }
-
-  .about-elps2 img {
-    margin-left: 17.5rem !important;
-    width: 46rem !important;
-  }
-  .about-mission-height {
-    height: 130vh !important;
-  }
-  .about-mission p {
-    font-size: 1.3rem !important;
-  }
-  .about-mission2 p {
-    font-size: 1.02rem !important;
-  }
-  .about-mission2 h6 {
-    font-size: 1.5rem !important;
-  }
-  .about-blur img {
-    width: 30rem !important;
-    height: 30em !important;
-  }
-
-  /* contact */
-  #myForm input {
-    padding: 0.92rem !important;
-  }
-  #myForm input::placeholder {
-    font-size: 1.1rem !important;
-  }
-  #myForm label {
-    font-size: 1.2rem !important;
-  }
-  #myForm p {
-    font-size: 1.2rem !important;
-  }
-
-  /* service */
-  .service-banner {
-    width: 90%;
-    margin: auto !important;
-    height: 65vh !important;
-  }
-  .service-banner .inner {
-    padding-top: 8rem !important;
-  }
-  .service-section-2 {
-    height: 80vh !important;
-  }
-  .bur-a img {
-    width: 29rem !important;
-  }
-  .bur-c img {
-    width: 22rem !important;
-    margin-top: -1rem !important;
-  }
-  .services p {
-    font-size: 1.1rem !important;
-  }
-  .services h5 {
-    font-size: 1.55rem !important;
-  }
-  .service-card {
-    height: 40rem !important;
-  }
-  .services-elps img {
-    margin-right: 11rem !important;
-  }
-  .services-elps2 img {
-    margin-left: 11rem !important;
-  }
-
-  /* btn */
-  .btnn {
-    height: 4rem !important;
-    width: 12rem !important;
-    padding: 1rem 2.5rem !important;
-    gap: 1rem !important;
-    flex-shrink: 0;
-    border-radius: 0.625rem !important;
-    background: #a80d10 !important;
-  }
-  .arrow-up h1 {
-    color: #a80d10 !important;
-  }
-  .form-btn {
-    padding: 1.4rem 0 !important;
-  }
+  /* cookies */
   .cookies p {
     font-size: 20px !important;
   }
@@ -629,20 +471,37 @@ section {
     width: 160px !important;
     height: 160px !important;
   }
-}
-@media (min-width: 1900px) {
-  /* navbar */
-  .navbar-brand img {
-    width: 3.6rem !important;
-    height: 3.5rem !important;
+  .footer a {
+    color: #c8c3c3 !important;
   }
 
+  /* btn */
+  .btnn {
+    height: 4rem !important;
+    width: 13rem !important;
+    padding: 1rem 2.5rem !important;
+    gap: 1rem !important;
+    flex-shrink: 0;
+    border-radius: 0.625rem !important;
+    background: #a80d10 !important;
+  }
+  .arrow-up h1 {
+    color: #a80d10 !important;
+  }
+}
+
+/*  Larger screens */
+@media (min-width: 1900px) {
+  .navbar-brand img {
+    width: 3.8rem !important;
+    height: 3.7rem !important;
+  }
   /* fonts */
   .nav-fs {
     font-size: 1.4rem !important;
   }
   .fs-large {
-    font-size: 4.7rem !important;
+    font-size: 5.1rem !important;
   }
   .fs-normal {
     font-size: 1.6rem !important;
@@ -654,154 +513,12 @@ section {
     font-size: 1.6rem !important;
   }
 
-  /* landing page */
-  .home-banner-img {
-    height: 805px;
-    width: 669px;
-    margin-top: 1rem !important;
-    padding: 2rem 0rem;
-  }
-  .home-banner-height .banner {
-    margin-top: 11rem !important;
-  }
-  /* .home-banner-height {
-    height: 80vh !important;
-  } */
-  .wht-card {
-    height: 23rem !important;
-    margin-bottom: 4rem !important;
-  }
-  .wht-card h6 {
-    font-size: 1.4rem !important;
-  }
-  .c-img img {
-    width: 26.5rem !important;
-  }
-  .project-link {
-    font-size: 1.6rem !important;
-  }
-  .project img {
-    width: 28rem !important;
-    margin: 20px !important;
-  }
-  .logo img {
-    width: 10rem !important;
-  }
-  .steps p {
-    font-size: 1.4rem !important;
-  }
-  .steps h6 {
-    font-size: 1.4rem !important;
-  }
-  /* .home-our-project {
-    height: 40% !important;
-    margin-top: 5.5rem !important;
-  } */
-  .idea-text {
-    margin-left: -10rem !important;
-  }
-  .idea-text h1 {
-    font-size: 3.5rem !important;
-  }
-  .person-c img {
-    margin-left: 42rem !important;
-    width: 28.7rem !important;
-  }
-  .footer a {
-    color: #c8c3c3 !important;
-  }
-
-  /* abot us page */
-  .business img {
-    width: 628px !important;
-    height: 463px !important;
-  }
-  .banner-about-borderr {
-    height: 70% !important;
-  }
-  .about-banner-height {
-    height: 82vh !important;
-  }
-  .about-banner-height .inner {
-    padding-top: 11rem !important;
-  }
-  /* .consultants {
-    height: 90vh !important;
-  } */
-  .avatar img {
-    height: 692px !important;
-    width: 779px !important;
-    margin-top: 3rem !important;
-  }
   .about-elps img {
     margin-left: 15rem !important;
   }
   .about-elps2 img {
     margin-left: 17.5rem !important;
     width: 46rem !important;
-  }
-  .about-mission p {
-    font-size: 1.6rem !important;
-  }
-  .about-mission2 p {
-    font-size: 1.25rem !important;
-  }
-  .about-mission2 h6 {
-    font-size: 1.55rem !important;
-  }
-  .about-blur img {
-    width: 35rem !important;
-    height: 35em !important;
-  }
-
-  /* contact */
-  #myForm input {
-    padding: 1rem !important;
-    font-size: 1.5rem !important;
-  }
-  .css-wsp0cs-MultiValueGeneric {
-    font-size: 1.3rem !important;
-  }
-  #myForm input::placeholder {
-    font-size: 1.2rem !important;
-  }
-  #myForm label {
-    font-size: 1.45rem !important;
-  }
-  #myForm p {
-    font-size: 1.2rem !important;
-  }
-
-  /* service */
-  .bur-a img {
-    width: 29rem !important;
-  }
-  .bur-c img {
-    width: 24rem !important;
-    margin-top: -1rem !important;
-  }
-  .service-banner {
-    width: 90%;
-    margin: auto !important;
-    height: 63vh !important;
-  }
-  .service-banner .inner {
-    padding-top: 11rem !important;
-  }
-  .services p {
-    font-size: 1.23rem !important;
-  }
-  .services h5 {
-    font-size: 1.55rem !important;
-  }
-  .service-card {
-    height: 39rem !important;
-  }
-  .services-elps img {
-    margin-right: 11rem !important;
-  }
-  .services-elps2 img {
-    margin-left: 11rem !important;
   }
 
   /* btn */
@@ -816,9 +533,6 @@ section {
   }
   .arrow-up h1 {
     color: #a80d10 !important;
-  }
-  .form-btn {
-    padding: 1.4rem 0 !important;
   }
   .cookies p {
     font-size: 20px !important;
@@ -839,7 +553,6 @@ section {
     width: 160px !important;
     height: 160px !important;
   }
-
   .footer-logo {
     width: 16rem !important;
   }

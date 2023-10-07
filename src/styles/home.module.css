@@ -94,3 +94,114 @@
     color: #9c9a9a !important;
   }
 }
+
+@media (min-width: 1500px) AND (max-width: 1899px) {
+
+  /* landing page */
+  .home img {
+    height: 680px;
+    width: 569px;
+    margin-top: 1rem !important;
+    padding: 2rem 0rem;
+  }
+  .home_inner {
+    margin-top: 12rem !important;
+  }
+  .card {
+    height: 21rem !important;
+    margin-bottom: 4rem !important;
+  }
+  .card h6 {
+    font-size: 1.4rem !important;
+  }
+  .c-img img {
+    width: 26.5rem !important;
+  }
+  .project_link {
+    font-size: 1.6rem !important;
+  }
+  .projects img {
+    width: 23rem !important;
+    margin: 20px !important;
+  }
+  .home_kickoff p {
+    font-size: 1.3rem !important;
+  }
+  .home_kickoff h6 {
+    font-size: 1.4rem !important;
+  }
+  
+  .idea_text {
+    margin-left: -11rem !important;
+  }
+  .idea_text h1 {
+    font-size: 2.9rem !important;
+  }
+  .person_c {
+    margin-left: 5rem !important;
+    margin-top: 0.5rem;
+  }
+  .person_c img{
+    width: 25.8rem !important;
+  }
+
+}
+
+@media (min-width: 1900px) {
+  .home img {
+    height: 905px;
+    width: 749px;
+    margin-top: 1rem !important;
+    padding: 2rem 0rem;
+  }
+  .home_inner {
+    margin-top: 11rem !important;
+  }
+  .home_inner h1{
+    margin-top: 4rem !important;
+  }
+ 
+  .what_we_do {
+    height: 85vh !important;
+    margin-bottom: 4rem !important;
+  }
+  .card {
+    height: 26.5rem !important;
+  }
+  .what_we_do h6 {
+    font-size: 2rem !important;
+  }
+  .what_we_do p {
+    font-size: 1.8rem !important;
+  }
+  .c_img img {
+    width: 32rem !important;
+  }
+  .project_link {
+    font-size: 1.9rem !important;
+  }
+  .projects img {
+    width: 29rem !important;
+    margin: 5px !important;
+  }
+  .home_greatbrand img {
+    width: 15rem !important;
+  }
+  .home_kickoff p {
+    font-size: 1.7rem !important;
+  }
+  .home_kickoff h6 {
+    font-size: 1.7rem !important;
+  }
+
+  .idea_text {
+    margin-left: -13rem !important;
+  }
+  .idea_text h1 {
+    font-size: 3.8rem !important;
+  }
+  .person_c img {
+    margin-left: 52rem !important;
+    width: 33rem !important;
+  }
+}

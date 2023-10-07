@@ -22,11 +22,11 @@ const Section3 = () => {
                 wide
               </p>
               <div className="mt-4">
-                <Link href="/" className="text-color project-link my-3">
+                <Link href="/" className={`text-color ${styles.project_link} my-3`}>
                   View all projects
                 </Link>
 
-                <Row className="">
+                <Row className={`${styles.projects}`}>
                   <Col
                     sm={12}
                     md={9}
@@ -61,7 +61,7 @@ const Section3 = () => {
                     </Row>
                   </Col>
                 </Row>
-                <div className="position-absolute start-100 translate-middle c-img pt-5">
+                <div className={` ${styles.c_img } position-absolute start-100 translate-middle pt-5`}>
                   <img
                     src="/assets/blur-c.png"
                     alt="a & co"

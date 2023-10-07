@@ -5,7 +5,7 @@ import { BsArrowUpCircle } from "react-icons/bs";
 
 const Footer = () => {
   return (
-    <section className="footer text-center py-5 " style={{ height: "11%" }}>
+    <section className="footer text-center pt-md-3 ">
       <Row className="bx-container footer-container">
         <Col md={3} lg={4} className="my-2 ">
           <Link href="/">

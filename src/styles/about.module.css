@@ -61,3 +61,85 @@
 
 
   }
+  @media (min-width: 1500px) AND (max-width: 1899px) {
+    .about_banner img {
+      width: 598px !important;
+      height: 423px !important;
+    }
+    .about_banner{
+      height: 80vh !important;
+    }
+    .about_inner {
+      padding-top: 1rem !important;
+    }
+    .banner-about-borderr {
+      height: 70% !important;
+    }
+  
+    .avatar img {
+      height: 692px !important;
+      width: 719px !important;
+      margin-top: 3rem !important;
+    }
+  
+    .about-elps2 img {
+      margin-left: 17.5rem !important;
+      width: 46rem !important;
+    }
+    .about_mission {
+      height: 130vh !important;
+    }
+    .about_mission p {
+      font-size: 1.3rem !important;
+    }
+    .about-mission2 p {
+      font-size: 1.02rem !important;
+    }
+    .about-mission2 h6 {
+      font-size: 1.5rem !important;
+    }
+    .about-blur img {
+      width: 30rem !important;
+      height: 30em !important;
+    }
+  
+  }
+
+  @media (min-width: 1900px) {
+  
+    /* abot us page */
+    .about_banner img {
+      width: 728px !important;
+      height: 563px !important;
+    }
+    .about_consultants {
+      height: 80vh !important;
+    }
+    .about_banner {
+      height: 82vh !important;
+    }
+    .about_inner h1{
+      padding-top: 12rem !important;
+    }
+  
+    .avatar img {
+      height: 792px !important;
+      width: 879px !important;
+      margin-top: 3rem !important;
+    }
+    .about_mission p {
+      font-size: 1.6rem !important;
+    }
+
+    .about_blur img {
+      width: 35rem !important;
+      height: 35em !important;
+    }
+    .about_vision {
+      margin-top: 4rem !important;
+      margin-left: 45rem !important;
+    }
+   
+  
+   
+  }

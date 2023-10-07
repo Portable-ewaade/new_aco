@@ -1,8 +1,8 @@
-.footer_banner{
+.contact_banner{
     height: 20vh !important;
   }
   .form_container {
-    width: 40%;
+    width: 45%;
     margin: auto !important;
     height: 80vh !important;
   }
@@ -14,14 +14,71 @@
     font-size: 10px !important;
     color: #9c9a9a !important;
   }
+  .form_container button {
+    padding: 1rem 0 !important;
+    font-size: 1.3rem !important;
+  }
 
   @media (max-width: 529px) {
     
-      .footer_banner {
+      .contact_banner {
         height: 32vh !important;
       }
     .form_container{
       width: 100% !important;
       height: 85vh !important;
     }
+  }
+
+  @media (min-width: 1500px) AND (max-width: 1899px){
+    .form_container {
+      width: 60%;
+      margin: auto !important;
+    }
+    .form_container input {
+    padding: 1rem !important;
+  }
+  .form_container input::placeholder {
+    font-size: 1.2rem !important;
+  }
+  .form_container label {
+    font-size: 1.4rem !important;
+  }
+   .form_container h4 {
+    font-size: 1.8rem !important;
+  }
+  .form_container p {
+    font-size: 1.2rem !important;
+  }
+  }
+
+  @media (min-width: 1900px) {
+    .form_container {
+      width: 60%;
+      margin: auto !important;
+    }
+   .form_container input {
+      padding: 1rem !important;
+      font-size: 1.6rem !important;
+    }
+    .css-wsp0cs-MultiValueGeneric {
+      font-size: 1.4rem !important;
+    }
+   .form_container input::placeholder {
+      font-size: 1.6rem !important;
+    }
+   .form_container label {
+    font-size: 1.8rem !important;
+  }
+   .form_container h4 {
+    font-size: 2rem !important;
+  }
+   .form_container p {
+      font-size: 1.3rem !important;
+    }
+    .form_container button {
+      padding: 1.5rem 0 !important;
+      font-size: 1.5rem !important;
+    }
+   
   }
