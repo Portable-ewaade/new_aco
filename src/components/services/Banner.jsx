@@ -16,15 +16,15 @@ const Banner = () => {
           >
             <div className={`${styles.service_banner_inner} laptop-view`}>
               <Row>
-                <Col md={3} className="bur-a">
+                <Col md={3}>
                   <img
                     src="/assets/blur-a.png"
                     alt="a & co"
-                    style={{ width: "21.5rem", marginTop: "2rem" }}
+                    style={{ width: "21.5rem", marginTop: "2rem", marginLeft: "-2rem" }}
                   />
                 </Col>
                 <Col md={6}>
-                  <div className="text-center ms-md-4 ms-lg-0 ps-md-5 ps-lg-0">
+                  <div className="text-center ms-md-5 ms-lg-0 ">
                     <h1 className=" fs-large fw-bold mb-3 mt-5">
                       Smart Solutions for <br /> complex challenges
                     </h1>
@@ -38,11 +38,11 @@ const Banner = () => {
                     </p>
                   </div>
                 </Col>
-                <Col md={3} className="bur-c">
+                <Col md={3}>
                   <img
                     src="/assets/blur-c1.png"
                     alt="a & co"
-                    style={{ width: "16rem", marginTop: "0.5rem" }}
+                    style={{ width: "16rem", marginTop: "0.5rem", marginLeft: "-2rem" }}
                   />
                 </Col>
               </Row>

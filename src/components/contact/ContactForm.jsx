@@ -88,7 +88,7 @@ export const ContactUs = () => {
 
       <section className={` ${styles.form_container} pb-5`} style={{ height: "96%" }}>
         <div className="card px-5 border-0">
-          <form className="mt-5" onSubmit={handleSubmit} ref={form} id="myForm">
+          <form className="mt-5" onSubmit={handleSubmit} ref={form}>
             {step === 0 && (
               <>
                 <div className="mb-4">

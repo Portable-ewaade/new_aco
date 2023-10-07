@@ -2,7 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import TrackVisibility from "react-on-screen";
-import styles from "@/styles/home.module.css"
+import styles from "@/styles/home.module.css";
 
 const Section3 = () => {
   return (
@@ -16,13 +16,16 @@ const Section3 = () => {
               <h1 className="fs-large fw-bold mb-3 mt-md-5 ">Our Projects</h1>
               <p className="fs-normal">
                 A & co consulting is an innovation driven consultancy that
-                harnesses the power of{" "}
+                harnesses the power of
                 <br className="d-none d-md-none d-lg-block" /> technology to
                 provide sustainable and profitable solutions to clients world
                 wide
               </p>
               <div className="mt-4">
-                <Link href="/" className={`text-color ${styles.project_link} my-3`}>
+                <Link
+                  href="/"
+                  className={`text-color ${styles.project_link} my-3`}
+                >
                   View all projects
                 </Link>
 
@@ -61,7 +64,9 @@ const Section3 = () => {
                     </Row>
                   </Col>
                 </Row>
-                <div className={` ${styles.c_img } position-absolute start-100 translate-middle pt-5`}>
+                <div
+                  className={` ${styles.c_img} position-absolute start-100 translate-middle pt-5`}
+                >
                   <img
                     src="/assets/blur-c.png"
                     alt="a & co"

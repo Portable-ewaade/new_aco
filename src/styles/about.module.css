@@ -1,16 +1,12 @@
-
 .about_banner {
     height: 80vh !important;
   }
   .about_inner h1{
     padding-top: 8rem !important;
   }
-  /* section 2 page */
   .about_consultants {
     height: 90vh !important;
   }
-  
-  /* section 3 page */
   .about_mission{
     height: 105vh !important;
   }
@@ -61,6 +57,24 @@
 
 
   }
+
+  @media (min-width: 700px) AND (max-width: 1300px) {
+    .about_inner h1{
+      padding-top: 11rem !important;
+    }
+    .about_banner img {
+      width: 568px !important;
+      height: 433px !important;
+      padding: 0.009rem;
+    }
+    .about_consultants {
+      height: 100vh !important;
+    }
+    .avatar img {
+      margin-left: -8rem !important;
+    }
+  }
+
   @media (min-width: 1500px) AND (max-width: 1899px) {
     .about_banner img {
       width: 598px !important;
@@ -106,8 +120,6 @@
   }
 
   @media (min-width: 1900px) {
-  
-    /* abot us page */
     .about_banner img {
       width: 728px !important;
       height: 563px !important;
@@ -130,7 +142,6 @@
     .about_mission p {
       font-size: 1.6rem !important;
     }
-
     .about_blur img {
       width: 35rem !important;
       height: 35em !important;

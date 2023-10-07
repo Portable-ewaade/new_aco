@@ -88,7 +88,7 @@ export const MobileForm = () => {
        
       >
         <div className="card px-5 pb-5 rounded-4 ">
-          <form className="mt-5" onSubmit={handleSubmit} ref={form} id="myForm">
+          <form className="mt-5" onSubmit={handleSubmit} ref={form}>
             {step === 0 && (
               <>
                 <div className="mb-4">

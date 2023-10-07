@@ -10,7 +10,6 @@
   padding: 2rem 0rem;
 }
 
-/* section 2 page */
 .what_we_do {
   height: 85vh !important;
   background-color: #a80d10 !important;
@@ -26,28 +25,23 @@
   transition: 0.4s ease-in-out !important;
 }
 
-/* section 3 page  */
 .home_our_project {
   height: 65vh !important;
 }
-/* section 4 page  */
 .home_kickoff {
   height: 70vh !important;
 }
-/* section 5 page */
 .home_greatbrand {
   height: 50vh !important;
 }
-/* section 6 page  */
 .home_dream {
   height: 60vh !important;
 }
 
-/* Mobile: */
 
+/* Mobile: */
 @media (max-width: 529px) {
-  /* landing-page */
-  .home{
+  .home {
     height: 162vh !important;
   }
   .home_inner {
@@ -59,28 +53,21 @@
     padding: 1rem !important;
     margin: 1.5rem 0rem !important;
   }
-  
-  /* section 2 page */
   .what_we_do {
     height: 125vh !important;
   }
-
-/* section 3 page */
   .home_our_project {
     height: 147vh !important;
   }
-  .home_our_project img{
+  .home_our_project img {
     width: 22rem !important;
   }
-  /* section 4 page */
   .home_kickoff {
     height: 197vh !important;
   }
-  /* section 5 page */
   .home_greatbrand {
     height: 40vh !important;
   }
-  /* section 6 page */
   .mobile_form {
     height: 110vh !important;
     background-color: #a80d10 !important;
@@ -95,8 +82,72 @@
   }
 }
 
-@media (min-width: 1500px) AND (max-width: 1899px) {
+/* tablet */
+@media (min-width: 700px) AND (max-width: 1300px) {
+  .home {
+    height: 90vh !important;
+    width: 95% !important;
+    margin: auto !important;
+  }
+  .home img {
+    height: 490px;
+    width: 455px;
+    padding: 0rem 0rem;
+    margin-top: 3rem !important;
+  }
+  .home_inner {
+    margin-top: 7rem !important;
+  }
+  .what_we_do {
+    height: 100vh !important;
+  }
+  .myslide {
+    width: 100% !important;
+  }
+  .card {
+    color: #ababab !important;
+    height: 20.5rem !important;
+    width: 15.6rem !important;
+    padding: 1.5rem !important;
+    margin: 0 0rem !important;
+  }
+  .card p {
+    font-size: 1.2rem !important;
+  }
+  .card h6 {
+    font-size: 1.2rem !important;
+  }
+  .home_kickoff {
+    height: 60vh !important;
+  }
+  .projects img {
+    width: 22rem !important;
+  }
+  .c_img img {
+    margin-left: -7rem !important;
+    margin-top: 12rem !important;
+  }
+  .home_dream {
+    height: 50vh !important;
+  }
+  .idea_text {
+    margin-left: -8rem !important;
+  }
+  .person_c {
+    margin-left: -1.3rem !important;
+    margin-top: 0rem;
+  }
+  .person_c img {
+    width: 22rem !important;
+  }
+  .mobile_form {
+    height: 110vh !important;
+    background-color: #a80d10 !important;
+  }
+}
 
+/* large screens */
+@media (min-width: 1500px) AND (max-width: 1899px) {
   /* landing page */
   .home img {
     height: 680px;
@@ -130,7 +181,7 @@
   .home_kickoff h6 {
     font-size: 1.4rem !important;
   }
-  
+
   .idea_text {
     margin-left: -11rem !important;
   }
@@ -141,12 +192,12 @@
     margin-left: 5rem !important;
     margin-top: 0.5rem;
   }
-  .person_c img{
+  .person_c img {
     width: 25.8rem !important;
   }
-
 }
 
+/* larger screens */
 @media (min-width: 1900px) {
   .home img {
     height: 905px;
@@ -157,10 +208,10 @@
   .home_inner {
     margin-top: 11rem !important;
   }
-  .home_inner h1{
+  .home_inner h1 {
     margin-top: 4rem !important;
   }
- 
+
   .what_we_do {
     height: 85vh !important;
     margin-bottom: 4rem !important;
