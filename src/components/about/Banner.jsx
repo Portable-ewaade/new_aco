@@ -13,8 +13,8 @@ const Banner = () => {
           >
             <div className={styles.about_inner}>
               <h1 className="fs-large lh-base fw-bold mb-3 mt-5 text-md-center p-1 p-md-0">
-                We build <br className="d-block d-md-none" /> bridges between
-                <br className="d-none d-md-block" />
+                We build <br className=" d-md-none" /> bridges between 
+                 <br className=" d-md-block" /> 
                 companies and customers
               </h1>
 
