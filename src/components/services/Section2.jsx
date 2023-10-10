@@ -4,6 +4,8 @@ import styles from "@/styles/services.module.css"
 
 const Section2 = () => {
   return (
+    <main className="grid-container">
+
     <section className={`${styles.service_section_2} pt-5 pb-md-5 services`}>
       <Row className="py-2 position-relative">
         <Col md={4}>
@@ -88,6 +90,7 @@ const Section2 = () => {
       </div>
       </Row>
     </section>
+    </main> 
   );
 };
 

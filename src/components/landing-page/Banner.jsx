@@ -7,6 +7,8 @@ import styles from "@/styles/home.module.css";
 
 const banner = () => {
   return (
+    <main className="grid-container">
+
     <section className={` ${styles.home} bx-container  pt-4 pb-5 mt-5 mt-md-0`}>
       <TrackVisibility>
         {({ isVisible }) => (
@@ -32,7 +34,7 @@ const banner = () => {
                   <div className="btnn">
                     <Link
                       href="/contact"
-                      className="fs-normal fw-medium text-white text-center"
+                      className=" fw-medium text-white text-center"
                     >
                       Let's Talk
                       <IoChatboxEllipsesOutline
@@ -60,6 +62,7 @@ const banner = () => {
         )}
       </TrackVisibility>
     </section>
+    </main>
   );
 };
 

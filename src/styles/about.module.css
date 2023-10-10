@@ -1,21 +1,29 @@
 .about_banner {
-    height: 80vh !important;
+    /* height: 80vh !important; */
+    grid-column: 1 / span 12 !important;
   }
   .about_inner h1{
     padding-top: 8rem !important;
   }
   .about_consultants {
-    height: 90vh !important;
+    /* height: 90vh !important; */
+    grid-column: 1 / span 12 !important;
   }
   .about_mission{
-    height: 105vh !important;
+    /* height: 105vh !important; */
+    grid-column: 1 / span 12 !important;
+  }
+  .about_mission>div{
+    /* height: 105vh !important; */
+    /* grid-column: 1 / span 12 !important; */
+    margin-top: 4rem !important;
   }
   .about_vision {
     margin-top: 4rem !important;
     margin-left: 25rem !important;
   }
 
-  @media (max-width: 529px) {
+  /* @media (max-width: 529px) {
   
     .about_banner {
       height: 107vh !important;
@@ -56,43 +64,36 @@
 
 
 
-  }
+  } */
 
-  @media (min-width: 700px) AND (max-width: 1300px) {
-    .about_inner h1{
-      padding-top: 11rem !important;
-    }
-    .about_banner img {
-      width: 568px !important;
-      height: 433px !important;
-      padding: 0.009rem;
-    }
-    .about_consultants {
+ @media (min-width: 700px) AND (max-width: 1300px) {
+   
+    /* .about_consultants {
       height: 100vh !important;
-    }
+    } */
+   
     .avatar img {
-      margin-left: -8rem !important;
+      height: 552px;
+      /* width: 639px; */
+      padding: 3.5rem;
+      margin-left: -2.5rem;
+      margin-left: -10rem !important;
     }
   }
 
-  @media (min-width: 1500px) AND (max-width: 1899px) {
+ /* @media (min-width: 1500px) AND (max-width: 1899px) {
     .about_banner img {
       width: 598px !important;
       height: 423px !important;
     }
-    .about_banner{
-      height: 80vh !important;
-    }
+  
     .about_inner {
       padding-top: 1rem !important;
     }
-    .banner-about-borderr {
-      height: 70% !important;
-    }
-  
+
     .avatar img {
       height: 692px !important;
-      width: 719px !important;
+      width: 715px !important;
       margin-top: 3rem !important;
     }
   
@@ -100,11 +101,9 @@
       margin-left: 17.5rem !important;
       width: 46rem !important;
     }
-    .about_mission {
-      height: 130vh !important;
-    }
+ 
     .about_mission p {
-      font-size: 1.3rem !important;
+      font-size: 1.2rem !important;
     }
     .about-mission2 p {
       font-size: 1.02rem !important;
@@ -117,9 +116,9 @@
       height: 30em !important;
     }
   
-  }
+  } */
 
-  @media (min-width: 1900px) {
+ /* @media (min-width: 1900px) {
     .about_banner img {
       width: 728px !important;
       height: 563px !important;
@@ -153,4 +152,4 @@
    
   
    
-  }
+  } */

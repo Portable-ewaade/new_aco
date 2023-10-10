@@ -45,6 +45,8 @@ const Section2 = () => {
 
 
   return (
+    <main className="grid-container">
+
     <section className={` ${styles.what_we_do} `}>
       <div className=" bx-container px-3 pt-md-3 p-md-0">
         <Row className="py-md-5 py-3">
@@ -52,7 +54,7 @@ const Section2 = () => {
             <h1 className="fw-bold fs-large ps-md-4 pt-md-4">What We Do</h1>
           </Col>
           <Col md={6} className="text-color3">
-            <p className="px-md-3">
+            <p className="px-lg-3">
               A & co consulting is an innovation driven consultancy that
               harnesses the power of technology to provide sustainable and
               profitable solutions to clients world wide across various
@@ -331,6 +333,7 @@ const Section2 = () => {
         </div>
       </div>
     </section>
+    </main>
   );
 };
 

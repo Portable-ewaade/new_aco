@@ -4,8 +4,10 @@ import styles from "@/styles/about.module.css";
 
 const Section3 = () => {
   return (
+    <main className="grid-container">
+
     <section className={`bx-section mt-5 pt-md-3 pt-5 position-relative ${styles.about_mission}`}>
-      <Row className=" mt-5 mt-md-0 pt-5 pt-md-0 about-mission">
+      <Row className="mt-5 mt-md-0 pt-5 pt-md-0 about-mission">
         <Col md={6} className="my-3">
           <div className="d-flex">
             <img src="/assets/target-icon.png" alt="a & co" className="icons"/>
@@ -90,6 +92,7 @@ const Section3 = () => {
         </div>
       </Row>
     </section>
+    </main>
   );
 };
 

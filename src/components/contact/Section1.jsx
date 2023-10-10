@@ -4,6 +4,8 @@ import styles from "@/styles/contact.module.css";
 
 const Section1 = () => {
   return (
+    <main className="grid-container">
+
     <section className={` ${styles.contact_banner} mt-5 pt-5 pt-md-0`}>
       {/* <div>
        <img src="/assets/red-bg-img.png" alt="a & co"  style={{height:"0%"}}/>
@@ -24,6 +26,7 @@ const Section1 = () => {
         )}
       </TrackVisibility>
     </section>
+    </main>
   );
 };
 

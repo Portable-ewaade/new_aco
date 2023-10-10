@@ -6,6 +6,8 @@ import styles from "@/styles/home.module.css";
 
 const Section3 = () => {
   return (
+    <main className="grid-container">
+
     <section className={` ${styles.home_our_project} `}>
       <TrackVisibility>
         {({ isVisible }) => (
@@ -83,6 +85,7 @@ const Section3 = () => {
         )}
       </TrackVisibility>
     </section>
+    </main>
   );
 };
 

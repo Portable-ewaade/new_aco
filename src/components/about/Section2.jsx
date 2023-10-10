@@ -4,12 +4,12 @@ import styles from "@/styles/about.module.css"
 
 const Section2 = () => {
   return (
+    <main className="grid-container">
+
     <section className={ `${styles.about_consultants} bx-container pt-md-5 `}>
       {/* laptop-view */}
       <div
-        className="card border-0 rounded-5 color laptop-view position-relative"
-        
-      >
+        className="card border-0 rounded-5 color laptop-view position-relative">
         <Row className="mt-3 pt-md-4">
           <Col md={6}>
             <div className={styles.avatar}>
@@ -115,6 +115,7 @@ const Section2 = () => {
 
    
     </section>
+    </main>
   );
 };
 

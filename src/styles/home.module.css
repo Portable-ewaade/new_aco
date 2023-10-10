@@ -1,5 +1,5 @@
 .home {
-  height: 100vh !important;
+  grid-column: 1 / span 12;
 }
 .home_inner {
   margin-top: 6rem !important;
@@ -11,8 +11,11 @@
 }
 
 .what_we_do {
-  height: 85vh !important;
+  grid-column: 1 / span 12;
   background-color: #a80d10 !important;
+}
+.what_we_do>div{
+  margin-top: 2rem !important;
 }
 .card {
   color: #ababab !important;
@@ -26,21 +29,32 @@
 }
 
 .home_our_project {
-  height: 65vh !important;
+  /* height: 65vh !important; */
+  grid-column: 1 / span 12;
+}
+.home_our_project>div {
+  margin-top: 5rem !important;
 }
 .home_kickoff {
-  height: 70vh !important;
+  /* height: 70vh !important; */
+  grid-column: 1 / span 12;
 }
 .home_greatbrand {
-  height: 50vh !important;
+  /* height: 50vh !important; */
+  grid-column: 1 / span 12;
 }
 .home_dream {
   height: 60vh !important;
+  grid-area: photo;
+  background-image: url('/assets/card-img.png') !important;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  position: relative;
 }
 
-
 /* Mobile: */
-@media (max-width: 529px) {
+ @media (max-width: 529px) {
   .home {
     height: 162vh !important;
   }
@@ -82,20 +96,37 @@
   }
 }
 
-/* tablet */
 @media (min-width: 700px) AND (max-width: 1300px) {
-  .home {
+  /* .home {
     height: 90vh !important;
     width: 95% !important;
     margin: auto !important;
-  }
+  } */
   .home img {
-    height: 490px;
-    width: 455px;
+    height: 430px;
+    width: 400px;
     padding: 0rem 0rem;
     margin-top: 3rem !important;
   }
-  .home_inner {
+  .projects img {
+    width: 22rem !important;
+  }
+  .idea_text {
+    margin-left: -8rem !important;
+    font-size: 10px !important;
+  }
+  .idea_text h1{
+    font-size: 1.7rem !important;
+  }
+  .person_c {
+    margin-left: -1rem !important;
+    margin-top: 0rem;
+  }
+  .person_c img {
+    width: 20rem !important;
+  }
+
+  /* .home_inner {
     margin-top: 7rem !important;
   }
   .what_we_do {
@@ -143,13 +174,11 @@
   .mobile_form {
     height: 110vh !important;
     background-color: #a80d10 !important;
-  }
+  } */
 }
 
-/* large screens */
-@media (min-width: 1500px) AND (max-width: 1899px) {
-  /* landing page */
-  .home img {
+/* @media (min-width: 1500px) AND (max-width: 1899px) {
+ .home img {
     height: 680px;
     width: 569px;
     margin-top: 1rem !important;
@@ -195,10 +224,9 @@
   .person_c img {
     width: 25.8rem !important;
   }
-}
+}  */
 
-/* larger screens */
-@media (min-width: 1900px) {
+/* @media (min-width: 1900px) {
   .home img {
     height: 905px;
     width: 749px;
@@ -255,4 +283,4 @@
     margin-left: 52rem !important;
     width: 33rem !important;
   }
-}
+}  */

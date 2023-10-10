@@ -5,6 +5,8 @@ import styles from "@/styles/about.module.css";
 
 const Banner = () => {
   return (
+    <main className="grid-container">
+
     <section className={` ${styles.about_banner} position-relative`}>
       <TrackVisibility>
         {({ isVisible }) => (
@@ -34,6 +36,7 @@ const Banner = () => {
         )}
       </TrackVisibility>
     </section>
+    </main>
   );
 };
 

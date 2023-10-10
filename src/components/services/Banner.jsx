@@ -5,6 +5,8 @@ import styles from "@/styles/services.module.css"
 
 const Banner = () => {
   return (
+    <main className="grid-container">
+
     <section className={` ${styles.service_banner} mt-5 pt-md-3`}>
       {/* laptop-view */}
       <TrackVisibility>
@@ -20,7 +22,7 @@ const Banner = () => {
                   <img
                     src="/assets/blur-a.png"
                     alt="a & co"
-                    style={{ width: "21.5rem", marginTop: "2rem", marginLeft: "-2rem" }}
+                    style={{ width: "21.5rem", marginTop: "2rem", marginLeft: "-0.5rem" }}
                   />
                 </Col>
                 <Col md={6}>
@@ -78,6 +80,7 @@ const Banner = () => {
         </Row>
       </div>
     </section>
+    </main>
   );
 };
 

@@ -4,6 +4,8 @@ import styles from "@/styles/home.module.css"
 
 const Section4 = () => {
   return (
+    <main className="grid-container">
+
     <section className={` ${styles.home_kickoff} `}>
 
     <div className="bx-section text-center mt-5 pt-md-5 pt-2 steps">
@@ -91,6 +93,7 @@ const Section4 = () => {
       </div>
     </div>
     </section>
+    </main>
   );
 };
 

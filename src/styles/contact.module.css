@@ -1,5 +1,6 @@
 .contact_banner{
-    height: 30vh !important;
+    /* height: 30vh !important; */
+    grid-column: 1 / span 12 !important;
   }
   .contact_banner h2{
     padding-top: 7rem !important;
@@ -7,7 +8,8 @@
   .form_container {
     width: 45%;
     margin: auto !important;
-    height: 80vh !important;
+    /* height: 80vh !important; */
+    grid-column: 1 / span 12 !important;
   }
   .form_container label {
     font-size: 13px !important;
@@ -18,10 +20,10 @@
     color: #9c9a9a !important;
   }
   .form_container button {
-    font-size: 1.3rem !important;
+    font-size: 1.1rem !important;
   }
 
-  @media (max-width: 529px) {
+  /* @media (max-width: 529px) {
     .contact_banner{
       height: 40.5vh !important;
     }
@@ -41,7 +43,7 @@
     .contact_banner{
       height: 35% !important;
     }
-  }
+  } */
 
 
   /* @media (min-width: 700px) AND (max-width: 1300px) {

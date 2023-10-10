@@ -27,6 +27,8 @@ const Section5 = () => {
   };
 
   return (
+    <main className="grid-container">
+
     <section className={`${styles.home_greatbrand}`}>
 
     <div className="bx-section text-center mt-3 mt-md-0 pt-5 pb-5">
@@ -96,6 +98,7 @@ const Section5 = () => {
       </div>
     </div>
     </section>
+    </main>
   );
 };
 

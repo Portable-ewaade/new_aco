@@ -5,6 +5,7 @@ import { BsArrowUpCircle } from "react-icons/bs";
 
 const Footer = () => {
   return (
+    <main className="grid-container">
     <section className="footer text-center pt-md-3 ">
       <Row className="bx-container footer-container">
         <Col md={3} lg={4} className="my-2 ">
@@ -78,6 +79,8 @@ const Footer = () => {
         <h1>< BsArrowUpCircle /></h1>
       </Link >
     </section>
+
+    </main>
   );
 };
 

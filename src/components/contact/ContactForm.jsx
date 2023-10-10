@@ -85,6 +85,7 @@ export const ContactUs = () => {
   return (
     <>
       {step === 0 ? <Section1 /> : ""}
+<main className="grid-container">
 
       <section className={` ${styles.form_container} pb-5`} style={{ height: "96%" }}>
         <div className="card px-5 border-0">
@@ -182,6 +183,7 @@ export const ContactUs = () => {
           )}
         </div>
       </section>
+</main>
     </>
   );
 };
